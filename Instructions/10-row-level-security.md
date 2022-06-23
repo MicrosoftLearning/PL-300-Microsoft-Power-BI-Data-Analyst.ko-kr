@@ -1,13 +1,13 @@
 ---
 lab:
   title: 행 수준 보안 적용
-  module: Module 13 - Row-Level Security
-ms.openlocfilehash: b4b468b1c34d0cb562edd9ec407b07c9ee2efa1d
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+  module: Module 12 - Row-Level Security
+ms.openlocfilehash: 6ccc19e9835dca06ec613e386c82fb0270a28ed5
+ms.sourcegitcommit: 51f448b208842f1333cb683b7775618edb41c126
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139273636"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "141580176"
 ---
 # <a name="enforce-row-level-security"></a>**행 수준 보안 적용**
 
@@ -73,7 +73,7 @@ ms.locfileid: "139273636"
 
     ![그림 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. **열기** 창에서 **D:\PL300\Labs\12-row-level-security\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\PL300\Labs\10-row-level-security\Starter** 폴더로 이동합니다.
 
 1. **판매 분석** 파일을 선택합니다.
 
@@ -185,7 +185,7 @@ ms.locfileid: "139273636"
 
     ![그림 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-2-finish-up"></a>**작업 2: 완료**
+### <a name="task-3-finish-up"></a>**작업 3: 완료**
 
 이 작업에서는 랩을 완료합니다.
 

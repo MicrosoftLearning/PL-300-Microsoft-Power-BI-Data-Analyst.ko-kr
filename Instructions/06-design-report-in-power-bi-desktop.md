@@ -2,12 +2,12 @@
 lab:
   title: Power BI Desktop에서 보고서 디자인, 1부
   module: Module 7 - Create Reports
-ms.openlocfilehash: 9aa794d25d2eb2ec611315a7ec6ac472e9a3a141
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 952409822e622f744edcaef603bea5058670c3e8
+ms.sourcegitcommit: 40a8c8608a0adde23300c2b6833db02193f36dfe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139274286"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "146072546"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Power BI Desktop에서 보고서 디자인, 1부**
 
@@ -59,7 +59,7 @@ ms.locfileid: "139274286"
 
     ![그림 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
+1. Microsoft Edge 브라우저 창에서 **https://powerbi.microsoft.com** 으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
@@ -141,7 +141,7 @@ ms.locfileid: "139274286"
 
     ![그림 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. **열기** 창에서 **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+8. **열기** 창에서 **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
 9. **판매 분석** 파일을 선택합니다.
 
@@ -230,21 +230,6 @@ ms.locfileid: "139274286"
 
     ![그림 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-17. 슬라이서의 서식을 지정하려면 **시각화** 창 아래에서 **형식** 창을 엽니다.
-
-    ![그림 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
-
-18. **선택 컨트롤** 그룹을 확장합니다.
-
-    ![그림 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
-
-19. **"모두 선택" 옵션 표시** 를 **켜짐** 으로 설정합니다.
-
-    ![그림 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
-
-20. **지역** 슬라이서에서 이제 첫 번째 항목이 **모두 선택** 임을 알 수 있습니다.
-
-    이 항목을 선택하면 모든 항목을 선택하거나 모든 항목을 선택 취소합니다. 이를 통해 보고서 사용자가 필요한 슬라이서 항목을 쉽게 설정할 수 있습니다.
 
 21. 보고서 페이지의 빈 영역을 클릭하여 슬라이서를 선택 취소합니다.
 
@@ -262,13 +247,13 @@ ms.locfileid: "139274286"
 
     - 판매 \| 판매
 
-25. 시각적 개체 필드 창(**필드** 창이 아니며 **시각화** 창 아래에 시각적 필드 창 위치)에서 필드가 **공유 축** 및 **열 값** 웰/영역에 할당되었는지 확인합니다.
+25. 시각적 개체 필드 창(**필드** 창이 아니며 **시각화** 창 아래에 있음)에서 필드가 **x-축** 및 **열 y-축** 웰/영역에 할당되었는지 확인합니다.
 
     ![그림 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
 
     필드를 시각적 개체로 드래그하면 기본 웰/영역에 추가됩니다. 정밀도를 위해 필드를 웰/영역으로 직접 끌어올 수 있습니다. 다음 작업에서 이와 같이 필드를 끌어올 것입니다.
 
-26. **필드** 창에서 **판매 \| 이익률** 필드를 **꺾은선형 값** 웰/영역으로 끌어 옵니다.
+26. **필드** 창에서 **판매 \| 이익률** 필드를 **꺾은선형 y-축** 웰/영역으로 끌어 옵니다.
 
     ![그림 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -276,7 +261,7 @@ ms.locfileid: "139274286"
 
     2020년 6월의 마지막 달에는 아직 판매량이 없습니다. 기본적으로 시각적 개체는 판매량이 비어 있는 월을 제거했습니다. 이제 모든 월을 표시하도록 시각적 개체를 구성합니다.
 
-28. 시각적 필드 창의 **공유 축** 웰/영역에서 **월** 필드에 대해 아래쪽 화살표를 클릭한 후 **데이터 없이 항목 표시** 를 선택합니다.
+28. 시각적 개체 필드 창의 **x-축** 웰/영역에서 **월** 필드에 대해 아래쪽 화살표를 클릭한 후 **데이터 없이 항목 표시** 를 선택합니다.
 
     ![그림 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -320,7 +305,7 @@ ms.locfileid: "139274286"
 
     ![그림 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. **데이터 색** 그룹을 확장한 다음 **기본 색** 속성을 적절한 색(세로 막대형 차트/꺾은선형 차트를 보완하는 색)으로 설정합니다.
+39. **막대** 와 **색** 그룹을 차례로 확장한 후 **기본 색** 속성을 적절한 색(세로 막대형 차트/꺾은선형 차트를 보완하는 색)으로 설정합니다.
 
 40. **데이터 레이블** 속성을 **켜짐** 으로 설정합니다.
 
@@ -347,11 +332,10 @@ ms.locfileid: "139274286"
     ![그림 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
-‎ 
 
 3. **지역 \| 지역** 필드에 따라 슬라이서를 추가합니다.
 
-4. **형식** 창을 사용하여 **선택 컨트롤** 그룹에서 "모두 선택" 옵션을 사용하도록 설정합니다.
+4. **서식** 창을 사용하여 (**선택** 그룹의) “모두 선택” 옵션을 사용하도록 설정합니다.
 
 5. 높이가 보고서 높이의 절반 정도가 되도록 시각적 개체의 크기를 조정한 다음 보고서 페이지 왼쪽에 배치합니다.
 
@@ -445,7 +429,7 @@ ms.locfileid: "139274286"
 
 1. 시각적 개체의 형식을 지정합니다.
 
-    - **데이터 레이블** 그룹에서 **텍스트 크기** 속성을 **28pt** 로 늘립니다.
+    - **설명선 값** 그룹에서 **텍스트 크기** 속성을 **28pt** 로 늘립니다.
 
     - **배경** 그룹에서 **색** 을 연한 회색으로 설정합니다.
 

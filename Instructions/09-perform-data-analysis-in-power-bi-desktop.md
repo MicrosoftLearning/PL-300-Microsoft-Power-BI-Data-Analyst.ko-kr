@@ -1,13 +1,13 @@
 ---
 lab:
   title: Power BI Desktop에서 데이터 분석 수행
-  module: Module 10 - Perform Advanced Analytics
-ms.openlocfilehash: 083abd0da7c0423a40985602d8db09d752f064cd
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+  module: Module 9 - Identify Patterns and Trends
+ms.openlocfilehash: e58af011b5603e4cd6e5def7c4353156fc67c879
+ms.sourcegitcommit: 6853b027da7f5e739951c3eef54f4cd458854c66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139274266"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "146274807"
 ---
 # <a name="perform-data-analysis-in-power-bi-desktop"></a>**Power BI Desktop에서 데이터 분석 수행**
 
@@ -61,7 +61,7 @@ ms.locfileid: "139274266"
 
     ![그림 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-1. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
+1. Microsoft Edge 브라우저 창에서 **https://powerbi.microsoft.com** 으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
@@ -103,7 +103,7 @@ ms.locfileid: "139274266"
 
     ![그림 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. **열기** 창에서 **D:\PL300\Labs\09-create-power-bi-dashboard\Solution** 폴더로 이동합니다.
+4. **열기** 창에서 **D:\PL300\Labs\08-create-power-bi-dashboard\Solution** 폴더로 이동합니다.
 
 5. **Sales Analysis.pbix** 파일을 선택한 다음 **열기** 를 클릭합니다.
 
@@ -137,7 +137,7 @@ ms.locfileid: "139274266"
 
 7. **다른 이름으로 저장** 창에서 **D:\PL300\MySolution** 폴더로 이동합니다.
 
-8. **파일 이름** 상자에 **판매 탐색** 을 입력합니다.
+8. **파일 이름** 상자에 **판매 탐색** 을 입력하고 **저장** 을 클릭합니다.
 
     ![그림 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
 
@@ -153,7 +153,7 @@ ms.locfileid: "139274266"
 
 12. Power BI Desktop 파일을 저장합니다.
 
-    이제 4개의 보고서 페이지를 만들고 각 페이지에서 다른 시각적 개체를 사용하여 데이터를 분석하고 탐색할 수 있습니다.
+    이제 2개의 새 보고서 페이지를 만들고 각 페이지에서 다른 시각적 개체를 사용하여 데이터를 분석하고 탐색할 수 있습니다.
 
 ## <a name="exercise-2-create-a-scatter-chart"></a>**연습 2: 분산형 차트 만들기**
 
@@ -177,11 +177,13 @@ ms.locfileid: "139274266"
 
     랩에서는 약식 표기법을 사용하여 필드를 참조합니다. 다음과 같이 표시됩니다. **재판매인** **\|** **비즈니스 유형**. 이 예에서 **Reseller** 는 테이블 이름이고 **Business Type** 은 필드 이름입니다.
 
-    - 범례: **재판매인 \| 비즈니스 유형**
+    
 
     - X축: **판매 \| 판매** 
 
     - Y축: **판매 \| 이익률**
+
+    - 범례: **재판매인 \| 비즈니스 유형**
 
     - 크기: **판매 \| 수량**
 
@@ -237,9 +239,9 @@ ms.locfileid: "139274266"
 
 3. 다음 필드를 시각적 개체 웰/영역에 추가합니다.
 
-    - 축: **날짜 \| 날짜**
+    - X축: **날짜 \| 날짜**
 
-    - 값: **판매 \| 판매** 
+    - Y축: **판매 \| 판매** 
 
     ![그림 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
@@ -263,21 +265,25 @@ ms.locfileid: "139274266"
 
 8. **예측** 섹션을 확장합니다.
 
-    ![그림 50](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image27.png)
+
 
     **예측** 섹션을 사용할 수 없는 경우 시각적 개체를 올바르게 구성하지 않았기 때문일 수 있습니다. 예측은 두 가지 조건이 충족되는 경우에만 사용할 수 있습니다. 축에는 날짜 형식의 단일 필드가 있고 값 필드가 하나만 있어야 합니다.
 
-9. **추가** 를 클릭합니다.
+9. **예측** 옵션을 **켜기** 로 설정합니다.
 
     ![그림 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
 
 10. 다음 예측 속성을 구성합니다.
 
+    - 단위: Months
+
     - 예측 범위: 1개월
 
+    - 계절성: 365
+    
     - 신뢰도 간격: 80%
 
-    - 계절성: 365
+
 
 11. **적용** 을 클릭합니다.
 
@@ -302,7 +308,7 @@ ms.locfileid: "139274266"
 
 2. Power BI Desktop 파일을 저장합니다.
 
-3. 작업 영역에 파일을 게시하려면 **홈** 리본 탭의 **공유** 그룹 내에서 **게시** 를 클릭합니다.
+3. **내 작업 영역** 에 파일을 게시하려면 **홈** 리본 탭에서 **공유** 그룹 내의 **게시** 와 **선택** 을 차례로 클릭하여 게시합니다.
 
     ![그림 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 

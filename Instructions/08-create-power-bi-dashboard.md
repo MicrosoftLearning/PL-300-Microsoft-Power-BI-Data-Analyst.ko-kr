@@ -2,12 +2,12 @@
 lab:
   title: Power BI 대시보드 만들기
   module: Module 8 - Create Dashboards
-ms.openlocfilehash: 777dc5fb86f71c926a347c736896834fdf2baed2
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 2ddb086b004fca3fa322e10570f9163342514808
+ms.sourcegitcommit: f09183b2093a7f8de629f89b54d70bcad85598b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139274265"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "146109914"
 ---
 # <a name="create-a-power-bi-dashboard"></a>**Power BI 대시보드 만들기**
 
@@ -61,7 +61,7 @@ ms.locfileid: "139274265"
 
     ![그림 42](Linked_image_Files/09-create-power-bi-dashboard_image2.png)
 
-2. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
+2. Microsoft Edge 브라우저 창에서 **https://powerbi.microsoft.com** 으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
@@ -115,7 +115,7 @@ ms.locfileid: "139274265"
 
     ![그림 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. **열기** 창에서 **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
+8. **열기** 창에서 **D:\PL300\Labs\08-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
 
 9. **판매 분석** 파일을 선택합니다.
 
@@ -159,7 +159,7 @@ ms.locfileid: "139274265"
 
     ![그림 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. **열기** 창에서 **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution** 폴더로 이동합니다.
+4. **열기** 창에서 **D:\PL300\Labs\08-create-power-bi-dashboard\Solution** 폴더로 이동합니다.
 
 5. **Sales Analysis.pbix** 파일을 선택한 다음 **열기** 를 클릭합니다.
 
@@ -181,7 +181,7 @@ ms.locfileid: "139274265"
 
 4. 대시보드를 만들고 시각적 개체를 고정하려면 **Sales and Profit Margin by Month**(세로 막대형/꺾은선형) 시각적 개체 위로 커서를 가져갑니다.
 
-5. 오른쪽 위에 있는 압정을 클릭합니다.
+5. 오른쪽 아래 모서리에 있는 압핀을 클릭합니다.
 
     ![그림 43](Linked_image_Files/09-create-power-bi-dashboard_image18.png)
 
@@ -193,7 +193,7 @@ ms.locfileid: "139274265"
 
     ![그림 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
 
-8. **탐색** 창을 연 다음, **Sales Monitoring** 대시보드를 엽니다.
+8. **탐색** 창을 연 다음, **내 작업 영역** 을 선택하고 **판매 모니터링** 대시보드를 엽니다.
 
     ![그림 44](Linked_image_Files/09-create-power-bi-dashboard_image21.png)
 
@@ -337,7 +337,7 @@ ms.locfileid: "139274265"
 
 2. 새로 고침이 완료되면 Power BI Desktop 파일을 저장합니다.
 
-3. 작업 영역에 파일을 게시하려면 **홈** 리본 탭의 **공유** 그룹 내에서 **게시** 를 클릭합니다.
+3. 작업 영역에 파일을 게시하려면 **홈** 리본 탭에서 **공유** 그룹 내의 **게시** 를 클릭하고 **선택** 을 클릭하여 게시합니다.
 
     ![그림 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
@@ -351,11 +351,11 @@ ms.locfileid: "139274265"
 
 ## <a name="exercise-3-review-the-dashboard"></a>**연습 3: 대시보드 검토**
 
-이 연습에서는 대시보드를 검토하여 업데이트된 판매량을 확인하고 경고가 트리거되었음을 확인합니다.
+이 연습에서는 대시보드를 검토하여 업데이트된 판매를 확인합니다.
 
 ### <a name="task-1-review-the-dashboard"></a>**작업 1: 대시보드 검토**
 
-이 작업에서는 대시보드를 검토하여 업데이트된 판매량을 확인하고 경고가 트리거되었음을 확인합니다.
+이 작업에서는 대시보드를 검토하여 업데이트된 판매를 확인합니다.
 
 1. Microsoft Edge 브라우저 창의 Power BI 서비스에서 **Sales Monitoring** 대시보드를 검토합니다.
 
@@ -367,22 +367,6 @@ ms.locfileid: "139274265"
 
     ![그림 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
-    **Sales YTD** 타일에 대한 경고도 트리거되었습니다. 잠시 후, 판매가 구성된 임계값을 초과한다는 경고가 표시됩니다.
+    
 
-4. **Sales YTD** 타일이 **$37M** 으로 업데이트되었습니다.
-
-5. **Sales YTD** 타일에 경고 알림 아이콘이 표시되는지 확인합니다.
-
-    알림이 표시되지 않으면 **F5** 키를 눌러 브라우저를 다시 로드해야 할 수 있습니다. 그래도 알림이 표시되지 않으면 몇 분 정도 더 기다립니다.
-
-    ![그림 35](Linked_image_Files/09-create-power-bi-dashboard_image51.png)
-
-    *경고 알림은 대시보드 타일에 표시되며, 메일 및 푸시 알림을 통해 Apple Watch를 포함한 모바일 앱에 배달할 수 있습니다.*
-
-6. 웹 페이지 오른쪽 상단에서 **알림** 아이콘을 클릭합니다.
-
-    ![그림 58](Linked_image_Files/09-create-power-bi-dashboard_image52.png)
-
-7. **모든 알림** 창에서 경고 알림의 세부 정보를 검토합니다.
-
-8. 창을 닫으려면 **닫기** 를 클릭합니다.
+4. 창을 닫으려면 **닫기** 를 클릭합니다.

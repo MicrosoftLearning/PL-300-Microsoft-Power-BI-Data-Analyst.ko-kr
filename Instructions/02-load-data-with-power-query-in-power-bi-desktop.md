@@ -2,12 +2,12 @@
 lab:
   title: Power BI Desktop에서 데이터 로드
   module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: 8a19b8b1b243cc4c04bee3375f161098287dbf9d
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 8e8373127cbc8023c0c299e3b2c75b4a82986308
+ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139274288"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "146071893"
 ---
 # <a name="load-data-in-power-bi-desktop"></a>**Power BI Desktop에서 데이터 로드**
 
@@ -130,7 +130,7 @@ ms.locfileid: "139274288"
 
     이제 쿼리 행을 필터링하여 영업 직원인 사원만 검색하겠습니다.
 
-4. 특정 열을 찾으려면 **열 병합** 그룹의 **홈** 리본 탭에서 **열 선택** 아래쪽 화살표를 클릭한 다음 **열로 이동** 을 선택합니다.
+4. 특정 열을 찾으려면 **홈** 리본 탭에서 **열 관리** 와 **열 선택** 아래쪽 화살표를 차례로 클릭하고 **열로 이동** 을 선택합니다.
 
     ![그림 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -156,7 +156,7 @@ ms.locfileid: "139274288"
 
     변환을 생성할 때마다 추가 단계 논리가 생성됩니다. 단계를 편집하거나 삭제할 수 있습니다. 쿼리 변환 단계에서의 쿼리 결과를 미리 보는 단계를 선택할 수도 있습니다.
 
-10. 열을 제거하려면 **열 관리** 그룹 내부의 **홈** 리본 탭에서 **열 선택** 아이콘을 클릭합니다.
+10. 열을 제거하려면 **홈** 리본 탭의 **열 관리** 그룹을 클릭한 다음 **열 선택** 아이콘을 클릭합니다.
 
     ![그림 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -216,7 +216,7 @@ ms.locfileid: "139274288"
 
 23. 이전 단계를 사용하여 **EmailAddress** 열의 이름을 **UPN** 으로 변경합니다.
 
-    UPN은 User Principal Name(사용자 계정 이름)의 약자입니다. 이 열의 값은 **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 행 수준 보안을 구성할 때 사용됩니다.
+    *UPN은 User Principal Name(사용자 계정 이름)의 약자입니다.*
 
 24. 왼쪽 아래 상태 표시줄에서 쿼리에 열이 5개, 행이 18개 있는지 확인합니다.
 
@@ -349,7 +349,6 @@ ms.locfileid: "139274288"
     ![그림 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
-‎ 
 
 6. **비즈니스 유형** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기** 를 선택합니다.
 
@@ -648,7 +647,7 @@ ms.locfileid: "139274288"
 
     ![그림 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. **결합** 그룹 내의 **홈** 리본 탭에서 **ColorFormats** 쿼리를 병합하려면 **쿼리 병합** 을 클릭합니다.
+2. **ColorFormats** 쿼리를 병합하려면 **홈** 리본 탭에서 **결합** 아래쪽 화살표와 **쿼리 병합** 을 차례로 클릭합니다.
 
     ![그림 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -748,4 +747,4 @@ ms.locfileid: "139274288"
 
 5. 다음 랩을 시작하려는 경우 Power BI Desktop을 열어 둡니다.
 
-    ***Power BI Desktop에서 데이터 모델링, 1부** 랩에서 데이터 모델 테이블과 관계를 구성합니다.*
+    **Power BI Desktop에서 데이터 모델링** 랩에서 데이터 모델 테이블과 관계를 구성합니다.

@@ -2,12 +2,12 @@
 lab:
   title: Power BI Desktop에서 DAX 계산 만들기, 2부
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 80cfdfcfcb2072277760670c549cebaaca434cb9
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 01d7f76dff212103ec9d08e6fe284356be9887f5
+ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139273592"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "146071622"
 ---
 # <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Power BI Desktop에서 DAX 계산 만들기, 2부**
 
@@ -73,7 +73,7 @@ ms.locfileid: "139273592"
 
     ![그림 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. **열기** 창에서 **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 폴더로 이동합니다.
 
 1. **판매 분석** 파일을 선택합니다.
 
@@ -125,13 +125,11 @@ ms.locfileid: "139273592"
 
     **지역** 계층 구조에 **그룹**, **국가**, **지역** 수준이 있습니다.
 
-7. 시각적 개체의 서식을 지정하려면 **시각화** 창 아래에서 **서식** 창을 선택합니다.
+7. 시각적 개체의 서식을 지정하려면 **시각화** 창에서 **서식** 창을 선택합니다.
 
     ![그림 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. **검색** 상자에 **계단형** 을 입력합니다.
-
-    ![그림 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. **계단형 레이아웃** 속성을 **끄기** 로 설정합니다.
 
@@ -151,7 +149,7 @@ ms.locfileid: "139273592"
 
 1. 다음 식에 따라 **판매** 테이블에 측정값을 추가합니다.
 
-    편의를 위해 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.
+    편의상 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.
 
 
     **DAX**
