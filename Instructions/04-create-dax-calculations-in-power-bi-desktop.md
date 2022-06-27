@@ -2,12 +2,12 @@
 lab:
   title: Power BI Desktop에서 DAX 계산 만들기, 1부
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 27cbc5c39cdc89c2a54422bbe3468cd13c553ddc
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 3bbdf3dfb4b302a9b3c28005976ff34764c1c542
+ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139274170"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "146071706"
 ---
 # <a name="create-dax-calculations-in-power-bi-desktop-part-1"></a>**Power BI Desktop에서 DAX 계산 만들기, 1부**
 
@@ -75,7 +75,7 @@ ms.locfileid: "139274170"
 
     ![그림 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-1. **열기** 창에서 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
 1. **판매 분석** 파일을 선택합니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "139274170"
 
     ![그림 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-    편의를 위해 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 에 위치한 코드 조각 파일에서 복사할 수 있습니다.
+    편의상 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 에 위치한 코드 조각 파일에서 복사할 수 있습니다.
 
     먼저 테이블 이름을 입력하고, 그 뒤에 등호 기호(=)를 입력한 다음, 테이블을 반환하는 DAX 수식을 입력하여 계산된 테이블을 만듭니다. 테이블 이름이 데이터 모델에 이미 존재하면 안 됩니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "139274170"
 
     ![그림 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image12.png)
 
-8. 삭제를 확인하라는 메시지가 표시되면 **삭제** 를 클릭합니다.
+8. 삭제 확인 대화 상자가 나타나면 클릭 **확인** 합니다.
 
     ![그림 3](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image13.png)
 
@@ -208,7 +208,7 @@ ms.locfileid: "139274170"
 
 이 작업에서는 다른 열을 추가하여 다른 기간별로 필터링 및 그룹화합니다. 또한 다른 열의 정렬 순서를 제어하는 계산 열을 만듭니다.
 
-편의를 위해 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 에 위치한 코드 조각 파일에서 복사할 수 있습니다.
+편의상 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 에 위치한 코드 조각 파일에서 복사할 수 있습니다.
 
 1. **테이블 도구** 상황별 리본에서 **계산** 그룹 내에 있는 **새 열** 을 클릭합니다.
 
@@ -375,7 +375,7 @@ ms.locfileid: "139274170"
 
     ![그림 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
-    **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 확인했던 것처럼, **평균** 을 기준으로 내용이 요약되도록 **단가** 열을 설정합니다. 행렬 시각적 개체에 표시되는 결과는 월평균 단가(단가 값의 합을 단가 개수로 나눈 값)입니다.
+    ***Power BI Desktop에서 데이터 모델링** 랩에서 확인했던 것처럼, **Average** 를 기준으로 내용이 요약되도록 **Unit Price** 열을 설정합니다. 행렬 시각적 개체에 표시되는 결과는 월평균 단가(단가 값의 합을 단가 개수로 나눈 값)입니다.*
 
 2. 시각적 필드 창(**시각화** 창 아래에 있음)의 **값** 필드 웰/영역에 **단가** 가 나열됩니다.
 
@@ -473,9 +473,96 @@ ms.locfileid: "139274170"
 
     ![그림 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
+### <a name="task-2-create-additional-measures"></a>**작업 2: 추가 측정값 만들기**
+
+이 작업에서는 보다 복잡한 수식을 사용하는 추가 측정값을 만듭니다.
+
+1. 보고서 뷰에서 **1페이지** 를 선택합니다.
+
+    ![그림 40](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image44.png)
+
+2. **Target** 열의 합계를 확인하여 테이블 시각적 개체를 검토합니다.
+
+    ![그림 41](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image45.png)
+
+    
+
+3. 테이블 시각적 개체를 선택하고 **시각화** 창에서 **Target** 필드를 제거합니다.
+
+    ![그림 42](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image46.png)
+
+4. **Targets \| Target** 열의 이름을 **Targets \| TargetAmount** 로 바꿉니다.
+
+    *팁: 보고서 뷰에서 열의 이름을 바꾸는 방법은 여러 가지가 있습니다. **필드** 창에서 열을 마우스 오른쪽 단추로 클릭한 다음, **이름 바꾸기** 를 선택합니다. 또는 열을 두 번 클릭하거나 **F2** 키를 누릅니다.*
+
+    **Target** 이라는 측정값을 만들려고 합니다. 동일한 테이블에 동일한 이름의 열과 측정값을 포함할 수는 없습니다.
+
+5. **Targets** 테이블에 다음 측정값을 만듭니다.
 
 
-### <a name="task-2-finish-up"></a>**작업 2: 완료**
+    **DAX**
+
+
+    ```
+    Target =
+
+    IF(
+
+    HASONEVALUE('Salesperson (Performance)'[Salesperson]),
+
+    SUM(Targets[TargetAmount])
+
+    )
+    ```
+
+
+    HASONEVALUE() 함수는 **Salesperson** 열의 단일 값이 필터링되었는지 여부를 테스트합니다. True로 설정되면 식이 해당 판매 직원에 대해 목표 금액 합계를 반환합니다. False로 설정되면 빈 값이 반환됩니다.
+
+6. **Target** 측정값의 서식을 소수점 이하 0자리로 지정합니다.
+
+    *팁: **측정값 도구** 상황별 리본을 사용할 수 있습니다.*
+
+7. **TargetAmount** 열을 숨깁니다.
+
+    *팁: **필드** 창에서 열을 마우스 오른쪽 단추로 클릭한 다음, **숨기기** 를 선택할 수 있습니다.*
+
+8. 테이블 시각적 개체에 **Target** 측정값을 추가합니다.
+
+9. **Target** 열 합계는 이제 비어 있습니다.
+
+    ![그림 43](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image47.png)
+
+10. 조각 파일 정의를 사용하여 **Targets** 테이블에 대해 다음 2개의 측정값을 만듭니다.
+
+    - Variance
+
+    - Variance Margin
+
+11. **Variance** 측정값의 서식을 소수점 이하 0자리로 지정합니다.
+
+12. **Variance Margin** 측정값의 서식을 소수점 이하 두 자리 백분율로 지정합니다.
+
+13. **Variance** 및 **Variance Margin** 측정값을 테이블 시각적 개체에 추가합니다.
+
+14. 모든 열과 행을 확인할 수 있도록 테이블 시각적 개체의 크기를 조정합니다.
+
+    ![그림 44](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png)
+
+    모든 영업 직원이 목표를 달성하지 못한 것처럼 보이는 이유는 테이블 시각적 개체를 아직 특정 기간별로 필터링하지 않았기 때문입니다. **Power BI Desktop에서 보고서 디자인, 1부** 랩에서 사용자가 선택한 기간을 기준으로 필터링하는 판매 성과 보고서를 생성합니다.
+
+15. **필드** 창의 오른쪽 위 모서리에서 창을 축소했다가 확장하여 엽니다.
+
+    ![그림 45](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image49.png)
+
+    창을 축소했다가 다시 열면 내용이 다시 설정됩니다.
+
+16. 이제 **Targets** 테이블이 목록의 맨 위에 나타납니다.
+
+    ![그림 46](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png)
+
+    *표시되는 측정값으로만 구성된 테이블은 자동으로 목록의 맨 위에 나열됩니다.*
+
+### <a name="task-3-finish-up"></a>**작업 3: 완료**
 
 이 작업에서는 랩을 완료합니다.
 
