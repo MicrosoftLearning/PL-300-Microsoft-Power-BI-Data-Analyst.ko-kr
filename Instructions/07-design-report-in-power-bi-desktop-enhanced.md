@@ -2,12 +2,12 @@
 lab:
   title: Power BI Desktop에서 보고서 디자인, 2부
   module: Module 7 - Create Reports
-ms.openlocfilehash: 113abb71cee132e348d3513f171efe6cec317046
-ms.sourcegitcommit: f09183b2093a7f8de629f89b54d70bcad85598b6
+ms.openlocfilehash: 72d571e81320d4c0311f9e566d1805725439f961
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "146109777"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650210"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-2"></a>**Power BI Desktop에서 보고서 디자인, 2부**
 
@@ -27,7 +27,7 @@ ms.locfileid: "146109777"
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 

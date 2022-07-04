@@ -2,12 +2,12 @@
 lab:
   title: Power BI Desktop에서 DAX 계산 만들기, 2부
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 01d7f76dff212103ec9d08e6fe284356be9887f5
-ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
+ms.openlocfilehash: 064f5bb2c313448f7d15b01bd0e69a84aa85811f
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "146071622"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650201"
 ---
 # <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Power BI Desktop에서 DAX 계산 만들기, 2부**
 
@@ -23,7 +23,7 @@ ms.locfileid: "146071622"
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
