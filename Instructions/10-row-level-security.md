@@ -122,7 +122,7 @@ ms.locfileid: "146650111"
 
     ![그림 5702](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image22.png)
 
-7. 상자에서 선택한 텍스트를 역할 이름으로 바꿉니다. **Salespeople**, 그 다음 **입력** 을 누릅니다.
+7. 상자에서 선택한 텍스트를 역할 이름인 **Salespeople** 으로 바꿉니다. 그 다음 **입력** 을 누릅니다.
 
     ![그림 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
 
@@ -168,7 +168,7 @@ ms.locfileid: "146650111"
 
     ![그림 5712](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image32.png)
 
-    Power BI Desktop 파일이 Power BI 서비스에 게시될 때 게시 후 작업을 완료하여 보안 주체를 **영업 직원** 역할에 매핑해야 합니다. 이 랩에서는 해당 작업을 수행하지 않습니다.
+    Power BI Desktop 파일이 Power BI 서비스에 게시될 경우에는 게시 후 작업을 완료하여 보안 주체를 **영업 직원** 역할에 매핑해야 합니다. 이 랩에서는 해당 작업을 수행하지 않습니다.
 
 18. 역할을 삭제하려면 **모델링** 리본 탭의 **보안** 그룹 내에서 **역할 관리** 를 클릭합니다.
 

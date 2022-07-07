@@ -2,12 +2,12 @@
 lab:
   title: Power BI Desktop에서 데이터 준비
   module: Module 2 - Get Data in Power BI
-ms.openlocfilehash: c44eb33136e3d429a44f6e091897388f4eed4135
-ms.sourcegitcommit: 6853b027da7f5e739951c3eef54f4cd458854c66
+ms.openlocfilehash: 56cc5b93dfb545367ae8f5fe3996a9318203f151
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "146274817"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015350"
 ---
 # <a name="prepare-data-in-power-bi-desktop"></a>**Power BI Desktop에서 데이터 준비**
 
@@ -29,7 +29,7 @@ ms.locfileid: "146274817"
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. **Power BI Desktop에서 데이터 준비**
 
