@@ -65,7 +65,7 @@ ms.locfileid: "147015341"
 
     ![그림 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
 
 1. **보고서 열기** 를 선택합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "147015341"
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
-1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
 
 1. **다른 이름으로 저장** 을 선택합니다.
 
@@ -266,11 +266,11 @@ ms.locfileid: "147015341"
 
     ![그림 19](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image26.png)
 
-11. 연도가 월로 확장되고 월은 시간순이 아닌 사전순으로 정렬됩니다.
+11. 연도가 월로 확장되고 월은 시간순이 아닌 알파벳 순으로 정렬됩니다.
 
     ![그림 20](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image27.png)
 
-    *기본적으로 텍스트 값은 사전순으로 정렬되고 숫자는 가장 작은 값에서 가장 큰 값으로 정렬되며 날짜는 가장 빠른 날짜에서 가장 늦은 날짜로 정렬됩니다.*
+    *기본적으로 텍스트 값은 알파벳 순으로 정렬되고 숫자는 가장 작은 값에서 가장 큰 값으로 정렬되며 날짜는 가장 빠른 날짜에서 가장 늦은 날짜로 정렬됩니다.*
 
 12. **Month** 필드 정렬 순서를 사용자 지정하려면 데이터 뷰로 전환합니다.
 

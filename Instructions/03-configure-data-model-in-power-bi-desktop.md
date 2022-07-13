@@ -124,7 +124,7 @@ ms.locfileid: "147015368"
 
     ![그림 328](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image11.png)
 
-5. 테이블 시각적 개체를 만들려면 **필드** 창에서 **Product** 테이블 내의 **Category** 필드를 선택합니다.
+5. 테이블 시각적 개체를 만들려면 **필드** 창에서 **Product** 테이블의 **Category** 필드를 선택합니다.
 
     ![그림 329](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image12.png)
 
@@ -202,7 +202,7 @@ ms.locfileid: "147015368"
 
     ![그림 339](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image22.png)
 
-    *팁: 열을 끌어오지 않는 경우도 있습니다. 이 상황이 발생하면 다른 열을 선택한 다음 다시 드래그하려는 열을 선택한 후에 다시 시도합니다. 다이어그램에 추가한 새 관계가 표시되는지 확인하세요.*
+    *팁: 열을 끌려오지 않는 경우도 있습니다. 이 상황이 발생하면 다른 열을 선택한 다음 다시 드래그하려는 열을 선택한 후에 다시 시도합니다. 다이어그램에 추가한 새 관계가 표시되는지 확인하세요.*
 
 24. 새 기술을 사용하여 다음의 두 모델 관계를 만듭니다.
 

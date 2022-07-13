@@ -25,7 +25,7 @@ ms.locfileid: "147015350"
 
 - 원본 데이터 미리 보기
 
-- 데이터 미리 보기 기법을 사용하여 데이터를 더 잘 파악
+- 데이터 미리 보기 기법을 사용하여 보다 정확한 데이터 파악
 
 ### <a name="lab-story"></a>**랩 사례**
 
@@ -37,7 +37,7 @@ ms.locfileid: "147015350"
 
 3. Power BI Desktop에서 데이터 모델링
 
-5. Power BI Desktop에서 DAX 계산 만들기, 1부
+5. Power BI Desktop에서 DAX 계산 만들기 1부
 
 6. Power BI Desktop에서 DAX 계산 만들기, 2부
 
@@ -69,17 +69,17 @@ ms.locfileid: "147015350"
 
 1. 파일을 저장하려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-1. **저장** 을 선택합니다.
+1. **저장을** 선택합니다.
 
     ![그림 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
 1. **다른 이름으로 저장** 창에서 **D:\PL300\MySolution** 폴더로 이동합니다.
 
-1. **파일 이름** 상자에 **판매 분석** 을 입력합니다.
+1. **파일 이름** 상자에 **Sales Analysis** 을 입력합니다.
 
     ![그림 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. **저장** 을 클릭합니다.
+1. **저장을** 클릭합니다.
 
     ![그림 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
@@ -195,7 +195,7 @@ ms.locfileid: "147015350"
 
     이러한 5개의 열은 데이터베이스에 있는 다른 테이블과의 관계를 나타냅니다. 이 열들은 테이블을 서로 결합하는 데 사용할 수 있습니다. **Power BI Desktop에서 데이터 로드** 랩에서 테이블을 조인할 것입니다.
 
-6. 열 품질을 평가하려면 **데이터 미리 보기** 그룹 안에 있는 **뷰**  리본 탭에서 **열 품질** 을 체크합니다.
+6. 열 품질을 평가하려면 **데이터 미리 보기** 그룹 안에 있는 **보기**  리본 탭에서 **열 품질** 을 체크합니다.
 
     ![그림 35](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image23.png)
 
@@ -209,13 +209,13 @@ ms.locfileid: "147015350"
 
     ![그림 40](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image25.png)
 
-9. **위치** 열을 다시 검토하고 4개의 Distinct 값과 하나의 고유 값이 있는지 확인합니다.
+9. **위치** 열을 다시 검토하고 4개의 상이 값과 하나의 고유 값이 있는지 확인합니다.
 
-10. **EmployeeKey**(첫 번째) 열에 대한 열 분포를 검토 합니다. 여기에는 296개의 Distinct 값과 296개의 고유 값이 있습니다.
+10. **EmployeeKey**(첫 번째) 열에 대한 열 분포를 검토 합니다. 여기에는 296개의 상이 값과 296개의 고유 값이 있습니다.
 
     ![그림 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    Distinct 개수와 고유 개수가 동일할 때 이는 해당 열에 고유 값들이 포함되어 있음을 의미합니다. 모델링 시에는 일부 모델 테이블에 고유한 열을 포함해야 합니다. 이러한 고유 열을 사용하여 일대다 관계를 만들 수 있습니다. **Power BI Desktop에서 데이터 모델링** 랩에서 이러한 관계를 만듭니다.
+    상이 개수와 고유 개수가 동일할 때 이는 해당 열에 고유 값들이 포함되어 있음을 의미합니다. 모델링 시에는 일부 모델 테이블에 고유한 열을 포함해야 합니다. 이러한 고유 열을 사용하여 일대다 관계를 만들 수 있습니다. **Power BI Desktop에서 데이터 모델링** 랩에서 이러한 관계를 만듭니다.
 
 11. **쿼리** 창에서 **DimEmployeeSalesTerritory** 쿼리를 선택합니다.
 
@@ -282,7 +282,7 @@ ms.locfileid: "147015350"
 
 이 작업에서는 CSV 파일을 기반으로 쿼리를 생성합니다.
 
-1. 새 쿼리를 추가하려면 **파워 쿼리 편집기** 창에서 **새 쿼리** 그룹 내에 있는 **홈** 리본 탭에서 **새 소스** 아래쪽 화살표를 클릭한 다음, **텍스트/CSV** 를 선택합니다.
+1. 새 쿼리를 추가하려면 **파워 쿼리 편집기** 창에서 **새 쿼리** 그룹 내에 있는 **홈** 리본 탭에서 **새 원본** 아래쪽 화살표를 클릭한 다음, **텍스트/CSV** 를 선택합니다.
 
     ![그림 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
 
@@ -339,7 +339,7 @@ ms.locfileid: "147015350"
 
     ![그림 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image40.png)
 
-2. Power BI Desktop 파일을 저장하려면 **Power Query 편집기** 창의 **파일** Backstage 뷰에서 **저장** 을 선택합니다.
+2. Power BI Desktop 파일을 저장하려면 **Power Query 편집기** 창의 **파일** Backstage 뷰에서 **저장을** 선택합니다.
 
     ![그림 77](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image41.png)
 
