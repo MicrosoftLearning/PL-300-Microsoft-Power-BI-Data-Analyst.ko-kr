@@ -2,13 +2,9 @@
 lab:
   title: Power BI 대시보드 만들기
   module: Module 8 - Create Dashboards
-ms.openlocfilehash: 0f8abb8670c71f5063dc28032daa321bf4b742f9
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "147015359"
 ---
+
+
 # <a name="create-a-power-bi-dashboard"></a>**Power BI 대시보드 만들기**
 
 **이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
@@ -23,7 +19,7 @@ ms.locfileid: "147015359"
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -31,7 +27,7 @@ ms.locfileid: "147015359"
 
 3. Power BI Desktop에서 데이터 모델링
 
-5. Power BI Desktop에서 DAX 계산 만들기, 1부
+5. Power BI Desktop에서 DAX 계산 만들기 1부
 
 6. Power BI Desktop에서 DAX 계산 만들기, 2부
 
@@ -47,7 +43,7 @@ ms.locfileid: "147015359"
 
 ## <a name="exercise-1-create-a-dashboard"></a>**연습 1: 대시보드 만들기**
 
-이 연습에서는 **판매 모니터링** 대시보드를 만듭니다. 완료된 대시보드는 다음과 같이 표시됩니다.
+In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. The completed dashboard will look like the following:
 
 ![타일 3개로 구성되어 있는 완성된 대시보드의 이미지](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
 
@@ -61,7 +57,7 @@ ms.locfileid: "147015359"
 
     ![그림 42](Linked_image_Files/09-create-power-bi-dashboard_image2.png)
 
-2. Microsoft Edge 브라우저 창에서 **https://powerbi.microsoft.com** 으로 이동합니다.
+2. Microsoft Edge 브라우저 창에서 **https://powerbi.com**으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
@@ -77,9 +73,9 @@ ms.locfileid: "147015359"
 
 6. 로그인 프로세스를 완료합니다.
 
-7. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예** 를 클릭합니다.
+7. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
 
-8. Microsoft Edge 브라우저 창의 Power BI 서비스 **탐색** 창에서 **내 작업 영역** 을 확장합니다.
+8. Microsoft Edge 브라우저 창의 Power BI 서비스 **탐색** 창에서 **내 작업 영역**을 확장합니다.
 
     ![그림 40](Linked_image_Files/09-create-power-bi-dashboard_image4.png)
 
@@ -95,11 +91,11 @@ ms.locfileid: "147015359"
 
     ![그림 39](Linked_image_Files/09-create-power-bi-dashboard_image5.png)
 
-2. 시작 창을 닫으려면 창 왼쪽 위의 **X** 를 클릭합니다.
+2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
     ![그림 38](Linked_image_Files/09-create-power-bi-dashboard_image6.png)
 
-3. Power BI Desktop이 Power BI 서비스에 로그인되어 있지 않으면 오른쪽 위에 있는 **로그인** 을 클릭합니다.
+3. Power BI Desktop이 Power BI 서비스에 로그인되어 있지 않으면 오른쪽 위에 있는 **로그인**을 클릭합니다.
 
     ![그림 37](Linked_image_Files/09-create-power-bi-dashboard_image7.png)
 
@@ -107,37 +103,37 @@ ms.locfileid: "147015359"
 
 5. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-6. **보고서 열기** 를 선택합니다.
+6. **보고서 열기**를 선택합니다.
 
     ![그림 36](Linked_image_Files/09-create-power-bi-dashboard_image8.png)
 
-7. **보고서 찾아보기** 를 클릭합니다.
+7. **보고서 찾아보기**를 클릭합니다.
 
     ![그림 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. **열기** 창에서 **D:\PL300\Labs\08-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
+8. **열기** 창에서 **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
 
 9. **판매 분석** 파일을 선택합니다.
 
-10. **열기** 를 클릭합니다.
+10. **열기**를 클릭합니다.
 
     ![그림 32](Linked_image_Files/09-create-power-bi-dashboard_image10.png)
 
 11. 열려 있는 정보 창을 모두 닫습니다.
 
-12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
 
-13. **다른 이름으로 저장** 을 선택합니다.
+13. **다른 이름으로 저장**을 선택합니다.
 
     ![그림 29](Linked_image_Files/09-create-power-bi-dashboard_image11.png)
 
-14. 변경 내용을 적용하라는 메시지가 표시되면 **적용** 을 클릭합니다.
+14. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
 
     ![그림 10](Linked_image_Files/09-create-power-bi-dashboard_image12.png)
 
 15. **다른 이름으로 저장** 창에서 **D:\PL300\MySolution** 폴더로 이동합니다.
 
-16. **저장** 을 클릭합니다.
+16. **저장**을 클릭합니다.
 
     ![그림 9](Linked_image_Files/09-create-power-bi-dashboard_image13.png)
 
@@ -147,11 +143,11 @@ ms.locfileid: "147015359"
 
 *중요: **Power BI Desktop에서 보고서 디자인, 2부** 랩에서 보고서를 이미 게시했다면 다음 작업부터 진행하세요.*
 
-1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창 아래쪽에서 **데이터 가져오기** 를 클릭합니다.
+1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창 아래쪽에서 **데이터 가져오기**를 클릭합니다.
 
     ![그림 8](Linked_image_Files/09-create-power-bi-dashboard_image14.png)
 
-2. **파일** 타일에서 **가져오기** 를 클릭합니다.
+2. **파일** 타일에서 **가져오기**를 클릭합니다.
 
     ![그림 2](Linked_image_Files/09-create-power-bi-dashboard_image15.png)
 
@@ -159,41 +155,41 @@ ms.locfileid: "147015359"
 
     ![그림 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. **열기** 창에서 **D:\PL300\Labs\08-create-power-bi-dashboard\Solution** 폴더로 이동합니다.
+4. **열기** 창에서 **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution** 폴더로 이동합니다.
 
-5. **Sales Analysis.pbix** 파일을 선택한 다음 **열기** 를 클릭합니다.
+5. **Sales Analysis.pbix** 파일을 선택한 다음 **열기**를 클릭합니다.
 
-6. 데이터 세트를 바꾸라는 메시지가 표시되면 **바꾸기** 를 클릭합니다.
+6. 데이터 세트를 바꾸라는 메시지가 표시되면 **바꾸기**를 클릭합니다.
 
 ### <a name="task-4-create-a-dashboard"></a>**작업 4: 대시보드 만들기**
 
-이 작업에서는 **판매 모니터링** 대시보드를 만듭니다. 보고서의 시각적 개체를 고정하고 이미지 데이터 URI를 기준으로 타일을 추가한 다음 Q&A를 사용하여 타일을 만듭니다.
+In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. You will pin a visual from the report, and add a tile based on an image data URI, and use Q&amp;A to create a tile.
 
 1. Microsoft Edge 브라우저 창의 Power BI 서비스에서 **판매 분석** 보고서를 엽니다.
 
-2. **개요** 페이지에서 **연도** 슬라이서를 **FY2020** 으로 설정합니다.
+2. **개요** 페이지에서 **연도** 슬라이서를 **FY2020**으로 설정합니다.
 
     ![그림 4](Linked_image_Files/09-create-power-bi-dashboard_image17.png)
 
-3. **지역** 슬라이서를 **모두 선택** 으로 설정합니다.
+3. **지역** 슬라이서를 **모두 선택**으로 설정합니다.
 
     ‘시각적 개체를 대시보드에 고정하면 시각적 개체가 현재 필터 컨텍스트를 사용합니다. 고정되고 나면 필터 컨텍스트를 변경할 수 없습니다. 시간 기반 필터의 경우 상대 날짜 슬라이서를 사용하는 것이 좋습니다(또는 상대 시간 기반 질문을 사용하는 질문 및 답변).
 
 4. 대시보드를 만들고 시각적 개체를 고정하려면 **Sales and Profit Margin by Month**(세로 막대형/꺾은선형) 시각적 개체 위로 커서를 가져갑니다.
 
-5. 오른쪽 아래 모서리에 있는 압핀을 클릭합니다.
+5. 오른쪽 위에 있는 압정을 클릭합니다.
 
     ![그림 43](Linked_image_Files/09-create-power-bi-dashboard_image18.png)
 
-6. **대시보드에 고정** 창에서 **대시보드 이름** 상자에 **Sales Monitoring** 을 입력합니다.
+6. **대시보드에 고정** 창에서 **대시보드 이름** 상자에 **Sales Monitoring**을 입력합니다.
 
     ![그림 3](Linked_image_Files/09-create-power-bi-dashboard_image19.png)
 
-7. **고정** 을 클릭합니다.
+7. **고정**을 클릭합니다.
 
     ![그림 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
 
-8. **탐색** 창을 연 다음, **내 작업 영역** 을 선택하고 **판매 모니터링** 대시보드를 엽니다.
+8. **탐색** 창을 연 다음, **Sales Monitoring** 대시보드를 엽니다.
 
     ![그림 44](Linked_image_Files/09-create-power-bi-dashboard_image21.png)
 
@@ -201,7 +197,7 @@ ms.locfileid: "147015359"
 
     ![그림 45](Linked_image_Files/09-create-power-bi-dashboard_image22.png)
 
-10. 질문을 기반으로 타일을 추가하려면 대시보드의 왼쪽 위에서 **데이터에 대해 질문하기** 를 클릭합니다.
+10. 질문을 기반으로 타일을 추가하려면 대시보드의 왼쪽 위에서 **데이터에 대해 질문하기**를 클릭합니다.
 
     ![그림 7](Linked_image_Files/09-create-power-bi-dashboard_image23.png)
 
@@ -223,27 +219,27 @@ ms.locfileid: "147015359"
 
     **Power BI Desktop에서 DAX 계산 만들기, 2부** 랩에서 **Sales YTD** 측정을 추가한 것을 기억하실 것입니다. 이 측정은 시간 인텔리전스 식이므로 결과를 생성하려면 **날짜** 테이블의 필터가 필요합니다.
 
-16. **in year FY2020** 으로 질문을 확장합니다.
+16. **in year FY2020**으로 질문을 확장합니다.
 
     ![그림 12](Linked_image_Files/09-create-power-bi-dashboard_image26.png)
 
-17. 이제 응답으로 **$33M** 이 표시됩니다.
+17. 이제 응답으로 **$33M**이 표시됩니다.
 
     ![그림 13](Linked_image_Files/09-create-power-bi-dashboard_image27.png)
 
-18. 대시보드에 응답을 고정하려면 오른쪽 위에서 **시각적 개체 고정** 을 클릭합니다.
+18. 대시보드에 응답을 고정하려면 오른쪽 위에서 **시각적 개체 고정**을 클릭합니다.
 
     ![그림 15](Linked_image_Files/09-create-power-bi-dashboard_image28.png)
 
-19. 타일을 대시보드에 고정하라는 메시지가 표시되면 **고정** 을 클릭합니다.
+19. 타일을 대시보드에 고정하라는 메시지가 표시되면 **고정**을 클릭합니다.
 
     ![그림 17](Linked_image_Files/09-create-power-bi-dashboard_image29.png)
 
-20. 대시보드로 돌아가려면 왼쪽 위에 있는 **Q&amp;A 종료** 를 클릭합니다.
+20. 대시보드로 돌아가려면 왼쪽 위에 있는 **Q&amp;A 종료**를 클릭합니다.
 
     ![그림 16](Linked_image_Files/09-create-power-bi-dashboard_image30.png)
 
-21. 회사 로고를 추가하려면 메뉴 모음에서 **편집** 을 클릭한 다음 **타일 추가** 를 선택합니다.
+21. 회사 로고를 추가하려면 메뉴 모음에서 **편집**을 클릭한 다음 **타일 추가**를 선택합니다.
 
     ![그림 46](Linked_image_Files/09-create-power-bi-dashboard_image31.png)
 
@@ -253,7 +249,7 @@ ms.locfileid: "147015359"
 
     ![그림 47](Linked_image_Files/09-create-power-bi-dashboard_image32.png)
 
-23. **다음** 을 클릭합니다.
+23. **다음**을 클릭합니다.
 
     ![그림 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
@@ -261,7 +257,7 @@ ms.locfileid: "147015359"
 
     *URL을 사용하여 이미지를 포함하거나 콘텐츠 인라인을 포함하는 데이터 URL을 사용할 수 있습니다.*
 
-25. 창 아래쪽에서 **적용** 을 클릭합니다.
+25. 창 아래쪽에서 **적용**을 클릭합니다.
 
     ![그림 49](Linked_image_Files/09-create-power-bi-dashboard_image34.png)
 
@@ -277,15 +273,15 @@ ms.locfileid: "147015359"
 
 이 작업에서는 두 타일의 세부 정보를 편집합니다.
 
-1. 커서로 **Sales YTD** 타일을 가리킨 다음, 타일 오른쪽 위에 있는 줄임표를 클릭하고, **세부 정보 편집** 을 선택합니다.
+1. 커서로 **Sales YTD** 타일을 가리킨 다음, 타일 오른쪽 위에 있는 줄임표를 클릭하고, **세부 정보 편집**을 선택합니다.
 
     ![그림 50](Linked_image_Files/09-create-power-bi-dashboard_image36.png)
 
-2. 오른쪽에 있는 **타일 세부 정보** 창에서 **부제목** 상자에 **FY2020** 을 입력합니다.
+2. 오른쪽에 있는 **타일 세부 정보** 창에서 **부제목** 상자에 **FY2020**을 입력합니다.
 
     ![그림 19](Linked_image_Files/09-create-power-bi-dashboard_image37.png)
 
-3. **적용** 을 클릭합니다.
+3. **적용**을 클릭합니다.
 
     ![그림 20](Linked_image_Files/09-create-power-bi-dashboard_image38.png)
 
@@ -295,11 +291,11 @@ ms.locfileid: "147015359"
 
 5. **Sales, Profit Margin** 타일의 타일 세부 정보를 편집합니다.
 
-6. **타일 세부 정보** 창의 **기능** 섹션에서 **마지막으로 새로 고친 시간 표시** 를 선택합니다.
+6. **타일 세부 정보** 창의 **기능** 섹션에서 **마지막으로 새로 고친 시간 표시**를 선택합니다.
 
     ![그림 22](Linked_image_Files/09-create-power-bi-dashboard_image40.png)
 
-7. **적용** 을 클릭합니다.
+7. **적용**을 클릭합니다.
 
     ![그림 23](Linked_image_Files/09-create-power-bi-dashboard_image41.png)
 
@@ -311,13 +307,13 @@ ms.locfileid: "147015359"
 
 ## <a name="exercise-2-refresh-the-dataset"></a>**연습 2: 데이터 세트 새로 고침**
 
-이 연습에서는 먼저 2020년 6월의 판매 주문 데이터를 **AdventureWorksDW2020** 데이터베이스에 로드합니다. 그런 다음 Power BI Desktop 파일을 열고 데이터를 새로 고친 다음 작업 영역에 파일을 업로드합니다.
+In this exercise you will first load sales order data for June 2020 into the <bpt id="p1">**</bpt>AdventureWorksDW2020<ept id="p1">**</ept> database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
 
 ### <a name="task-1-update-the-lab-database"></a>**작업 1: 랩 데이터베이스 업데이트**
 
 이 작업에서는 PowerShell 스크립트를 실행하여 **AdventureWorksDW2020** 데이터베이스의 데이터를 업데이트합니다.
 
-1. 파일 탐색기의 **D:\PL300\Setup** 폴더 내부에서 **UpdateDatabase-2-AddSales.ps1** 파일을 마우스 오른쪽 단추로 클릭한 다음, **PowerShell에서 실행** 을 선택합니다.
+1. 파일 탐색기의 **D:\PL300\Setup** 폴더 내부에서 **UpdateDatabase-2-AddSales.ps1** 파일을 마우스 오른쪽 단추로 클릭한 다음, **PowerShell에서 실행**을 선택합니다.
 
     ![그림 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
@@ -331,17 +327,17 @@ ms.locfileid: "147015359"
 
 이 작업에서는 **판매 분석** Power BI Desktop 파일을 열고 데이터를 새로 고친 다음 파일을 **판매 분석** 작업 영역에 업로드합니다.
 
-1. Power BI Desktop 파일의 **필드** 창에서 **Sales** 테이블을 오른쪽 단추로 클릭한 다음 **데이터 새로 고침** 을 선택합니다.
+1. Power BI Desktop 파일의 **필드** 창에서 **Sales** 테이블을 오른쪽 단추로 클릭한 다음 **데이터 새로 고침**을 선택합니다.
 
     ![그림 55](Linked_image_Files/09-create-power-bi-dashboard_image47.png)
 
 2. 새로 고침이 완료되면 Power BI Desktop 파일을 저장합니다.
 
-3. 작업 영역에 파일을 게시하려면 **홈** 리본 탭에서 **공유** 그룹 내의 **게시** 를 클릭하고 **선택** 을 클릭하여 게시합니다.
+3. 작업 영역에 파일을 게시하려면 **홈** 리본 탭의 **공유** 그룹 내에서 **게시**를 클릭합니다.
 
     ![그림 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
-4. 데이터 세트를 바꿀지 묻는 메시지가 표시되면 **바꾸기** 를 클릭합니다.
+4. 데이터 세트를 바꿀지 묻는 메시지가 표시되면 **바꾸기**를 클릭합니다.
 
     ![그림 31](Linked_image_Files/09-create-power-bi-dashboard_image49.png)
 
@@ -351,22 +347,38 @@ ms.locfileid: "147015359"
 
 ## <a name="exercise-3-review-the-dashboard"></a>**연습 3: 대시보드 검토**
 
-이 연습에서는 대시보드를 검토하여 업데이트된 판매를 확인합니다.
+이 연습에서는 대시보드를 검토하여 업데이트된 판매량을 확인하고 경고가 트리거되었음을 확인합니다.
 
 ### <a name="task-1-review-the-dashboard"></a>**작업 1: 대시보드 검토**
 
-이 작업에서는 대시보드를 검토하여 업데이트된 판매를 확인합니다.
+이 작업에서는 대시보드를 검토하여 업데이트된 판매량을 확인하고 경고가 트리거되었음을 확인합니다.
 
 1. Microsoft Edge 브라우저 창의 Power BI 서비스에서 **Sales Monitoring** 대시보드를 검토합니다.
 
 2. **Sales, Profit Margin** 타일의 부제목에서 **이제** 데이터가 새로 고쳐졌습니다.
 
-3. 또한 이제 **2020년 6월** 에 해당하는 열이 있습니다.
+3. 또한 이제 **2020년 6월**에 해당하는 열이 있습니다.
 
     2020년 6월 데이터가 표시되지 않으면 **F5** 키를 눌러 웹 브라우저를 다시 로드해야 할 수도 있습니다.
 
     ![그림 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
-    
+    **Sales YTD** 타일에 대한 경고도 트리거되었습니다. 잠시 후, 판매가 구성된 임계값을 초과한다는 경고가 표시됩니다.
 
-4. 창을 닫으려면 **닫기** 를 클릭합니다.
+4. **Sales YTD** 타일이 **$37M**으로 업데이트되었습니다.
+
+5. **Sales YTD** 타일에 경고 알림 아이콘이 표시되는지 확인합니다.
+
+    알림이 표시되지 않으면 **F5** 키를 눌러 브라우저를 다시 로드해야 할 수 있습니다. 그래도 알림이 표시되지 않으면 몇 분 정도 더 기다립니다.
+
+    ![그림 35](Linked_image_Files/09-create-power-bi-dashboard_image51.png)
+
+    *경고 알림은 대시보드 타일에 표시되며, 메일 및 푸시 알림을 통해 Apple Watch를 포함한 모바일 앱에 배달할 수 있습니다.*
+
+6. 웹 페이지 오른쪽 상단에서 **알림** 아이콘을 클릭합니다.
+
+    ![그림 58](Linked_image_Files/09-create-power-bi-dashboard_image52.png)
+
+7. **모든 알림** 창에서 경고 알림의 세부 정보를 검토합니다.
+
+8. 창을 닫으려면 **닫기**를 클릭합니다.

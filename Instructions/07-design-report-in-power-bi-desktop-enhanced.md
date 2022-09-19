@@ -1,19 +1,15 @@
 ---
 lab:
-  title: Power BI Desktop에서 보고서 디자인, 2부
+  title: 'Power BI Desktop에서 보고서 디자인, 2부'
   module: Module 7 - Create Reports
-ms.openlocfilehash: 72d571e81320d4c0311f9e566d1805725439f961
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650210"
 ---
+
+
 # <a name="design-a-report-in-power-bi-desktop-part-2"></a>**Power BI Desktop에서 보고서 디자인, 2부**
 
 **이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
 
-이 랩에서는 고급 디자인 기능을 통해 **판매 분석** 을 개선합니다.
+이 랩에서는 고급 디자인 기능을 통해 **판매 분석**을 개선합니다.
 
 이 랩에서는 다음 작업을 수행하는 방법을 알아봅니다.
 
@@ -27,7 +23,7 @@ ms.locfileid: "146650210"
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -35,7 +31,7 @@ ms.locfileid: "146650210"
 
 3. Power BI Desktop에서 데이터 모델링
 
-5. Power BI Desktop에서 DAX 계산 만들기, 1부
+5. Power BI Desktop에서 DAX 계산 만들기 1부
 
 6. Power BI Desktop에서 DAX 계산 만들기, 2부
 
@@ -63,7 +59,7 @@ ms.locfileid: "146650210"
 
     ![그림 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-1. Microsoft Edge 브라우저 창에서 **https://powerbi.microsoft.com** 으로 이동합니다.
+1. Microsoft Edge 브라우저 창에서 **https://powerbi.com**으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
@@ -79,9 +75,9 @@ ms.locfileid: "146650210"
 
 1. 로그인 프로세스를 완료합니다.
 
-1. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예** 를 클릭합니다.
+1. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
 
-1. Microsoft Edge 브라우저 창의 Power BI 서비스 **탐색** 창에서 **내 작업 영역** 을 확장합니다.
+1. Microsoft Edge 브라우저 창의 Power BI 서비스 **탐색** 창에서 **내 작업 영역**을 확장합니다.
 
     ![그림 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
@@ -97,11 +93,11 @@ ms.locfileid: "146650210"
 
     ![그림 10](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image4.png)
 
-2. 시작 창을 닫으려면 창 왼쪽 위의 **X** 를 클릭합니다.
+2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
     ![그림 9](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image5.png)
 
-3. Power BI 서비스에 로그인하려면 오른쪽 위에 있는 **로그인** 을 클릭합니다.
+3. Power BI 서비스에 로그인하려면 오른쪽 위에 있는 **로그인**을 클릭합니다.
 
     ![그림 8](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image6.png)
 
@@ -109,37 +105,37 @@ ms.locfileid: "146650210"
 
 5. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-6. **보고서 열기** 를 선택합니다.
+6. **보고서 열기**를 선택합니다.
 
     ![그림 7](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image7.png)
 
-7. **보고서 찾아보기** 를 클릭합니다.
+7. **보고서 찾아보기**를 클릭합니다.
 
     ![그림 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. **열기** 창에서 **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** 폴더로 이동합니다.
+8. **열기** 창에서 **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** 폴더로 이동합니다.
 
 9. **판매 분석** 파일을 선택합니다.
 
-10. **열기** 를 클릭합니다.
+10. **열기**를 클릭합니다.
 
     ![그림 5](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image9.png)
 
 11. 열려 있는 정보 창을 모두 닫습니다.
 
-12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
 
-13. **다른 이름으로 저장** 을 선택합니다.
+13. **다른 이름으로 저장**을 선택합니다.
 
     ![그림 4](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image10.png)
 
-14. 변경 내용을 적용하라는 메시지가 표시되면 **적용** 을 클릭합니다.
+14. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
 
     ![그림 3](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image11.png)
 
 15. **다른 이름으로 저장** 창에서 **D:\PL300\MySolution** 폴더로 이동합니다.
 
-16. **저장** 을 클릭합니다.
+16. **저장**을 클릭합니다.
 
     ![그림 2](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image12.png)
 
@@ -149,7 +145,7 @@ ms.locfileid: "146650210"
 
 **Power BI Desktop에서 보고서 디자인, 1부** 랩에서 만든 보고서 작성을 계속합니다.
 
-1. Power BI Desktop의 **개요** 페이지에서 **연도** 슬라이서를 **FY2018** 로 설정합니다.
+1. Power BI Desktop의 **개요** 페이지에서 **연도** 슬라이서를 **FY2018**로 설정합니다.
 
 2. **My Performance** 페이지로 이동하면 **연도** 슬라이서가 다른 값으로 설정되어 있음을 알 수 있습니다.
 
@@ -157,7 +153,7 @@ ms.locfileid: "146650210"
 
 3. **개요** 페이지로 돌아가 **연도** 슬라이서를 선택합니다.
 
-4. **보기** 리본 탭의 **창 표시** 그룹에서 **슬라이서 동기화** 를 클릭합니다.
+4. **보기** 리본 탭의 **창 표시** 그룹에서 **슬라이서 동기화**를 클릭합니다.
 
     ![그림 1](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image13.png)
 
@@ -173,13 +169,13 @@ ms.locfileid: "146650210"
 
 8. 다른 필터 옵션을 선택한 다음, 동기화된 슬라이서가 동일한 선택 사항으로 필터링되는 것을 확인하여 슬라이서 동기화를 테스트합니다.
 
-9. **슬라이서 동기화** 페이지를 닫으려면 창의 오른쪽 위에 있는 **X** 를 클릭합니다.
+9. **슬라이서 동기화** 페이지를 닫으려면 창의 오른쪽 위에 있는 **X**를 클릭합니다.
 
     ![그림 98](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image16.png)
 
 ## <a name="exercise-2-configure-drill-through"></a>**연습 2: 드릴스루 구성**
 
-이 연습에서는 새 페이지를 만들고 드릴스루 페이지로 구성합니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
+In this exercise you will create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
 
 ![카드 시각적 개체와 테이블 시각적 개체로 구성된 새 페이지의 이미지](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
@@ -187,23 +183,23 @@ ms.locfileid: "146650210"
 
 이 작업에서는 새 페이지를 만들고 이것을 드릴스루 페이지로 구성합니다.
 
-1. **Product Details** 라는 새 보고서 페이지를 추가합니다.
+1. **Product Details**라는 새 보고서 페이지를 추가합니다.
 
     ![그림 95](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image18.png)
 
-2. **Product Details** 페이지 탭을 마우스 오른쪽 단추로 클릭하고 **페이지 숨기기** 를 선택합니다.
+2. **Product Details** 페이지 탭을 마우스 오른쪽 단추로 클릭하고 **페이지 숨기기**를 선택합니다.
 
     ![그림 97](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image19.png)
 
     보고서 사용자는 드릴스루 페이지로 직접 이동할 수 없습니다. 다른 페이지의 시각적 개체에서 액세스해야 합니다. 이 랩의 마지막 연습에서 페이지로 드릴스루하는 방법을 알아봅니다.
 
-3. **시각화** 창 아래의 **드릴스루** 섹션에서 **여기에 드릴스루 필드 추가** 상자에 **제품 \| 범주** 필드를 추가합니다.
+3. **시각화** 창 아래의 **드릴스루** 섹션에서 **여기에 드릴스루 필드 추가**상자에 **제품 \| 범주** 필드를 추가합니다.
 
-    랩에서는 약식 표기법을 사용하여 필드를 참조합니다. 다음과 같이 표시됩니다. **제품 \| 범주**. 이 예에서 **제품** 은 테이블 이름이고 **범주** 는 필드 이름입니다.
+    랩에서는 약식 표기법을 사용하여 필드를 참조합니다. 다음과 같이 표시됩니다. **제품 \| 범주**. 이 예에서 **제품**은 테이블 이름이고 **범주**는 필드 이름입니다.
 
     ![그림 96](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image20.png)
 
-4. 드릴스루 페이지를 테스트하려면 드릴스루 필터 카드에서 **Bikes** 를 선택합니다.
+4. 드릴스루 페이지를 테스트하려면 드릴스루 필터 카드에서 **Bikes**를 선택합니다.
 
     ![그림 99](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image21.png)
 
@@ -221,7 +217,7 @@ ms.locfileid: "146650210"
 
 7. **제품 \| 범주** 필드를 카드 시각적 개체로 끌어옵니다.
 
-8. 시각적 개체에 대한 서식 옵션을 구성한 다음, **범주 레이블** 속성을 **끔** 으로 설정합니다.
+8. 시각적 개체에 대한 서식 옵션을 구성한 다음, **범주 레이블** 속성을 **끔**으로 설정합니다.
 
     ![그림 103](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image25.png)
 
@@ -245,13 +241,13 @@ ms.locfileid: "146650210"
 
     - 판매 \| 이익률
 
-12. 시각적 개체에 대한 서식 옵션을 구성한 다음, **값** 섹션에서 **텍스트 크기** 속성을 **20pt** 로 설정합니다.
+12. 시각적 개체에 대한 서식 옵션을 구성한 다음 **그리드** 섹션에서 **텍스트 크기** 속성을 **20pt**로 설정합니다.
 
     드릴스루 페이지의 디자인이 거의 완료되었습니다. 다음 연습에서 조건부 서식을 사용하여 페이지를 개선할 것입니다.
 
 ## <a name="exercise-3-add-conditional-formatting"></a>**연습 3: 조건부 서식 추가**
 
-이 연습에서는 조건부 서식으로 드릴스루 페이지를 향상시킵니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
+In this exercise you will enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
 
 ![색 서식이 지정된 값과 아이콘이 표시되어 있는 업데이트된 페이지의 이미지](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
@@ -261,15 +257,15 @@ ms.locfileid: "146650210"
 
 1. 테이블 시각적 개체를 선택합니다.
 
-2. 시각화 창에서 **이익률** 값의 아래쪽 화살표를 클릭하고 **조건부 서식 \| 아이콘** 을 선택합니다.
+2. 시각화 창에서 **이익률** 값의 아래쪽 화살표를 클릭하고 **조건부 서식 \| 아이콘**을 선택합니다.
 
     ![그림 107](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png)
 
-3. **아이콘 – 이익률** 창의 **아이콘 레이아웃** 드롭다운 목록에서 **데이터의 오른쪽** 을 선택합니다.
+3. **아이콘 – 이익률** 창의 **아이콘 레이아웃** 드롭다운 목록에서 **데이터의 오른쪽**을 선택합니다.
 
     ![그림 108](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30.png)
 
-4. 중간 규칙을 삭제하려면 노란색 삼각형의 왼쪽에서 **X** 를 클릭합니다.
+4. 중간 규칙을 삭제하려면 노란색 삼각형의 왼쪽에서 **X**를 클릭합니다.
 
     ![그림 109](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image31.png)
 
@@ -277,27 +273,27 @@ ms.locfileid: "146650210"
 
     - 두 번째 컨트롤에서 값을 제거합니다.
 
-    - 세 번째 컨트롤에서 **번호** 를 선택합니다.
+    - 세 번째 컨트롤에서 **번호**를 선택합니다.
 
-    - 다섯 번째 컨트롤에서 **0** 을 입력합니다.
+    - 다섯 번째 컨트롤에서 **0**을 입력합니다.
 
-    - 여섯 번째 컨트롤에서 **번호** 를 선택합니다.
+    - 여섯 번째 컨트롤에서 **번호**를 선택합니다.
 
 6. 두 번째 규칙(녹색 원)을 다음과 같이 구성합니다.
 
-    - 두 번째 컨트롤에서 **0** 을 입력합니다.
+    - 두 번째 컨트롤에서 **0**을 입력합니다.
 
-    - 세 번째 컨트롤에서 **번호** 를 선택합니다.
+    - 세 번째 컨트롤에서 **번호**를 선택합니다.
 
     - 다섯 번째 컨트롤에서 값을 제거합니다.
 
-    - 여섯 번째 컨트롤에서 **번호** 를 선택합니다.
+    - 여섯 번째 컨트롤에서 **번호**를 선택합니다.
 
     ![그림 110](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image32.png)
 
     이익률 값이 0 미만인 경우 빨간색 다이아몬드를 표시하고 값이 0보다 크거나 같으면 녹색 원을 표시하는 것으로 규칙을 해석할 수 있습니다.
 
-7. **확인** 을 클릭합니다.
+7. **확인**을 클릭합니다.
 
     ![그림 111](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image33.png)
 
@@ -307,15 +303,15 @@ ms.locfileid: "146650210"
 
 9. **색** 필드의 배경색 조건부 서식을 구성합니다.
 
-10. **배경색 - 색** 창의 **서식 스타일** 드롭다운 목록에서 **필드 값** 을 선택합니다.
+10. **배경색 – 색상** 창의 **다음 형식 사용** 드롭다운 목록에서 **필드 값**을 선택합니다.
 
-    
+    ![그림 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
 
-11. **이 값은 어떤 필드를 기반으로 해야 하나요?** 드롭다운 목록에서 **제품 \| 서식\| 배경색 서식** 을 선택합니다.
+11. **필드 기준** 드롭다운 목록에서 **제품 \| 서식 \| 배경색 서식**을 선택합니다.
 
     ![그림 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
-12. **확인** 을 클릭합니다.
+12. **확인**을 클릭합니다.
 
     ![그림 115](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image37.png)
 
@@ -325,7 +321,7 @@ ms.locfileid: "146650210"
 
 ## <a name="exercise-4-add-bookmarks-and-buttons"></a>**연습 4: 책갈피 및 단추 추가**
 
-이 연습에서는 단추를 사용하여 **실적** 페이지를 개선하여 보고서 사용자가 표시할 시각적 개체 유형을 선택할 수 있도록 합니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
+In this exercise you will enhance the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
 
 ![이번에는 단추 2와 시각적 개체 2개로 구성되어 있는 업데이트된 3페이지의 이미지](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 
@@ -335,11 +331,11 @@ ms.locfileid: "146650210"
 
 1. **My Performance** 페이지로 이동합니다.
 
-2. **보기** 리본 탭의 **창 표시** 그룹에서 **책갈피** 를 클릭합니다.
+2. **보기** 리본 탭의 **창 표시** 그룹에서 **책갈피**를 클릭합니다.
 
     ![그림 118](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image39.png)
 
-3. **보기** 리본 탭의 **창 표시** 그룹에서 **선택 영역** 을 클릭합니다.
+3. **보기** 리본 탭의 **창 표시** 그룹에서 **선택 영역**을 클릭합니다.
 
     ![그림 119](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image40.png)
 
@@ -347,21 +343,21 @@ ms.locfileid: "146650210"
 
     ![그림 120](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image41.png)
 
-5. **책갈피** 창에서 **추가** 를 클릭합니다.
+5. **책갈피** 창에서 **추가**를 클릭합니다.
 
     ![그림 121](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image42.png)
 
 6. 책갈피의 이름을 바꾸려면 책갈피를 두 번 클릭합니다.
 
-7. 표시되는 차트가 가로 막대형 차트인 경우 책갈피 이름을 **Bar Chart ON** 으로 바꾸고 그렇지 않은 경우 책갈피 이름을 **Column Chart ON** 으로 바꿉니다.
+7. 표시되는 차트가 가로 막대형 차트인 경우 책갈피 이름을 **Bar Chart ON**으로 바꾸고 그렇지 않은 경우 책갈피 이름을 **Column Chart ON**으로 바꿉니다.
 
-8. 책갈피를 편집하려면 **책갈피** 창에서 책갈피 위로 커서를 가져간 다음 줄임표를 클릭하고 **데이터** 를 선택합니다.
+8. 책갈피를 편집하려면 **책갈피** 창에서 책갈피 위로 커서를 가져간 다음 줄임표를 클릭하고 **데이터**를 선택합니다.
 
     ![그림 16](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png)
 
     **데이터** 옵션을 사용하지 않도록 설정하면 책갈피는 현재 필터 상태를 사용하지 않습니다. 이 기능은 중요합니다. 이 옵션을 비활성화하지 않는 경우 책갈피가 **연도** 슬라이서에 의해 현재 적용되어 있는 필터로 영구 고정되기 때문입니다.
 
-9. 책갈피를 업데이트하려면 줄임표를 다시 클릭하고 **업데이트** 를 선택합니다.
+9. 책갈피를 업데이트하려면 줄임표를 다시 클릭하고 **업데이트**를 선택합니다.
 
     ![그림 18](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image44.png)
 
@@ -395,37 +391,37 @@ ms.locfileid: "146650210"
 
 이 작업에서는 두 개의 단추를 추가하고 각 단추에 책갈피 작업을 할당합니다.
 
-1. **삽입** 리본의 **요소** 그룹에서 **단추** 를 클릭하고 **비어 있음** 을 선택합니다.
+1. **삽입** 리본의 **요소** 그룹에서 **단추**를 클릭하고 **비어 있음**을 선택합니다.
 
     ![그림 125](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image48.png)
 
 2. **연도** 슬라이서 바로 아래에 단추를 배치합니다.
 
-3. 단추를 선택하고 **서식 단추** 창에서 **일반** 을 클릭한 후 **제목** 속성을 **켜기** 로 설정합니다.
+3. 단추를 선택하고 **서식 단추** 창에서 **단추 텍스트** 속성을 **켜기**로 설정합니다.
 
     ![그림 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49.png)
 
-4. **제목** 섹션을 확장한 다음 **텍스트** 상자에 **막대형 차트** 를 입력합니다.
+4. **단추 텍스트** 섹션을 확장한 다음 **단추 텍스트** 상자에 **가로 막대형 차트**를 입력합니다.
 
 5. **배경** 섹션을 확장한 다음 보색을 사용하여 배경색을 설정합니다.
 
-6. **단추** 를 클릭하고 **작업** 속성을 **켬** 으로 설정합니다.
+6. **작업** 속성을 **켬**으로 설정합니다(목록 아래쪽 근처에 있음).
 
     ![그림 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
-7. **작업** 섹션을 확장하고 **형식** 드롭다운 목록을 **책갈피** 로 설정합니다.
+7. **작업** 섹션을 확장하고 **형식** 드롭다운 목록을 **책갈피**로 설정합니다.
 
-8. **책갈피** 드롭다운 목록에서 **Bar Chart ON** 을 선택합니다.
+8. **책갈피** 드롭다운 목록에서 **Bar Chart ON**을 선택합니다.
 
     ![그림 128](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image51.png)
 
 9. 복사 및 붙여넣기를 사용하여 단추의 복사본을 만들고 다음과 같이 새 단추를 구성합니다.
 
-    *팁: 복사 및 붙여넣기 작업의 바로 가기 명령은 **Ctrl+C** 와 **Ctrl+V** 를 차례로 사용하는 것입니다.*
+    *팁: 복사 및 붙여넣기 작업의 바로 가기 명령은 **Ctrl+C**와 **Ctrl+V**를 차례로 사용하는 것입니다.*
 
-    - **단추 텍스트** 속성을 **세로 막대형 차트** 로 설정합니다.
+    - **단추 텍스트** 속성을 **세로 막대형 차트**로 설정합니다.
 
-    - **작업** 섹션에서 **책갈피** 드롭다운 목록을 **Column Chart ON** 으로 설정합니다.
+    - **작업** 섹션에서 **책갈피** 드롭다운 목록을 **Column Chart ON**으로 설정합니다.
 
     *이제 판매 분석 보고서 디자인이 완료되었습니다.*
 
@@ -435,27 +431,27 @@ ms.locfileid: "146650210"
 
 1. **Overview** 페이지를 선택합니다.
 
-2. **연도** 슬라이서에서 **FY2020** 을 선택합니다.
+2. **연도** 슬라이서에서 **FY2020**을 선택합니다.
 
-3. **지역** 슬라이서에서 **모두 선택** 을 선택합니다.
+3. **지역** 슬라이서에서 **모두 선택**을 선택합니다.
 
 4. Power BI Desktop 파일을 저장합니다.
 
     *Power BI 서비스에 게시하기 전에 파일을 항상 저장해야 합니다.*
 
-5. **홈** 리본 탭의 **공유** 그룹 내에서 **게시** 를 클릭합니다.
+5. **홈** 리본 탭의 **공유** 그룹 내에서 **게시**를 클릭합니다.
 
     ![그림 21](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image52.png)
 
-6. **Power BI에 게시** 창에서 **내 작업 영역** 이 선택된 것을 확인할 수 있습니다.
+6. **Power BI에 게시** 창에서 **내 작업 영역**이 선택된 것을 확인할 수 있습니다.
 
-7. 보고서를 게시하려면 **선택** 을 클릭합니다.
+7. 보고서를 게시하려면 **선택**을 클릭합니다.
 
     ![그림 20](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image53.png)
 
-8. 데이터 세트를 바꾸라는 메시지가 표시되면 **바꾸기** 를 클릭합니다.
+8. 데이터 세트를 바꾸라는 메시지가 표시되면 **바꾸기**를 클릭합니다.
 
-9. 게시가 성공하면 **확인** 을 클릭합니다.
+9. 게시가 성공하면 **확인**을 클릭합니다.
 
     ![그림 19](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image54.png)
 
@@ -471,13 +467,13 @@ ms.locfileid: "146650210"
 
 이 작업에서는 Power BI 서비스의 보고서를 살펴봅시다.
 
-1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **내 작업 영역** 을 선택한 후 **판매 분석** 보고서를 클릭합니다.
+1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **판매 분석** 보고서를 클릭합니다.
 
-2. 드릴스루 보고서를 테스트하려면 **개요** 페이지에서 **범주별 수량** 시각적 개체에서 **의류** 표시줄을 마우스 오른쪽 단추로 클릭한 다음, **드릴스루 \| 제품 세부 정보** 를 선택합니다.
+2. 드릴스루 보고서를 테스트하려면 **개요** 페이지에서 **범주별 수량** 시각적 개체에서 **의류** 표시줄을 마우스 오른쪽 단추로 클릭한 다음, **드릴스루 \| 제품 세부 정보**를 선택합니다.
 
     ![그림 130](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image55.png)
 
-3. **제품 세부 정보** 페이지는 **의류** 에 대한 것임을 알 수 있습니다.
+3. **제품 세부 정보** 페이지는 **의류**에 대한 것임을 알 수 있습니다.
 
 4. 원본 페이지로 돌아가려면 페이지 왼쪽 위 모서리에서 화살표 단추를 클릭합니다.
 
@@ -489,7 +485,7 @@ ms.locfileid: "146650210"
 
 이 작업에서는 랩을 완료합니다.
 
-1. 작업 영역으로 돌아오려면 창 웹 페이지에 가로로 표시된 배너에서 **내 작업 영역** 을 클릭합니다.
+1. 작업 영역으로 돌아오려면 창 웹 페이지에 가로로 표시된 배너에서 **내 작업 영역**을 클릭합니다.
 
     ![그림 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
 
