@@ -2,13 +2,8 @@
 title: 온라인 호스팅 지침
 permalink: index.html
 layout: home
-ms.openlocfilehash: f4e2e1489e1997cfd064aa74eb5345e302bb2424
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139504262"
 ---
+
 # <a name="content-directory"></a>콘텐츠 디렉터리
 
 다음은 각 랩 연습 및 데모의 하이퍼링크입니다.

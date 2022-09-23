@@ -2,12 +2,12 @@
 lab:
   title: Power BI Desktop에서 데이터 준비
   module: Module 2 - Get Data in Power BI
-ms.openlocfilehash: deaa403224e029a08c91ed5137693d51ac30fcab
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 56cc5b93dfb545367ae8f5fe3996a9318203f151
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139274179"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015350"
 ---
 # <a name="prepare-data-in-power-bi-desktop"></a>**Power BI Desktop에서 데이터 준비**
 
@@ -25,11 +25,11 @@ ms.locfileid: "139274179"
 
 - 원본 데이터 미리 보기
 
-- 데이터 미리 보기 기법을 사용하여 데이터를 더 잘 파악
+- 데이터 미리 보기 기법을 사용하여 보다 정확한 데이터 파악
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. **Power BI Desktop에서 데이터 준비**
 
@@ -37,7 +37,7 @@ ms.locfileid: "139274179"
 
 3. Power BI Desktop에서 데이터 모델링
 
-5. Power BI Desktop에서 DAX 계산 만들기, 1부
+5. Power BI Desktop에서 DAX 계산 만들기 1부
 
 6. Power BI Desktop에서 DAX 계산 만들기, 2부
 
@@ -69,17 +69,17 @@ ms.locfileid: "139274179"
 
 1. 파일을 저장하려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-1. **저장** 을 선택합니다.
+1. **저장을** 선택합니다.
 
     ![그림 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
 1. **다른 이름으로 저장** 창에서 **D:\PL300\MySolution** 폴더로 이동합니다.
 
-1. **파일 이름** 상자에 **판매 분석** 을 입력합니다.
+1. **파일 이름** 상자에 **Sales Analysis** 을 입력합니다.
 
     ![그림 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. **저장** 을 클릭합니다.
+1. **저장을** 클릭합니다.
 
     ![그림 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
@@ -132,6 +132,8 @@ ms.locfileid: "139274179"
 3. **확인** 을 클릭합니다.
 
     ![그림 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
+
+4. 자격 증명을 묻는 메시지가 표시되면 **SQL Server 데이터베이스** 창에서 **현재 자격 증명 사용** 을 선택합니다. 그런 다음, **연결** 합니다.
 
 4. **탐색기** 창의 왼쪽에서 **AdventureWorksDW2020** 데이터베이스를 확장합니다.
 
@@ -193,7 +195,7 @@ ms.locfileid: "139274179"
 
     이러한 5개의 열은 데이터베이스에 있는 다른 테이블과의 관계를 나타냅니다. 이 열들은 테이블을 서로 결합하는 데 사용할 수 있습니다. **Power BI Desktop에서 데이터 로드** 랩에서 테이블을 조인할 것입니다.
 
-6. 열 품질을 평가하려면 **데이터 미리 보기** 그룹 안에 있는 **뷰**  리본 탭에서 **열 품질** 을 체크합니다.
+6. 열 품질을 평가하려면 **데이터 미리 보기** 그룹 안에 있는 **보기**  리본 탭에서 **열 품질** 을 체크합니다.
 
     ![그림 35](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image23.png)
 
@@ -207,19 +209,19 @@ ms.locfileid: "139274179"
 
     ![그림 40](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image25.png)
 
-9. **위치** 열을 다시 검토하고 4개의 Distinct 값과 하나의 고유 값이 있는지 확인합니다.
+9. **위치** 열을 다시 검토하고 4개의 상이 값과 하나의 고유 값이 있는지 확인합니다.
 
-10. **EmployeeKey**(첫 번째) 열에 대한 열 분포를 검토 합니다. 여기에는 296개의 Distinct 값과 296개의 고유 값이 있습니다.
+10. **EmployeeKey**(첫 번째) 열에 대한 열 분포를 검토 합니다. 여기에는 296개의 상이 값과 296개의 고유 값이 있습니다.
 
     ![그림 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    Distinct 개수와 고유 개수가 동일할 때 이는 해당 열에 고유 값들이 포함되어 있음을 의미합니다. 모델링 시에는 일부 모델 테이블에 고유한 열을 포함해야 합니다. 이러한 고유 열을 사용하면 일대다 관계를 만들 수 있습니다. **Power BI Desktop에서 데이터 모델링, 1부** 랩에서 이러한 관계를 만들 것입니다.
+    상이 개수와 고유 개수가 동일할 때 이는 해당 열에 고유 값들이 포함되어 있음을 의미합니다. 모델링 시에는 일부 모델 테이블에 고유한 열을 포함해야 합니다. 이러한 고유 열을 사용하여 일대다 관계를 만들 수 있습니다. **Power BI Desktop에서 데이터 모델링** 랩에서 이러한 관계를 만듭니다.
 
 11. **쿼리** 창에서 **DimEmployeeSalesTerritory** 쿼리를 선택합니다.
 
     ![그림 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
 
-    **DimEmployeeSalesTerritory** 테이블에는 각 직원에 대한 하나의 행과 직원들이 관리하는 영업 지역이 저장됩니다. 테이블은 한 명의 직원을 대상으로 많은 지역과 관련된 지원을 합니다. 일부 직원들은 1개, 2개 또는 그 이상의 많은 지역을 관리합니다. 이 데이터를 모델링할 때 다대다 관계를 정의해야 하며 **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 수행합니다.
+    **DimEmployeeSalesTerritory** 테이블에는 각 직원에 대한 하나의 행과 직원들이 관리하는 영업 지역이 저장됩니다. 테이블은 한 명의 직원을 대상으로 많은 지역과 관련된 지원을 합니다. 일부 직원들은 1개, 2개 또는 그 이상의 많은 지역을 관리합니다. 이 데이터를 모델링하는 경우, 다대다 관계를 정의해야 합니다.
 
 12. **쿼리** 창에서 **DimProduct** 쿼리를 선택합니다.
 
@@ -261,7 +263,7 @@ ms.locfileid: "139274179"
 
     ![그림 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
 
-    **DimSalesTerritory** 테이블에는 **본사** 를 포함해 판매 지역당 하나의 행이 포함되어 있습니다. 하나의 국가에 여러 지역이 할당되며, 여러 국가가 그룹에 할당됩니다. **Power BI Desktop에서 데이터 모델링, 1부** 랩에서 지역, 국가 또는 그룹 수준에서 분석을 지원하는 계층 구조를 만듭니다.
+    **DimSalesTerritory** 테이블에는 **본사** 를 포함해 판매 지역당 하나의 행이 포함되어 있습니다. 하나의 국가에 여러 지역이 할당되며, 여러 국가가 그룹에 할당됩니다. **Power BI Desktop에서 데이터 모델링** 랩에서 지역, 국가 또는 그룹 수준에서 분석을 지원하는 계층 구조를 만듭니다.
 
 23. **쿼리** 창에서 **FactResellerSales** 쿼리를 선택합니다.
 
@@ -275,11 +277,12 @@ ms.locfileid: "139274179"
 
     **TotalProductCost** 열 값이 없는 것은 데이터 품질 문제에 속합니다. 이 문제를 해결하기 위해 **Power BI Desktop에서 데이터 로드** 랩에서 **DimProduct** 테이블에 저장된 제품 표준 비용을 사용하여 누락된 값을 채우기 위해 변환을 적용합니다.
 
+
 ### <a name="task-5-get-data-from-a-csv-file"></a>**작업 5: CSV 파일에서 데이터 가져오기**
 
 이 작업에서는 CSV 파일을 기반으로 쿼리를 생성합니다.
 
-1. 새 쿼리를 추가하려면 **파워 쿼리 편집기** 창에서 **새 쿼리** 그룹 내에 있는 **홈** 리본 탭에서 **새 소스** 아래쪽 화살표를 클릭한 다음, **텍스트/CSV** 를 선택합니다.
+1. 새 쿼리를 추가하려면 **파워 쿼리 편집기** 창에서 **새 쿼리** 그룹 내에 있는 **홈** 리본 탭에서 **새 원본** 아래쪽 화살표를 클릭한 다음, **텍스트/CSV** 를 선택합니다.
 
     ![그림 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
 
@@ -292,9 +295,7 @@ ms.locfileid: "139274179"
 5. **확인** 을 클릭합니다.
 
     ![그림 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
-  
-‎ 
+ 
 
 6. **쿼리** 창에 **ResellerSalesTargets** 쿼리가 추가된 것을 확인합니다.
 
@@ -338,7 +339,7 @@ ms.locfileid: "139274179"
 
     ![그림 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image40.png)
 
-2. Power BI Desktop 파일을 저장하려면 **Power Query 편집기** 창의 **파일** Backstage 뷰에서 **저장** 을 선택합니다.
+2. Power BI Desktop 파일을 저장하려면 **Power Query 편집기** 창의 **파일** Backstage 뷰에서 **저장을** 선택합니다.
 
     ![그림 77](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image41.png)
 

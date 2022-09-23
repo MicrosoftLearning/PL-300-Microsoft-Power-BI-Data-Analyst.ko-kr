@@ -2,16 +2,16 @@
 lab:
   title: Power BI Desktop에서 데이터 로드
   module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: 8a19b8b1b243cc4c04bee3375f161098287dbf9d
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: aced37b7bfdd2ccf94a9d3e7bdb8f8ff7013c125
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139274288"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650228"
 ---
 # <a name="load-data-in-power-bi-desktop"></a>**Power BI Desktop에서 데이터 로드**
 
-**이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
+**이 랩을 진행하는 데 걸리는 예상 진행 시간은 45분입니다.**
 
 이 랩에서는 이전 랩에서 만든 각 쿼리에 대한 변환 적용을 시작합니다. 그런 다음 쿼리를 적용하여 각 항목 데이터 모델에 테이블로 로드합니다.
 
@@ -23,7 +23,7 @@ ms.locfileid: "139274288"
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 진행할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -54,7 +54,7 @@ ms.locfileid: "139274288"
 
 이 작업에서는 랩용 환경을 설정합니다.
 
-*중요: 이전 랩에서 계속 진행해 온 경우(그리고 해당 랩을 성공적으로 완료한 경우) 이 작업을 완료하지 마세요. 대신, 다음 작업부터 진행하세요.*
+*중요: 이전 랩에서 계속 진행해 온 경우(그리고 해당 랩을 성공적으로 진행한 경우) 이 작업을 진행하지 마세요. 대신, 다음 작업부터 진행하세요.*
 
 1. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
 
@@ -120,7 +120,7 @@ ms.locfileid: "139274288"
 
     ![그림 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
-2. 쿼리 이름을 바꾸려면 (오른쪽에 있는) **쿼리 설정** 창의 **이름** 상자에서 텍스트를 **Salesperson** 으로 바꾸고 **Enter** 를 누릅니다.
+2. 쿼리 이름을 바꾸려면 (오른쪽에 있는) **쿼리 설정** 창의 **이름** 상자에서 텍스트를 **Salesperson** 으로 바꾸고 **Enter** 키를 누릅니다.
 
     쿼리 이름에 따라 모델 테이블 이름이 결정됩니다. 간결하면서도 익숙한 이름을 정의하는 것이 좋습니다.
 
@@ -130,7 +130,7 @@ ms.locfileid: "139274288"
 
     이제 쿼리 행을 필터링하여 영업 직원인 사원만 검색하겠습니다.
 
-4. 특정 열을 찾으려면 **열 병합** 그룹의 **홈** 리본 탭에서 **열 선택** 아래쪽 화살표를 클릭한 다음 **열로 이동** 을 선택합니다.
+4. 특정 열을 찾으려면 **홈** 리본 탭에서 **열 관리** 와 **열 선택** 아래쪽 화살표를 차례로 클릭하고 **열로 이동** 을 선택합니다.
 
     ![그림 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -156,7 +156,7 @@ ms.locfileid: "139274288"
 
     변환을 생성할 때마다 추가 단계 논리가 생성됩니다. 단계를 편집하거나 삭제할 수 있습니다. 쿼리 변환 단계에서의 쿼리 결과를 미리 보는 단계를 선택할 수도 있습니다.
 
-10. 열을 제거하려면 **열 관리** 그룹 내부의 **홈** 리본 탭에서 **열 선택** 아이콘을 클릭합니다.
+10. 열을 제거하려면 **홈** 리본 탭의 **열 관리** 그룹을 클릭한 다음 **열 선택** 아이콘을 클릭합니다.
 
     ![그림 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -196,9 +196,9 @@ ms.locfileid: "139274288"
 
     ![그림 117](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image23.png)
 
-    대부분의 일반적인 변환은 열 머리글을 마우스 오른쪽 단추로 클릭한 다음, 상황에 맞는 메뉴에서 선택하면 적용할 수 있습니다. 하지만 리본에서 더 많은 변환을 사용할 수 있습니다.
+    대부분의 일반적인 변환은 열 머리글을 마우스 오른쪽 단추로 클릭한 다음, 컨텍스트 메뉴에서 선택하면 적용할 수 있습니다. 하지만 리본에서 더 많은 변환을 사용할 수 있습니다.
 
-18. **열 병합** 창의 **구분 기호** 드롭다운 목록에서 **공간을** 선택합니다.
+18. **열 병합** 창의 **구분 기호** 드롭다운 목록에서 **공백을** 선택합니다.
 
 19. **새 열 이름** 상자에서 텍스트를 **Salesperson** 으로 바꿉니다.
 
@@ -210,19 +210,19 @@ ms.locfileid: "139274288"
 
 21. **EmployeeNationalIDAlternateKey** 열의 이름을 변경하려면 **EmployeeNationalIDAlternateKey** 열 헤더를 두 번 클릭합니다.
 
-22. 텍스트를 **EmployeeID** 로 바꾸고 **Enter** 를 누릅니다.
+22. 텍스트를 **EmployeeID** 로 바꾸고 **Enter** 키를 누릅니다.
 
     *중요: 열 이름을 바꿀 때는 반드시 설명을 정확하게 따라야 합니다.*
 
 23. 이전 단계를 사용하여 **EmailAddress** 열의 이름을 **UPN** 으로 변경합니다.
 
-    UPN은 User Principal Name(사용자 계정 이름)의 약자입니다. 이 열의 값은 **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 행 수준 보안을 구성할 때 사용됩니다.
+    *UPN은 User Principal Name(사용자 계정 이름)의 약자입니다.*
 
 24. 왼쪽 아래 상태 표시줄에서 쿼리에 열이 5개, 행이 18개 있는지 확인합니다.
 
     ![그림 5638](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    *중요: 쿼리가 올바른 결과를 생성하지 않으면 나중에 랩을 완료할 수 없게 되므로 더 진행하지 않는 것이 중요합니다. 쿼리 열 또는 행이 일치하지 않는 경우 이 작업의 단계를 다시 참조하여 문제를 해결하세요.*
+    *중요: 쿼리가 올바른 결과를 생성하지 않으면 나중에 랩을 진행할 수 없게 되므로 더 진행하지 않는 것이 중요합니다. 쿼리 열 또는 행이 일치하지 않는 경우 이 작업의 단계를 다시 참조하여 문제를 해결하세요.*
 
 ### <a name="task-3-configure-the-salespersonregion-query"></a>**작업 3: SalespersonRegion 쿼리 구성**
 
@@ -290,7 +290,7 @@ ms.locfileid: "139274288"
 
     ![그림 5647](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image33.png)
 
-    쿼리 열 이름은 언제나 고유해야 합니다. 이 체크박스를 선택한 상태로 유지하면 각 열의 이름에 확장된 열 이름이 접두사로 추가됩니다(이 경우 **DimProductSubcategory**). 선택한 열 이름이 **제품** 쿼리의 열 이름과 충돌하지 않음이 확인되었으므로 옵션은 선택 취소되어 있습니다.
+    쿼리 열 이름은 언제나 고유해야 합니다. 이 체크박스를 선택한 상태로 유지하면 각 열의 이름에 확장된 열 이름이 접두사로 추가됩니다(이 경우 **DimProductSubcategory**). 선택한 열 이름이 **제품** 쿼리의 열 이름과 충돌하지 않음이 확인되었으므로 옵션은 선택 취소했습니다.
 
 10. **확인** 을 클릭합니다.
 
@@ -349,7 +349,6 @@ ms.locfileid: "139274288"
     ![그림 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
-‎ 
 
 6. **비즈니스 유형** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기** 를 선택합니다.
 
@@ -359,7 +358,7 @@ ms.locfileid: "139274288"
 
     - **찾을 값** 상자에 **Ware House** 를 입력
 
-    - **다음으로 변경** 상자에 **Warehouse** 를 입력
+    - **바꿀 항목** 상자에 **Warehouse** 를 입력
 
     ![그림 5](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
 
@@ -510,7 +509,7 @@ ms.locfileid: "139274288"
 
     ![그림 5668](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image51.png)
 
-    고정 10진수 데이터 형식은 값을 전체 정밀도로 저장하기 때문에 10진수보다 저장 공간이 더 필요합니다. 재무 관련 값이나 (환율 같은) 비율에는 반드시 고정 10진수 형식을 사용해야 합니다.
+    고정 10진수 데이터 형식은 값을 전체 정밀도로 저장하기 때문에 10진수보다 저장 공백이 더 필요합니다. 재무 관련 값이나 (환율 같은) 비율에는 반드시 고정 10진수 형식을 사용해야 합니다.
 
 14. 상태 표시줄에서 쿼리에 열이 10개, 행이 999개 이상 있는지 확인합니다.
 
@@ -570,7 +569,7 @@ ms.locfileid: "139274288"
 
 13. 첫 번째 행은 **2017** 년, 월 번호 **7** 입니다.
 
-14. **Column1** 열의 첫 번째 표 셀에서 **7/1/2017** 을 입력한 다음 **Enter** 를 누릅니다.
+14. **Column1** 열의 첫 번째 표 셀에서 **7/1/2017** 을 입력한 다음 **Enter** 키를 누릅니다.
 
     가상 머신은 미국 지역 설정을 사용하므로 이 날짜는 실제로 2017년 7월 1일입니다.
 
@@ -648,7 +647,7 @@ ms.locfileid: "139274288"
 
     ![그림 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. **결합** 그룹 내의 **홈** 리본 탭에서 **ColorFormats** 쿼리를 병합하려면 **쿼리 병합** 을 클릭합니다.
+2. **ColorFormats** 쿼리를 병합하려면 **홈** 리본 탭에서 **결합** 아래쪽 화살표와 **쿼리 병합** 을 차례로 클릭합니다.
 
     ![그림 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -714,7 +713,7 @@ ms.locfileid: "139274288"
 
 ### <a name="task-12-finish-up"></a>**작업 12: 완료**
 
-이 작업에서는 랩을 완료합니다.
+이 작업에서는 랩을 진행합니다.
 
 1. 다음과 같이 이름이 올바르게 지정된 쿼리 8개가 있는지 확인합니다.
 
@@ -748,4 +747,4 @@ ms.locfileid: "139274288"
 
 5. 다음 랩을 시작하려는 경우 Power BI Desktop을 열어 둡니다.
 
-    ***Power BI Desktop에서 데이터 모델링, 1부** 랩에서 데이터 모델 테이블과 관계를 구성합니다.*
+    **Power BI Desktop에서 데이터 모델링** 랩에서 데이터 모델 테이블과 관계를 구성합니다.

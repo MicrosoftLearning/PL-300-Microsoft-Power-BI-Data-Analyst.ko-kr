@@ -1,14 +1,10 @@
 ---
 lab:
-  title: Power BI Desktop에서 DAX 계산 만들기, 2부
+  title: 'Power BI Desktop에서 DAX 계산 만들기, 2부'
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 80cfdfcfcb2072277760670c549cebaaca434cb9
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139273592"
 ---
+
+
 # <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Power BI Desktop에서 DAX 계산 만들기, 2부**
 
 **이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
@@ -23,7 +19,7 @@ ms.locfileid: "139273592"
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -59,17 +55,17 @@ ms.locfileid: "139273592"
 
     ![그림 12](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image1.png)
 
-1. 시작 창을 닫으려면 창 왼쪽 위의 **X** 를 클릭합니다.
+1. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
     ![그림 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
 1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-1. **보고서 열기** 를 선택합니다.
+1. **보고서 열기**를 선택합니다.
 
     ![그림 10](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image3.png)
 
-1. **보고서 찾아보기** 를 클릭합니다.
+1. **보고서 찾아보기**를 클릭합니다.
 
     ![그림 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
@@ -77,25 +73,25 @@ ms.locfileid: "139273592"
 
 1. **판매 분석** 파일을 선택합니다.
 
-1. **열기** 를 클릭합니다.
+1. **열기**를 클릭합니다.
 
     ![그림 8](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image5.png)
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
-1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
 
-1. **다른 이름으로 저장** 을 선택합니다.
+1. **다른 이름으로 저장**을 선택합니다.
 
     ![그림 7](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image6.png)
 
-1. 변경 내용을 적용하라는 메시지가 표시되면 **적용** 을 클릭합니다.
+1. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
 
     ![그림 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
 
 1. **다른 이름으로 저장** 창에서 **D:\PL300\MySolution** 폴더로 이동합니다.
 
-1. **저장** 을 클릭합니다.
+1. **저장**을 클릭합니다.
 
     ![그림 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image8.png)
 
@@ -107,7 +103,7 @@ ms.locfileid: "139273592"
 
     ![그림 1](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image9.png)
 
-2. **3페이지** 에서 행렬 시각적 개체를 추가합니다.
+2. **3페이지**에서 행렬 시각적 개체를 추가합니다.
 
     ![그림 13](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image10.png)
 
@@ -115,7 +111,7 @@ ms.locfileid: "139273592"
 
 4. 행렬 시각적 필드를 구성하려면 **필드** 창에서 **지역 \| 지역** 계층 구조를 끌어서 시각적 개체 안에 놓습니다.
 
-    랩에서는 약식 표기법을 사용하여 필드나 계층 구조를 참조합니다. 다음과 같이 표시됩니다. **지역 \| 지역**. 이 예에서 **지역** 은 테이블 이름이고 **지역** 은 계층 구조 이름입니다.
+    랩에서는 약식 표기법을 사용하여 필드나 계층 구조를 참조합니다. **지역 \| 지역과 같이 표시됩니다**.이 예에서 **지역**은 테이블 이름이고 **지역**은 계층 구조 이름입니다.
 
 5. **판매 \| 판매** 필드도 추가합니다.
 
@@ -129,11 +125,11 @@ ms.locfileid: "139273592"
 
     ![그림 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
-8. **검색** 상자에 **계단형** 을 입력합니다.
+8. **검색** 상자에 **계단형**을 입력합니다.
 
     ![그림 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
-9. **계단형 레이아웃** 속성을 **끄기** 로 설정합니다.
+9. **계단형 레이아웃** 속성을 **끄기**로 설정합니다.
 
     ![그림 49](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image14.png)
 
@@ -180,7 +176,7 @@ ms.locfileid: "139273592"
 
 4. **필드** 창에서 **Sales All Region** 측정이 선택되었는지 확인하고(이 측정을 선택하면 배경이 진한 회색으로 표시됨) 수식 표시줄에서 측정값 이름과 수식을 다음 수식으로 바꿉니다.
 
-    *팁: 기존 수식을 바꾸려면 먼저 코드 조각을 복사합니다. 그런 다음 수식 입력줄 내부를 클릭하고 **Ctrl + A** 를 눌러 모든 텍스트를 선택합니다. 그런 다음 **Ctrl + V** 를 눌러 코드 조각을 붙여넣어 선택한 텍스트를 덮어씁니다. 그런 다음, **Enter** 키를 누릅니다.*
+    *팁: 기존 수식을 바꾸려면 먼저 코드 조각을 복사합니다. 그런 다음 수식 입력줄 내부를 클릭하고 **Ctrl + A**를 눌러 모든 텍스트를 선택합니다. 그런 다음 **Ctrl + V**를 눌러 코드 조각을 붙여넣어 선택한 텍스트를 덮어씁니다. 그런 다음, **Enter** 키를 누릅니다.*
 
 
     **DAX**
@@ -316,7 +312,7 @@ ms.locfileid: "139273592"
 
 17. 이제 지역 또는 국가가 범위 내에 있는 경우에만 **Sales % Group** 측정값이 값을 반환합니다.
 
-18. 모델 뷰에서 3개의 새 측정값을 **Ratios** 라는 표시 폴더에 추가합니다.
+18. 모델 뷰에서 3개의 새 측정값을 **Ratios**라는 표시 폴더에 추가합니다.
 
     ![그림 56](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image20.png)
 
@@ -326,13 +322,13 @@ ms.locfileid: "139273592"
 
 ## <a name="exercise-2-work-with-time-intelligence"></a>**연습 2: 시간 인텔리전스 사용**
 
-이 연습에서는 매출 YTD(연간 누계) 측정값과 매출 YoY(연간) 성장률 측정값을 만듭니다.
+이 연습에서는 매출 YTD(연간 누계) 측정값과 매출 YoY(전년 대비) 성장률 측정값을 만듭니다.
 
 ### <a name="task-1-create-a-ytd-measure"></a>**작업 1: YTD 측정값 만들기**
 
 이 작업에서는 매출 YTD 측정값을 만듭니다.
 
-1. 보고서 뷰의 **2페이지** 에서 행렬 시각적 개체에는 행에 연수와 개월이 그룹화된 다양한 측정값이 표시됩니다.
+1. 보고서 뷰의 **2페이지**에서 행렬 시각적 개체에는 행에 연수와 개월이 그룹화된 다양한 측정값이 표시됩니다.
 
 2. 다음 식을 기반으로 하는 **Sales** 테이블에 측정값을 추가하고 소수점 이하 0자리로 지정합니다.
 
@@ -394,7 +390,7 @@ ms.locfileid: "139273592"
 
 3. 새 측정값은 처음 12개월 동안은 BLANK를 반환합니다(2017 회계연도 이전에 기록된 매출이 없기 때문입니다).
 
-4. **2018년 7월** 에 대한 **Sales YoY Growth** 측정값은 **2017년 7월** 에 대한 **Sales** 값입니다.
+4. **2018년 7월**에 대한 **Sales YoY Growth** 측정값은 **2017년 7월**에 대한 **Sales** 값입니다.
 
     ![그림 61](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image22.png)
 
@@ -427,13 +423,13 @@ ms.locfileid: "139273592"
 
 6. 수식의 **RETURN** 절에서 변수가 두 번 참조됩니다.
 
-7. **2018 Jul** 의 YoY 증가율이 **392.83%** 인지 확인합니다.
+7. **2018 Jul**의 YoY 증가율이 **392.83%** 인지 확인합니다.
 
     ![그림 62](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image23.png)
 
     즉, 2018년 7월 매출($2,411,559)이 전년도 동일 기간에 달성한 매출($489,328)에 비해 거의 400%(거의 4배) 향상되었음을 의미합니다.
 
-8. 모델 뷰에서 두 개의 새 측정값을 **Time Intelligence** 라는 표시 폴더에 넣습니다.
+8. 모델 뷰에서 두 개의 새 측정값을 **Time Intelligence**라는 표시 폴더에 넣습니다.
 
     ![그림 63](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
 
@@ -441,15 +437,15 @@ ms.locfileid: "139273592"
 
 이 작업에서는 랩을 완료합니다.
 
-1. 보고서 개발용으로 준비한 솔루션을 정리하려면 왼쪽 하단에서 **2페이지** 탭을 마우스 오른쪽 단추로 클릭한 다음 **페이지 삭제** 를 선택합니다.
+1. 보고서 개발용으로 준비한 솔루션을 정리하려면 왼쪽 하단에서 **2페이지** 탭을 마우스 오른쪽 단추로 클릭한 다음 **페이지 삭제**를 선택합니다.
 
     ![그림 17](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image25.png)
 
-2. 페이지를 삭제할지 묻는 프롬프트가 표시되면 **삭제** 를 클릭합니다.
+2. 페이지를 삭제할지 묻는 프롬프트가 표시되면 **삭제**를 클릭합니다.
 
     ![그림 18](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image26.png)
 
-3. **3페이지** 도 삭제합니다.
+3. **3페이지**도 삭제합니다.
 
 4. 나머지 페이지에서 페이지를 지우려면 테이블 시각적 개체를 선택하고 **Delete** 키를 누릅니다.
 

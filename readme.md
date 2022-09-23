@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 8876507a0ec5ecb2e4e3d048285d075202550f05
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 585b145f177e4e0792054e11f83911c0fad49430
+ms.sourcegitcommit: 9f66e4932aaf188d3be327646561dc7fe8e5c7a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139504260"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "143996846"
 ---
 # <a name="pl-300-microsoft-power-bi-data-analyst"></a>PL-300: Microsoft Power BI 데이터 분석가
 
@@ -12,7 +12,7 @@ ms.locfileid: "139504260"
 
 - **MCT이신가요?** - [MCT를 위한 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
 - **랩 지침을 수동으로 빌드해야 하나요?** - 지침은 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 확인할 수 있습니다.
-- **어떤 랩에서 어떤 모듈을 사용하는지에 대한 복습이 필요한가요?** - [GitHub 페이지](https://microsoftlearning.github.io/DA-100-Analyzing-Data-with-Power-BI/) 확인
+- **어떤 랩에서 어떤 모듈을 사용하는지에 대한 복습이 필요한가요?** - [GitHub 페이지](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/) 확인
 
 ## <a name="what-are-we-doing"></a>우리가 하는 일
 
@@ -20,19 +20,19 @@ ms.locfileid: "139504260"
 
 - 여러분도 이와 같은 새로운 공동 작업 방식 랩 개선 과정에 참여하실 수 있습니다. 실제 강의를 진행하는 과정에서 Power BI의 변경 내용을 처음으로 확인하시는 분은 랩 원본을 바로 개선해 주시기 바랍니다.  동료 MCT를 도와주세요.
 
-## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>이러한 파일을 릴리스된 MOC 파일과 관련하여 어떻게 사용해야 하나요?
+## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>릴리스된 MOC 파일과 비교하여 이러한 파일을 사용하려면 어떻게 해야 하나요?
 
 - 강사 핸드북과 PowerPoint는 여전히 과정 콘텐츠 교육의 기본 소스입니다.
 
 - GitHub에서 이러한 파일은 학생 핸드북과 함께 사용하도록 설계되었지만, 중앙 리포지토리 역할을 하는 GitHub에 있기 때문에 MCT와 과정 작성자는 최신 랩 파일의 소스를 공유할 수 있습니다.
 
-- 강사는 전달이 수행될 때마다 GitHub를 확인하여 최신 Azure 서비스를 지원하기 위한 변경 내용이 적용되었는지 확인하고, 전달할 최신 파일을 확보하는 것이 좋습니다.
+- 트레이너는 강의를 할 때마다 GitHub에서 최신 Azure 서비스를 지원하기 위해 변경된 내용을 확인하고 최신 파일을 가져와서 강의에 사용하는 것이 좋습니다.
 
-## <a name="what-about-changes-to-the-student-handbook"></a>학생 핸드북의 변경 내용은 어떻게 해야 할까요?
+## <a name="what-about-changes-to-the-student-handbook"></a>수강생 핸드북의 변경 사항은 어떻게 되나요?
 
 - 학생 핸드북을 분기별로 검토하고 필요하다면 일반 MOC 릴리스 채널을 통해 업데이트합니다.
 
-## <a name="how-do-i-contribute"></a>기여하려면 어떻게 해야 하나요?
+## <a name="how-do-i-contribute"></a>기고하려면 어떻게 해야 하나요?
 
 - MCT라면 누구나 GitHub 리포지토리에서 코드 또는 콘텐츠에 대한 끌어오기 요청을 제출할 수 있으며, Microsoft와 과정 작성자는 필요하다면 콘텐츠 및 랩 코드 변경 내용을 심사하고 포함합니다.
 
@@ -40,6 +40,6 @@ ms.locfileid: "139504260"
 
 ## <a name="notes"></a>참고
 
-### <a name="classroom-materials"></a>수업 자료
+### <a name="classroom-materials"></a>강의 자료
 
 MCT와 파트너는 이러한 자료에 액세스하여 학생에게 개별적으로 제공하는 것이 좋습니다.  진행 중인 수업의 일환으로 학생들에게 GitHub로 직접 이동하여 랩 단계에 액세스하게 하면, 과정에서 다른 UI에 액세스해야 하므로 학생들은 혼란을 겪게 됩니다. 별도의 랩 지침이 제공되는 이유를 학생들에게 설명하면 클라우드 기반 인터페이스와 플랫폼의 끊임없이 변하는 특성을 강조할 수 있습니다. Microsoft Learning은 GitHub의 파일 액세스를 지원하며, GitHub 사이트 탐색 지원은 이 과정을 가르치는 MCT에게만 제공됩니다.

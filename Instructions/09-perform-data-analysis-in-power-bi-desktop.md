@@ -2,13 +2,9 @@
 lab:
   title: Power BI Desktop에서 데이터 분석 수행
   module: Module 10 - Perform Advanced Analytics
-ms.openlocfilehash: 083abd0da7c0423a40985602d8db09d752f064cd
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139274266"
 ---
+
+
 # <a name="perform-data-analysis-in-power-bi-desktop"></a>**Power BI Desktop에서 데이터 분석 수행**
 
 **이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
@@ -25,7 +21,7 @@ ms.locfileid: "139274266"
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -33,7 +29,7 @@ ms.locfileid: "139274266"
 
 3. Power BI Desktop에서 데이터 모델링
 
-5. Power BI Desktop에서 DAX 계산 만들기, 1부
+5. Power BI Desktop에서 DAX 계산 만들기 1부
 
 6. Power BI Desktop에서 DAX 계산 만들기, 2부
 
@@ -61,7 +57,7 @@ ms.locfileid: "139274266"
 
     ![그림 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-1. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
+1. Microsoft Edge 브라우저 창에서 **https://powerbi.com**으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
@@ -77,9 +73,9 @@ ms.locfileid: "139274266"
 
 1. 로그인 프로세스를 완료합니다.
 
-1. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예** 를 클릭합니다.
+1. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
 
-1. Microsoft Edge 브라우저 창의 Power BI 서비스 **탐색** 창에서 **내 작업 영역** 을 확장합니다.
+1. Microsoft Edge 브라우저 창의 Power BI 서비스 **탐색** 창에서 **내 작업 영역**을 확장합니다.
 
     ![그림 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
 
@@ -91,11 +87,11 @@ ms.locfileid: "139274266"
 
 *중요: **Power BI 대시보드 만들기** 랩에서 데이터 세트를 이미 게시했다면 다음 작업부터 진행하세요.*
 
-1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창 아래쪽에서 **데이터 가져오기** 를 클릭합니다.
+1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창 아래쪽에서 **데이터 가져오기**를 클릭합니다.
 
     ![그림 8](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image4.png)
 
-2. **파일** 타일에서 **가져오기** 를 클릭합니다.
+2. **파일** 타일에서 **가져오기**를 클릭합니다.
 
     ![그림 10](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image5.png)
 
@@ -105,9 +101,9 @@ ms.locfileid: "139274266"
 
 4. **열기** 창에서 **D:\PL300\Labs\09-create-power-bi-dashboard\Solution** 폴더로 이동합니다.
 
-5. **Sales Analysis.pbix** 파일을 선택한 다음 **열기** 를 클릭합니다.
+5. **Sales Analysis.pbix** 파일을 선택한 다음 **열기**를 클릭합니다.
 
-6. 데이터 세트를 바꾸라는 메시지가 표시되면 **바꾸기** 를 클릭합니다.
+6. 데이터 세트를 바꾸라는 메시지가 표시되면 **바꾸기**를 클릭합니다.
 
 ### <a name="task-3-create-the-report"></a>**작업 3: 보고서 만들기**
 
@@ -119,11 +115,11 @@ ms.locfileid: "139274266"
 
     ![그림 14](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image7.png)
 
-2. 시작 창을 닫으려면 창 왼쪽 위의 **X** 를 클릭합니다.
+2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
     ![그림 13](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image8.png)
 
-3. Power BI Desktop이 Power BI 서비스에 로그인되어 있지 않으면 오른쪽 위에 있는 **로그인** 을 클릭합니다.
+3. Power BI Desktop이 Power BI 서비스에 로그인되어 있지 않으면 오른쪽 위에 있는 **로그인**을 클릭합니다.
 
     ![그림 16](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image9.png)
 
@@ -131,23 +127,23 @@ ms.locfileid: "139274266"
 
 5. 파일을 저장하려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-6. **저장** 을 선택합니다.
+6. **저장**을 선택합니다.
 
     ![그림 12](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image10.png)
 
 7. **다른 이름으로 저장** 창에서 **D:\PL300\MySolution** 폴더로 이동합니다.
 
-8. **파일 이름** 상자에 **판매 탐색** 을 입력합니다.
+8. **파일 이름** 상자에 **판매 탐색**을 입력합니다.
 
     ![그림 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
 
-9. **판매 분석** 데이터 세트에 대한 라이브 연결을 만들려면 **홈** 리본 탭의 **데이터** 그룹 내부에서 **Power BI 데이터 세트** 를 클릭합니다.
+9. **판매 분석** 데이터 세트에 대한 라이브 연결을 만들려면 **홈** 리본 탭의 **데이터** 그룹 내부에서 **Power BI 데이터 세트**를 클릭합니다.
 
     ![그림 15](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image12.png)
 
 10. **보고서를 만들 데이터 세트 선택** 창에서 **판매 보고서** 데이터 세트를 선택합니다.
 
-11. **만들기** 를 클릭합니다.
+11. **만들기**를 클릭합니다.
 
     ![그림 17](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image13.png)
 
@@ -163,7 +159,7 @@ ms.locfileid: "139274266"
 
 이 작업에서는 애니메이션화할 수 있는 분산 차트를 만듭니다.
 
-1. **페이지 1** 의 이름을 **분산형 차트** 로 변경합니다.
+1. **페이지 1**의 이름을 **분산형 차트**로 변경합니다.
 
     ![그림 67](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image14.png)
 
@@ -175,7 +171,7 @@ ms.locfileid: "139274266"
 
 3. 다음 필드를 시각적 개체 웰/영역에 추가합니다.
 
-    랩에서는 약식 표기법을 사용하여 필드를 참조합니다. 다음과 같이 표시됩니다. **재판매인** **\|** **비즈니스 유형**. 이 예에서 **Reseller** 는 테이블 이름이고 **Business Type** 은 필드 이름입니다.
+    The labs use a shorthand notation to reference a field. It will look like this: <bpt id="p1">**</bpt>Reseller<ept id="p1">**</ept> <bpt id="p2">**</bpt><ph id="ph1">\|</ph><ept id="p2">**</ept> <bpt id="p3">**</bpt>Business Type<ept id="p3">**</ept>. In this example, <bpt id="p1">**</bpt>Reseller<ept id="p1">**</ept> is the table name and <bpt id="p2">**</bpt>Business Type<ept id="p2">**</ept> is the field name.
 
     - 범례: **재판매인 \| 비즈니스 유형**
 
@@ -193,15 +189,15 @@ ms.locfileid: "139274266"
 
 4. **필터** 창에서 **이 페이지의 필터** 웰/영역에 **제품 \| 범주** 필드를 추가합니다.
 
-5. 필터 카드에서 **자전거** 를 기준으로 필터링합니다.
+5. 필터 카드에서 **자전거**를 기준으로 필터링합니다.
 
     ![그림 40](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image18.png)
 
-6. 차트에 애니메이션을 적용하려면 왼쪽 아래 모서리에서 **재생** 을 클릭합니다.
+6. 차트에 애니메이션을 적용하려면 왼쪽 아래 모서리에서 **재생**을 클릭합니다.
 
     ![그림 41](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image19.png)
 
-7. **FY2018 Q1** 부터 **FY2020 Q4** 까지의 전체 애니메이션 주기를 봅니다.
+7. **FY2018 Q1**부터 **FY2020 Q4**까지의 전체 애니메이션 주기를 봅니다.
 
     분산형 차트에서는 측정값을 동시에 해석할 수 있습니다. 여기에서는 주문 수량, 판매 수익, 이익률을 동시에 해석할 수 있습니다.
 
@@ -211,7 +207,7 @@ ms.locfileid: "139274266"
 
 9. 해당 시점에서 재판매인 유형에 대한 측정값을 설명하는 도구 설명을 표시하려면 거품형 위에 커서를 놓습니다.
 
-10. **필터** 창에서 **의류** 만을 기준으로 필터링하면 매우 다른 결과가 생성되는 것을 확인할 수 있습니다.
+10. **필터** 창에서 **의류**만을 기준으로 필터링하면 매우 다른 결과가 생성되는 것을 확인할 수 있습니다.
 
 11. Power BI Desktop 파일을 저장합니다.
 
@@ -223,7 +219,7 @@ ms.locfileid: "139274266"
 
 이 작업에서는 향후 판매 수익을 결정할 예측을 만듭니다.
 
-1. 새 페이지를 추가하고 페이지 이름을 **예측** 으로 변경합니다.
+1. 새 페이지를 추가하고 페이지 이름을 **예측**으로 변경합니다.
 
     ![그림 66](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image20.png)
 
@@ -253,7 +249,7 @@ ms.locfileid: "139274266"
 
   
 
-6. **이 페이지의 필터** 웰/영역에 **제품 \| 범주** 필드도 추가한 다음, **자전거** 를 기준으로 필터링합니다.
+6. **이 페이지의 필터** 웰/영역에 **제품 \| 범주** 필드도 추가한 다음, **자전거**를 기준으로 필터링합니다.
 
     ![그림 48](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image25.png)
 
@@ -267,7 +263,7 @@ ms.locfileid: "139274266"
 
     **예측** 섹션을 사용할 수 없는 경우 시각적 개체를 올바르게 구성하지 않았기 때문일 수 있습니다. 예측은 두 가지 조건이 충족되는 경우에만 사용할 수 있습니다. 축에는 날짜 형식의 단일 필드가 있고 값 필드가 하나만 있어야 합니다.
 
-9. **추가** 를 클릭합니다.
+9. **추가**를 클릭합니다.
 
     ![그림 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
 
@@ -279,7 +275,7 @@ ms.locfileid: "139274266"
 
     - 계절성: 365
 
-11. **적용** 을 클릭합니다.
+11. **적용**을 클릭합니다.
 
     ![그림 52](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image29.png)
 
@@ -289,7 +285,7 @@ ms.locfileid: "139274266"
 
     주기의 길이(여기에서는 연간)를 알고 있으면 계절성 지점을 입력해야 합니다. 매주(7) 또는 매월(30)일 수도 있습니다.
 
-13. **필터** 창에서 **의류** 만을 기준으로 필터링하면 다른 결과가 생성되는 것을 확인할 수 있습니다.
+13. **필터** 창에서 **의류**만을 기준으로 필터링하면 다른 결과가 생성되는 것을 확인할 수 있습니다.
 
 14. Power BI Desktop 파일을 저장합니다.
 
@@ -302,7 +298,7 @@ ms.locfileid: "139274266"
 
 2. Power BI Desktop 파일을 저장합니다.
 
-3. 작업 영역에 파일을 게시하려면 **홈** 리본 탭의 **공유** 그룹 내에서 **게시** 를 클릭합니다.
+3. 작업 영역에 파일을 게시하려면 **홈** 리본 탭의 **공유** 그룹 내에서 **게시**를 클릭합니다.
 
     ![그림 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 
