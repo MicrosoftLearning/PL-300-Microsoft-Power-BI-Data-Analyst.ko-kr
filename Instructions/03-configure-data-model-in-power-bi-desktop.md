@@ -9,7 +9,7 @@ lab:
 
 **이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
 
-In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
+이 랩에서는 데이터 모델 개발을 시작합니다. 테이블 간의 관계를 만든 후 테이블 및 열 속성을 구성하여 데이터 모델의 친숙성과 유용성을 향상하는 과정을 거칩니다. 또한 계층 구조를 만들고 빠른 측정도 만듭니다.
 
 이 랩에서는 다음 작업을 수행하는 방법을 알아봅니다.
 
@@ -22,7 +22,7 @@ In this lab you will commence developing the data model. It will involve creatin
 
 ### <a name="lab-story"></a>**랩 사례**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -82,7 +82,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
-1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
+1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
 1. **다른 이름으로 저장**을 선택합니다.
 
@@ -208,7 +208,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
     이 랩에서 **SalespersonRegion** 테이블과 **목표** 테이블은 연결이 끊어진 채로 유지됩니다. 영업 직원과 지역 간에는 다대다 관계가 적용됩니다. **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 이 고급 시나리오를 진행할 것입니다.
 
-25. In the diagram, arrange the tables so that the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
+25. 다이어그램에서 **Sales** 테이블이 다이어그램 가운데에 오고 관련 테이블이 근처에 정렬되어 있도록 테이블을 정렬합니다. 연결이 끊긴 테이블은 옆쪽에 배치합니다.
 
     ![그림 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
 
@@ -348,7 +348,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ### <a name="task-5-bulk-update-properties"></a>**작업 5: 속성 대량 업데이트**
 
-In this task you will update multiple columns using single bulk updates. You will use this approach to hide columns, and format column values.
+이 작업에서는 단일 대량 업데이트를 사용하여 여러 열을 업데이트합니다. 대량 작업 방식으로 열을 숨기고 열 값의 서식을 지정합니다.
 
 1. **필드** 창에서 **제품 \| ProductKey** 열을 선택합니다.
 

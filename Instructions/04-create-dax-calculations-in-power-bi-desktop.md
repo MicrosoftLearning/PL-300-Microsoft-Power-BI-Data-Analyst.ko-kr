@@ -21,7 +21,7 @@ lab:
 
 ### <a name="lab-story"></a>**랩 사례**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -45,7 +45,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-1-create-calculated-tables"></a>**연습 1: 계산된 테이블 만들기**
 
-In this exercise you will create two calculated tables. The first will be the <bpt id="p1">**</bpt>Salesperson<ept id="p1">**</ept> table, to allow a direct relationship between it and the <bpt id="p2">**</bpt>Sales<ept id="p2">**</ept> table. The second will be the <bpt id="p1">**</bpt>Date<ept id="p1">**</ept> table.
+이 연습에서는 두 개의 계산된 테이블을 만듭니다. 첫 번째는 **Salesperson** 테이블입니다. 이 테이블을 사용하여 **Sales** 테이블과의 사이에 직접 관계를 지정할 수 있습니다. 두 번째는 **Date** 테이블입니다.
 
 ### <a name="task-1-get-started"></a>**작업 1: 시작하기**
 
@@ -61,7 +61,7 @@ In this exercise you will create two calculated tables. The first will be the <b
 
     ![그림 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
+1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
 1. **보고서 열기**를 선택합니다.
 
@@ -81,7 +81,7 @@ In this exercise you will create two calculated tables. The first will be the <b
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
-1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
+1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
 1. **다른 이름으로 저장**을 선택합니다.
 
@@ -202,7 +202,7 @@ In this exercise you will create two calculated tables. The first will be the <b
 
 ### <a name="task-4-create-calculated-columns"></a>**작업 4:** **계산 열 만들기**
 
-In this task you will add additional columns to enable filtering and grouping by different time periods. You will also create a calculated column to control the sort order of other columns.
+이 작업에서는 다른 열을 추가하여 다른 기간별로 필터링 및 그룹화합니다. 또한 다른 열의 정렬 순서를 제어하는 계산 열을 만듭니다.
 
 편의를 위해 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**에 위치한 코드 조각 파일에서 복사할 수 있습니다.
 
@@ -302,7 +302,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 ### <a name="task-5-complete-the-date-table"></a>**작업 5:** **날짜 테이블 완료**
 
-In this task you will complete the design of the <bpt id="p1">**</bpt>Date<ept id="p1">**</ept> table by hiding a column and creating a hierarchy. You will then create relationships to the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Targets<ept id="p2">**</ept> tables.
+이 작업에서는 열을 숨기고 계층 구조를 만들어서 **Date** 테이블의 디자인을 완료합니다. 그런 다음 **Sales** 열과 **Targets** 테이블 간의 관계를 만듭니다.
 
 1. 모델 뷰로 전환합니다.
 
@@ -363,7 +363,7 @@ In this task you will complete the design of the <bpt id="p1">**</bpt>Date<ept i
 
 ### <a name="task-1-create-simple-measures"></a>**작업 1: 단순 측정값 만들기**
 
-In this task you will create simple measures. Simple measures aggregate values in a single column or count rows of a table.
+이 작업에서는 간단한 측정값을 만듭니다. 간단한 측정값은 단일 열의 값을 집계하거나 테이블의 행 개수를 계산합니다.
 
 1. 보고서 뷰에서, **2페이지**의 **필드** 창에서 **판매 \| 단가** 필드를 행렬 시각적 개체로 끌어옵니다.
 

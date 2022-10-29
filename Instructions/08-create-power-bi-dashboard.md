@@ -19,7 +19,7 @@ lab:
 
 ### <a name="lab-story"></a>**랩 사례**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -43,7 +43,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-1-create-a-dashboard"></a>**연습 1: 대시보드 만들기**
 
-In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. The completed dashboard will look like the following:
+이 연습에서는 **판매 모니터링** 대시보드를 만듭니다. 완료된 대시보드는 다음과 같이 표시됩니다.
 
 ![타일 3개로 구성되어 있는 완성된 대시보드의 이미지](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
 
@@ -121,7 +121,7 @@ In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept i
 
 11. 열려 있는 정보 창을 모두 닫습니다.
 
-12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
+12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
 13. **다른 이름으로 저장**을 선택합니다.
 
@@ -163,7 +163,7 @@ In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept i
 
 ### <a name="task-4-create-a-dashboard"></a>**작업 4: 대시보드 만들기**
 
-In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. You will pin a visual from the report, and add a tile based on an image data URI, and use Q&amp;A to create a tile.
+이 작업에서는 **판매 모니터링** 대시보드를 만듭니다. 보고서의 시각적 개체를 고정하고 이미지 데이터 URI를 기준으로 타일을 추가한 다음 Q&A를 사용하여 타일을 만듭니다.
 
 1. Microsoft Edge 브라우저 창의 Power BI 서비스에서 **판매 분석** 보고서를 엽니다.
 
@@ -307,7 +307,7 @@ In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p
 
 ## <a name="exercise-2-refresh-the-dataset"></a>**연습 2: 데이터 세트 새로 고침**
 
-In this exercise you will first load sales order data for June 2020 into the <bpt id="p1">**</bpt>AdventureWorksDW2020<ept id="p1">**</ept> database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
+이 연습에서는 먼저 2020년 6월의 판매 주문 데이터를 **AdventureWorksDW2020** 데이터베이스에 로드합니다. 그런 다음 Power BI Desktop 파일을 열고 데이터를 새로 고친 다음 작업 영역에 파일을 업로드합니다.
 
 ### <a name="task-1-update-the-lab-database"></a>**작업 1: 랩 데이터베이스 업데이트**
 

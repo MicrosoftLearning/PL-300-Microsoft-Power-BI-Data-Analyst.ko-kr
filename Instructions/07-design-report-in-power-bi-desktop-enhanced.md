@@ -23,7 +23,7 @@ lab:
 
 ### <a name="lab-story"></a>**랩 사례**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -123,7 +123,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 11. 열려 있는 정보 창을 모두 닫습니다.
 
-12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
+12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
 13. **다른 이름으로 저장**을 선택합니다.
 
@@ -175,7 +175,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-2-configure-drill-through"></a>**연습 2: 드릴스루 구성**
 
-In this exercise you will create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
+이 연습에서는 새 페이지를 만들고 드릴스루 페이지로 구성합니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
 
 ![카드 시각적 개체와 테이블 시각적 개체로 구성된 새 페이지의 이미지](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
@@ -247,7 +247,7 @@ In this exercise you will create a new page and configure it as a drill through 
 
 ## <a name="exercise-3-add-conditional-formatting"></a>**연습 3: 조건부 서식 추가**
 
-In this exercise you will enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
+이 연습에서는 조건부 서식으로 드릴스루 페이지를 향상시킵니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
 
 ![색 서식이 지정된 값과 아이콘이 표시되어 있는 업데이트된 페이지의 이미지](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
@@ -321,7 +321,7 @@ In this exercise you will enhance the drill through page with conditional format
 
 ## <a name="exercise-4-add-bookmarks-and-buttons"></a>**연습 4: 책갈피 및 단추 추가**
 
-In this exercise you will enhance the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
+이 연습에서는 단추를 사용하여 **실적** 페이지를 개선하여 보고서 사용자가 표시할 시각적 개체 유형을 선택할 수 있도록 합니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
 
 ![이번에는 단추 2와 시각적 개체 2개로 구성되어 있는 업데이트된 3페이지의 이미지](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 
