@@ -9,7 +9,7 @@ lab:
 
 **이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
 
-In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
+이 랩에서는 세 페이지로 구성된 보고서를 만듭니다. 그런 다음, Power BI에 게시하면 보고서를 열고 상호 작용할 수 있습니다.
 
 이 랩에서는 다음 작업을 수행하는 방법을 알아봅니다.
 
@@ -19,7 +19,7 @@ In this lab you will create a three-page report. You will then publish it to Pow
 
 ### <a name="lab-story"></a>**랩 사례**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
@@ -88,7 +88,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
     ![그림 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
+1. 페이지를 아래로 스크롤하여 통합 설정으로 이동합니다. 화살표를 클릭하여 지도 및 등치 지역도 시각적 개체 옵션을 확장합니다.
 
     ![그림 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
@@ -147,7 +147,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 11. 열려 있는 정보 창을 모두 닫습니다.
 
-12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 보기를 엽니다.
+12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
 13. **다른 이름으로 저장**을 선택합니다.
 
@@ -165,7 +165,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ### <a name="task-4-design-page-1"></a>**작업 4: 페이지 디자인 1**
 
-In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
+이 작업에서는 첫 번째 보고서 페이지를 디자인합니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
 
 ![로고, 슬라이서 2개, 시각적 개체 3개로 구성된 1페이지의 이미지](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
@@ -328,7 +328,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 ### <a name="task-5-design-page-2"></a>**작업 5: 페이지 디자인 2**
 
-이 랩에서는 세 페이지로 구성된 보고서를 만듭니다.
+이 작업에서는 두 번째 보고서 페이지를 디자인합니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
 
 ![슬라이서 1개와 행렬로 구성된 2페이지의 이미지](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
 
@@ -403,7 +403,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 ### <a name="task-6-design-page-3"></a>**작업 6: 페이지 디자인 3**
 
-그런 다음, Power BI에 게시하면 보고서를 열고 상호 작용할 수 있습니다.
+이 작업에서는 세 번째(마지막) 보고서 페이지를 디자인합니다. 디자인을 완료하면 페이지는 다음과 같은 모습이 됩니다.
 
 ![슬라이서 1개와 시각적 개체 3개로 구성된 3페이지의 이미지](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
@@ -413,7 +413,7 @@ In this task you will design the first report page. When you’ve completed the 
     
     ![필터 창에 있는 Salesperson 필드의 이미지.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
 
-1. Select <bpt id="p1">**</bpt>Michael Blythe<ept id="p1">**</ept>. Data on the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> report page will now be filtered to display data for Michael Blythe only.
+1. **Michael Blythe**를 선택합니다. 이제 **내 실적** 보고서 페이지의 데이터가 Michael Blythe의 데이터만 표시하도록 필터링됩니다.
 
 1. **날짜 \| 연도** 필드를 기준으로 드롭다운 슬라이서를 추가한 다음, 페이지 왼쪽 위 모서리에 표시되도록 크기를 조정하고 위치를 변경합니다.
 
