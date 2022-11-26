@@ -59,7 +59,7 @@ lab:
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
-1. **로그인** (오른쪽 상단 모서리에 위치)을 클릭합니다.
+1. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
 
     ![그림 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
 
