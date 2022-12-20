@@ -1,13 +1,13 @@
 ---
 lab:
   title: 'Power BI Desktop에서 DAX 계산 만들기, 2부'
-  module: Module 5 - Create Model Calculations using DAX in Power BI
+  module: 5 - Create Model Calculations using DAX in Power BI
 ---
 
 
-# <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Power BI Desktop에서 DAX 계산 만들기, 2부**
+# <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>Power BI Desktop에서 DAX 계산 만들기, 2부
 
-**이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
+**이 랩의 예상 완료 시간은 45분입니다.**
 
 이 랩에서는 필터 컨텍스트 조작을 포함하는 DAX 식을 사용하여 측정값을 만듭니다.
 
@@ -19,27 +19,27 @@ lab:
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
 2. Power BI Desktop에서 데이터 로드
 
-3. Power BI Desktop에서 데이터 모델링
+3. Power BI에서 데이터 모델 디자인
 
-5. Power BI Desktop에서 DAX 계산 만들기, 1부
+4. Power BI Desktop에서 DAX 계산 만들기, 1부
 
-6. **Power BI Desktop에서 DAX 계산 만들기, 2부**
+5. **Power BI Desktop에서 DAX 계산 만들기, 2부**
 
-7. Power BI Desktop에서 보고서 디자인, 1부
+6. Power BI Desktop에서 보고서 디자인, 1부
 
-8. Power BI Desktop에서 보고서 디자인, 2부
+7. Power BI Desktop에서 보고서 디자인, 2부
+
+8. AI 시각적 개체를 사용하여 데이터 분석
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
-
-11. 행 수준 보안 적용
+10. 행 수준 보안 적용
 
 ## <a name="exercise-1-work-with-filter-context"></a>**연습 1: 필터 컨텍스트 사용**
 
@@ -69,7 +69,7 @@ lab:
 
     ![그림 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. **열기** 창에서 **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 폴더로 이동합니다.
 
 1. **판매 분석** 파일을 선택합니다.
 
@@ -121,13 +121,11 @@ lab:
 
     **지역** 계층 구조에 **그룹**, **국가**, **지역** 수준이 있습니다.
 
-7. 시각적 개체의 서식을 지정하려면 **시각화** 창 아래에서 **서식** 창을 선택합니다.
+7. 시각적 개체의 서식을 지정하려면 **시각화** 창에서 **서식** 창을 선택합니다.
 
     ![그림 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. **검색** 상자에 **계단형**을 입력합니다.
-
-    ![그림 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. **계단형 레이아웃** 속성을 **끄기**로 설정합니다.
 
@@ -147,7 +145,7 @@ lab:
 
 1. 다음 식에 따라 **판매** 테이블에 측정값을 추가합니다.
 
-    편의를 위해 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.
+    편의상 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.
 
 
     **DAX**
