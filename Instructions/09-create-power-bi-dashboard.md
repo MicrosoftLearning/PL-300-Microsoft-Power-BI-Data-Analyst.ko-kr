@@ -111,7 +111,7 @@ lab:
 
     ![그림 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. **열기** 창에서 **D:\PL300\Labs\08-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
+8. **열기** 창에서 **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
 
 9. **판매 분석** 파일을 선택합니다.
 
