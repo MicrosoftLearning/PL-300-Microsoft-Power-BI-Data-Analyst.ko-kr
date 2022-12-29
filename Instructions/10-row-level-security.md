@@ -1,7 +1,7 @@
 ---
 lab:
   title: 행 수준 보안 적용
-  module: Module 13 - Row-Level Security
+  module: 12 - Row-Level Security
 ---
 
 
@@ -9,37 +9,35 @@ lab:
 
 **이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
 
-이 랩에서는 **Salesperson** 테이블과 **Sales** 테이블 간에 다대다 관계를 만듭니다. 또한 판매원이 할당된 지역에 대한 판매 데이터만 분석할 수 있도록 행 수준 보안을 적용합니다.
+이 랩에서는 판매원이 할당된 지역에 대한 판매 데이터만 분석할 수 있도록 행 수준 보안을 적용합니다.
 
 이 랩에서는 다음 작업을 수행하는 방법을 알아봅니다.
-
-- 다대다 관계 구성
 
 - 행 수준 보안 적용
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
 2. Power BI Desktop에서 데이터 로드
 
-3. Power BI Desktop에서 데이터 모델링
+3. Power BI에서 데이터 모델 디자인
 
-5. Power BI Desktop에서 DAX 계산 만들기 1부
+4. Power BI Desktop에서 DAX 계산 만들기 1부
 
-6. Power BI Desktop에서 DAX 계산 만들기, 2부
+5. Power BI Desktop에서 DAX 계산 만들기, 2부
 
-7. Power BI Desktop에서 보고서 디자인, 1부
+6. Power BI Desktop에서 보고서 디자인, 1부
 
-8. Power BI Desktop에서 보고서 디자인, 2부
+7. Power BI Desktop에서 보고서 디자인, 2부
+
+8. AI 시각적 개체를 사용하여 데이터 분석
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
-
-11. **행 수준 보안 적용**
+10. **행 수준 보안 적용**
 
 ## <a name="exercise-1-enforce-row-level-security"></a>**연습 1: 행 수준 보안 적용**
 
@@ -69,7 +67,7 @@ lab:
 
     ![그림 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. **열기** 창에서 **D:\PL300\Labs\12-row-level-security\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\PL300\Labs\10-row-level-security\Starter** 폴더로 이동합니다.
 
 1. **판매 분석** 파일을 선택합니다.
 
@@ -181,7 +179,7 @@ lab:
 
     ![그림 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-2-finish-up"></a>**작업 2: 완료**
+### <a name="task-3-finish-up"></a>**작업 3: 완료**
 
 이 작업에서는 랩을 완료합니다.
 
