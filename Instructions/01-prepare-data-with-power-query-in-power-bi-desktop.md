@@ -1,12 +1,12 @@
 ---
 lab:
   title: Power BI Desktop에서 데이터 준비
-  module: Module 2 - Get Data in Power BI
+  module: 2 - Get Data in Power BI
 ---
 
-# <a name="prepare-data-in-power-bi-desktop"></a>**Power BI Desktop에서 데이터 준비**
+# <a name="prepare-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 준비
 
-**이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
+**이 랩의 예상 완료 시간은 45분입니다.**
 
 이 랩에서는 Adventure Works 회사를 위한 Power BI Desktop 솔루션 개발을 시작합니다. 여기에는 원본 데이터에 연결하여 데이터를 미리 보고 데이터 미리 보기 기법을 사용하여 원본 데이터의 특징과 품질을 이해하는 과정이 포함됩니다.
 
@@ -22,29 +22,29 @@ lab:
 
 - 데이터 미리 보기 기법을 사용하여 데이터를 더 잘 파악
 
-### <a name="lab-story"></a>**랩 사례**
+## <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. **Power BI Desktop에서 데이터 준비**
 
 2. Power BI Desktop에서 데이터 로드
 
-3. Power BI Desktop에서 데이터 모델링
+3. Power BI에서 데이터 모델 디자인
 
-5. Power BI Desktop에서 DAX 계산 만들기 1부
+4. Power BI Desktop에서 DAX 계산 만들기 1부
 
-6. Power BI Desktop에서 DAX 계산 만들기, 2부
+5. Power BI Desktop에서 DAX 계산 만들기, 2부
 
-7. Power BI Desktop에서 보고서 디자인, 1부
+6. Power BI Desktop에서 보고서 디자인, 1부
 
-8. Power BI Desktop에서 보고서 디자인, 2부
+7. Power BI Desktop에서 보고서 디자인, 2부
+
+8. AI 시각적 개체를 사용하여 데이터 분석
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
-
-11. 행 수준 보안 적용
+10. 행 수준 보안 적용
 
 ## <a name="exercise-1-prepare-data"></a>**연습 1: 데이터 준비**
 
@@ -128,6 +128,8 @@ lab:
 
     ![그림 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
 
+4. 자격 증명을 묻는 메시지가 표시되면 **SQL Server 데이터베이스** 창에서 **현재 자격 증명 사용**을 선택합니다. 그런 다음, **연결**합니다.
+
 4. **탐색기** 창의 왼쪽에서 **AdventureWorksDW2020** 데이터베이스를 확장합니다.
 
     **AdventureWorksDW2020** 데이터베이스는 **AdventureWorksDW2017** 샘플 데이터베이스를 기반으로 합니다. 그 내용은 과정 랩의 학습 목표를 지원하도록 수정되었습니다.
@@ -208,13 +210,13 @@ lab:
 
     ![그림 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    Distinct 개수와 고유 개수가 동일할 때 이는 해당 열에 고유 값들이 포함되어 있음을 의미합니다. 모델링 시에는 일부 모델 테이블에 고유한 열을 포함해야 합니다. 이러한 고유 열을 사용하면 일대다 관계를 만들 수 있습니다. **Power BI Desktop에서 데이터 모델링, 1부** 랩에서 이러한 관계를 만들 것입니다.
+    Distinct 개수와 고유 개수가 동일할 때 이는 해당 열에 고유 값들이 포함되어 있음을 의미합니다. 모델링 시에는 일부 모델 테이블에 고유한 열을 포함해야 합니다. 이러한 고유 열을 사용하여 일대다 관계를 만들 수 있습니다. **Power BI Desktop에서 데이터 모델링** 랩에서 이러한 관계를 만듭니다.
 
 11. **쿼리** 창에서 **DimEmployeeSalesTerritory** 쿼리를 선택합니다.
 
     ![그림 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
 
-    **DimEmployeeSalesTerritory** 테이블에는 각 직원에 대한 하나의 행과 직원들이 관리하는 영업 지역이 저장됩니다. 테이블은 한 명의 직원을 대상으로 많은 지역과 관련된 지원을 합니다. 일부 직원들은 1개, 2개 또는 그 이상의 많은 지역을 관리합니다. 이 데이터를 모델링할 때 다대다 관계를 정의해야 하며 **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 수행합니다.
+    **DimEmployeeSalesTerritory** 테이블에는 각 직원에 대한 하나의 행과 직원들이 관리하는 영업 지역이 저장됩니다. 테이블은 한 명의 직원을 대상으로 많은 지역과 관련된 지원을 합니다. 일부 직원들은 1개, 2개 또는 그 이상의 많은 지역을 관리합니다. 이 데이터를 모델링하는 경우, 다대다 관계를 정의해야 합니다.
 
 12. **쿼리** 창에서 **DimProduct** 쿼리를 선택합니다.
 
@@ -256,7 +258,7 @@ lab:
 
     ![그림 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
 
-    **DimSalesTerritory** 테이블에는 **본사**를 포함해 판매 지역당 하나의 행이 포함되어 있습니다. 하나의 국가에 여러 지역이 할당되며, 여러 국가가 그룹에 할당됩니다. **Power BI Desktop에서 데이터 모델링, 1부** 랩에서 지역, 국가 또는 그룹 수준에서 분석을 지원하는 계층 구조를 만듭니다.
+    **DimSalesTerritory** 테이블에는 **본사**를 포함해 판매 지역당 하나의 행이 포함되어 있습니다. 하나의 국가에 여러 지역이 할당되며, 여러 국가가 그룹에 할당됩니다. **Power BI Desktop에서 데이터 모델링** 랩에서 지역, 국가 또는 그룹 수준에서 분석을 지원하는 계층 구조를 만듭니다.
 
 23. **쿼리** 창에서 **FactResellerSales** 쿼리를 선택합니다.
 
@@ -269,6 +271,7 @@ lab:
     ![그림 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
     **TotalProductCost** 열 값이 없는 것은 데이터 품질 문제에 속합니다. 이 문제를 해결하기 위해 **Power BI Desktop에서 데이터 로드** 랩에서 **DimProduct** 테이블에 저장된 제품 표준 비용을 사용하여 누락된 값을 채우기 위해 변환을 적용합니다.
+
 
 ### <a name="task-5-get-data-from-a-csv-file"></a>**작업 5: CSV 파일에서 데이터 가져오기**
 
@@ -287,9 +290,7 @@ lab:
 5. **확인**을 클릭합니다.
 
     ![그림 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
-  
-‎ 
+ 
 
 6. **쿼리** 창에 **ResellerSalesTargets** 쿼리가 추가된 것을 확인합니다.
 
