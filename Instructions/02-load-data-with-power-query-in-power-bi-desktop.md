@@ -1,12 +1,12 @@
 ---
 lab:
   title: Power BI Desktop에서 데이터 로드
-  module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
+  module: '3 - Clean, Transform, and Load Data in Power BI'
 ---
 
-# <a name="load-data-in-power-bi-desktop"></a>**Power BI Desktop에서 데이터 로드**
+# <a name="load-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 로드
 
-**이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
+**이 랩의 예상 완료 시간은 45분입니다.**
 
 이 랩에서는 이전 랩에서 만든 각 쿼리에 대한 변환 적용을 시작합니다. 그런 다음 쿼리를 적용하여 각 항목 데이터 모델에 테이블로 로드합니다.
 
@@ -16,30 +16,29 @@ lab:
 
 - 쿼리를 적용하여 데이터 모델에 로드
 
-### <a name="lab-story"></a>**랩 사례**
+## <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
 2. **Power BI Desktop에서 데이터 로드**
 
-3. Power BI Desktop에서 데이터 모델링
+3. Power BI에서 데이터 모델 디자인
 
+4. Power BI Desktop에서 DAX 계산 만들기 1부
 
-5. Power BI Desktop에서 DAX 계산 만들기 1부
+5. Power BI Desktop에서 DAX 계산 만들기, 2부
 
-6. Power BI Desktop에서 DAX 계산 만들기, 2부
+6. Power BI Desktop에서 보고서 디자인, 1부
 
-7. Power BI Desktop에서 보고서 디자인, 1부
+7. Power BI Desktop에서 보고서 디자인, 2부
 
-8. Power BI Desktop에서 보고서 디자인, 2부
+8. AI 시각적 개체를 사용하여 데이터 분석
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
-
-11. 행 수준 보안 적용
+10. 행 수준 보안 적용
 
 ## <a name="exercise-1-load-data"></a>**연습 1: 데이터 로드**
 
@@ -125,7 +124,7 @@ lab:
 
     이제 쿼리 행을 필터링하여 영업 직원인 사원만 검색하겠습니다.
 
-4. 특정 열을 찾으려면 **열 병합** 그룹의 **홈** 리본 탭에서 **열 선택** 아래쪽 화살표를 클릭한 다음 **열로 이동**을 선택합니다.
+4. 특정 열을 찾으려면 **홈** 리본 탭에서 **열 관리**와 **열 선택** 아래쪽 화살표를 차례로 클릭하고 **열로 이동**을 선택합니다.
 
     ![그림 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -151,7 +150,7 @@ lab:
 
     변환을 생성할 때마다 추가 단계 논리가 생성됩니다. 단계를 편집하거나 삭제할 수 있습니다. 쿼리 변환 단계에서의 쿼리 결과를 미리 보는 단계를 선택할 수도 있습니다.
 
-10. 열을 제거하려면 **열 관리** 그룹 내부의 **홈** 리본 탭에서 **열 선택** 아이콘을 클릭합니다.
+10. 열을 제거하려면 **홈** 리본 탭의 **열 관리** 그룹을 클릭한 다음 **열 선택** 아이콘을 클릭합니다.
 
     ![그림 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -211,7 +210,7 @@ lab:
 
 23. 이전 단계를 사용하여 **EmailAddress** 열의 이름을 **UPN**으로 변경합니다.
 
-    UPN은 User Principal Name(사용자 계정 이름)의 약자입니다. 이 열의 값은 **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 행 수준 보안을 구성할 때 사용됩니다.
+    *UPN은 User Principal Name(사용자 계정 이름)의 약자입니다.*
 
 24. 왼쪽 아래 상태 표시줄에서 쿼리에 열이 5개, 행이 18개 있는지 확인합니다.
 
@@ -344,7 +343,6 @@ lab:
     ![그림 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
-‎ 
 
 6. **비즈니스 유형** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.
 
@@ -386,11 +384,7 @@ lab:
 
 2. 쿼리 이름을 **Region**으로 바꿉니다.
 
-3. 값 0(영)을 제거하려면 **SalesTerritoryAlternateKey** 열에 필터를 적용합니다.
-
-    ![그림 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
-
-4. 다음을 제외한 모든 열을 제거합니다.
+3. 다음을 제외한 모든 열을 제거합니다.
 
     - SalesTerritoryKey
 
@@ -400,7 +394,7 @@ lab:
 
     - SalesTerritoryGroup
 
-5. 다음 세 가지 열의 이름을 바꿉니다.
+4. 다음 세 가지 열의 이름을 바꿉니다.
 
     - **SalesTerritoryRegion**을 **Region**으로
 
@@ -408,7 +402,7 @@ lab:
 
     - **SalesTerritoryGroup**을 **Group**으로
 
-6. 상태 표시줄에서 쿼리에 열이 4개, 행이 10개 있는지 확인합니다.
+5. 상태 표시줄에서 쿼리에 열이 4개, 행이 10개 있는지 확인합니다.
 
     ![그림 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
 
@@ -460,28 +454,26 @@ lab:
 
 7. **사용자 지정 열 수식** 상자에서 다음 식을 등호 뒤에 입력합니다.
 
-8. 편의상 **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 식을 복사할 수 있습니다.
-
-
-   **파워 쿼리**
-   ```
+   `
    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-   ```
-
+   `
 
 이 식은 **TotalProductCost** 값 누락 여부를 확인합니다. 누락된 경우 **OrderQuantity** 값을 **StandardCost** 값으로 곱하여 값을 생성하며 그렇지 않으면 기존 **TotalProductCost** 값을 사용합니다.
 
-9. **확인**을 클릭합니다.
+편의상 **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 식을 복사할 수 있습니다.
+
+8. **확인**을 클릭합니다.
 
     ![그림 5666](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image49.png)
 
-10. 다음 두 열을 제거합니다.
+
+9. 다음 두 열을 제거합니다.
 
     - TotalProductCost
 
     - StandardCost
 
-11. 다음 세 가지 열의 이름을 바꿉니다.
+10. 다음 세 가지 열의 이름을 바꿉니다.
 
     - **OrderQuantity**를 **Quantity**로
 
@@ -489,13 +481,13 @@ lab:
 
     - **SalesAmount**를 **Sales**로
 
-12. 열 데이터 형식을 수정하려면 열 이름 왼쪽에 있는 **수량** 열 헤더에서 **1.2** 아이콘을 클릭한 다음 **정수**를 선택합니다.
+11. 열 데이터 형식을 수정하려면 열 이름 왼쪽에 있는 **수량** 열 헤더에서 **1.2** 아이콘을 클릭한 다음 **정수**를 선택합니다.
 
     ![그림 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
     올바른 데이터 형식 구성은 대단히 중요합니다. 또한 열에 숫자 값이 있으며 수학적 계산을 수행할 예정이라면 반드시 올바른 형식을 선택해야 합니다.
 
-13. 다음 세 개의 열 데이터 형식을 **고정 10진수**로 수정합니다.
+12. 다음 세 개의 열 데이터 형식을 **고정 10진수**로 수정합니다.
 
     - Unit Price
 
@@ -507,7 +499,7 @@ lab:
 
     고정 10진수 데이터 형식은 값을 전체 정밀도로 저장하기 때문에 10진수보다 저장 공백이 더 필요합니다. 재무 관련 값이나 (환율 같은) 비율에는 반드시 고정 10진수 형식을 사용해야 합니다.
 
-14. 상태 표시줄에서 쿼리에 열이 10개, 행이 999개 이상 있는지 확인합니다.
+13. 상태 표시줄에서 쿼리에 열이 10개, 행이 999개 이상 있는지 확인합니다.
 
     ![그림 5669](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image52.png)
 
@@ -565,7 +557,7 @@ lab:
 
 13. 첫 번째 행은 **2017**년, 월 번호 **7**입니다.
 
-14. **Column1** 열의 첫 번째 표 셀에서 **7/1/2017**을 입력한 다음 **Enter**키를 누릅니다.
+14. **Column1** 열의 첫 번째 그리드 셀에서 **07/01/2017**을 입력한 다음 **Enter**를 누릅니다.
 
     가상 머신은 미국 지역 설정을 사용하므로 이 날짜는 실제로 2017년 7월 1일입니다.
 
@@ -643,7 +635,7 @@ lab:
 
     ![그림 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. **결합** 그룹 내의 **홈** 리본 탭에서 **ColorFormats** 쿼리를 병합하려면 **쿼리 병합**을 클릭합니다.
+2. **ColorFormats** 쿼리를 병합하려면 **홈** 리본 탭에서 **결합** 아래쪽 화살표와 **쿼리 병합**을 차례로 클릭합니다.
 
     ![그림 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -743,4 +735,4 @@ lab:
 
 5. 다음 랩을 시작하려는 경우 Power BI Desktop을 열어 둡니다.
 
-    ***Power BI Desktop에서 데이터 모델링, 1부** 랩에서 데이터 모델 테이블과 관계를 구성합니다.*
+    **Power BI Desktop에서 데이터 모델링** 랩에서 데이터 모델 테이블과 관계를 구성합니다.

@@ -1,13 +1,13 @@
 ---
 lab:
   title: 'Power BI Desktop에서 보고서 디자인, 1부'
-  module: Module 7 - Create Reports
+  module: 7 - Create Reports
 ---
 
 
-# <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Power BI Desktop에서 보고서 디자인, 1부**
+# <a name="design-a-report-in-power-bi-desktop-part-1"></a>Power BI Desktop에서 보고서 디자인, 1부
 
-**이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
+**이 랩의 예상 완료 시간은 45분입니다.**
 
 이 랩에서는 세 페이지로 구성된 보고서를 만듭니다. 그런 다음, Power BI에 게시하면 보고서를 열고 상호 작용할 수 있습니다.
 
@@ -19,27 +19,27 @@ lab:
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
 2. Power BI Desktop에서 데이터 로드
 
-3. Power BI Desktop에서 데이터 모델링
+3. Power BI에서 데이터 모델 디자인
 
-5. Power BI Desktop에서 DAX 계산 만들기 1부
+4. Power BI Desktop에서 DAX 계산 만들기 1부
 
-6. Power BI Desktop에서 DAX 계산 만들기, 2부
+5. Power BI Desktop에서 DAX 계산 만들기, 2부
 
-7. **Power BI Desktop에서 보고서 디자인, 1부**
+6. **Power BI Desktop에서 보고서 디자인, 1부**
 
-8. Power BI Desktop에서 보고서 디자인, 2부
+7. Power BI Desktop에서 보고서 디자인, 2부
+
+8. AI 시각적 개체를 사용하여 데이터 분석
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
-
-11. 행 수준 보안 적용
+10. 행 수준 보안 적용
 
 ## <a name="exercise-1-create-a-report"></a>**연습 1: 보고서 만들기**
 
@@ -55,19 +55,13 @@ lab:
 
     ![그림 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. Microsoft Edge 브라우저 창에서 **https://powerbi.com**으로 이동합니다.
+1. Microsoft Edge 브라우저 창에서 **https://powerbi.microsoft.com**으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
 1. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
 
     ![그림 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
-
-1. 제공된 계정 세부 정보를 입력합니다(**리소스** 확인).
-
-1. 암호를 업데이트할지 묻는 프롬프트가 표시되면 제공된 암호를 다시 입력하고 새 암호를 입력한 후 확인합니다.
-
-    *중요: 새 암호를 기록해야 합니다.*
 
 1. 로그인 프로세스를 완료합니다.
 
@@ -77,35 +71,36 @@ lab:
 
 ### <a name="task-2-get-started--enable-map-and-filled-map-visuals"></a>**작업 2: 시작 – 지도 및 등치 지역도 시각적 개체 사용 설정**
 
-이 작업에서는 Power BI 관리 포털에서 통합 설정을 업데이트하여 랩 환경에서 지도 및 등치 지역도 시각적 개체를 사용하도록 설정합니다. 
+이 작업에서는 Power BI Desktop의 전역 설정 및 Power BI 관리 포털의 통합 설정을 업데이트하여 랩 환경에서 지도 및 등치 지역도 시각적 개체를 사용하도록 설정합니다.
 
+1. Power BI Desktop에서 **옵션 > 옵션 및 설정 > 전역**으로 이동하고 **지도 및 등치 지역도 시각적 개체 사용** 확인란을 선택합니다.
 
-1. Power BI 관리 포털을 열려면 브라우저의 오른쪽 위에서 **설정** 아이콘을 클릭합니다.
+![사진103b](Linked_image_Files/07-design-report-in-power-bi-desktop_image103b.png)
+
+2. Power BI 관리 포털을 열려면 Edge 브라우저의 오른쪽 위에서 **설정** 아이콘을 클릭합니다.
 
     ![그림 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
 
-1. **관리 포털**을 선택합니다.
+3. **관리 포털**을 선택합니다.
 
     ![그림 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. 페이지를 아래로 스크롤하여 통합 설정으로 이동합니다. 화살표를 클릭하여 지도 및 등치 지역도 시각적 개체 옵션을 확장합니다.
+4. 페이지를 아래로 스크롤하여 통합 설정으로 이동합니다. 화살표를 클릭하여 지도 및 등치 지역도 시각적 개체 옵션을 확장합니다.
 
     ![그림 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
-1. 지도 및 등치 지역도 시각적 개체 옵션을 **사용**으로 설정합니다.
+5. 지도 및 등치 지역도 시각적 개체 옵션을 **사용**으로 설정합니다.
 
-1. **적용**을 클릭하여 변경 내용을 적용합니다. 
+6. **적용**을 클릭하여 변경 내용을 적용합니다. 
 
     ![그림 104](Linked_image_Files/07-design-report-in-power-bi-desktop_image104.png)
 
-1. 테넌트 설정 변경 내용이 다음 15분 내에 적용될 것임을 알리는 메시지가 브라우저의 오른쪽 위에 표시됩니다. 
+7. 테넌트 설정 변경 내용이 다음 15분 내에 적용될 것임을 알리는 메시지가 브라우저의 오른쪽 위에 표시됩니다.
 
 
     ![그림 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
 
-
-
-1. Microsoft Edge 브라우저 창을 열어 둡니다.
+8. Microsoft Edge 브라우저 창을 열어 둡니다.
 
 ### <a name="task-3-get-started--open-report"></a>**작업 3: 시작 - 보고서 열기**
 
@@ -137,7 +132,7 @@ lab:
 
     ![그림 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. **열기** 창에서 **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+8. **열기** 창에서 **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
 9. **판매 분석** 파일을 선택합니다.
 
@@ -226,21 +221,6 @@ lab:
 
     ![그림 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-17. 슬라이서의 서식을 지정하려면 **시각화** 창 아래에서 **형식** 창을 엽니다.
-
-    ![그림 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
-
-18. **선택 컨트롤** 그룹을 확장합니다.
-
-    ![그림 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
-
-19. **"모두 선택" 옵션 표시**를 **켜짐**으로 설정합니다.
-
-    ![그림 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
-
-20. **지역** 슬라이서에서 이제 첫 번째 항목이 **모두 선택**임을 알 수 있습니다.
-
-    이 항목을 선택하면 모든 항목을 선택하거나 모든 항목을 선택 취소합니다. 이를 통해 보고서 사용자가 필요한 슬라이서 항목을 쉽게 설정할 수 있습니다.
 
 21. 보고서 페이지의 빈 영역을 클릭하여 슬라이서를 선택 취소합니다.
 
@@ -258,13 +238,13 @@ lab:
 
     - 판매 \| 판매
 
-25. 시각적 개체 필드 창(**필드** 창이 아니며 **시각화** 창 아래에 시각적 필드 창 위치)에서 필드가 **공유 축** 및 **열 값** 웰/영역에 할당되었는지 확인합니다.
+25. 시각적 개체 필드 창(**필드** 창이 아니며 **시각화** 창 아래에 있음)에서 필드가 **x-축** 및 **열 y-축** 웰/영역에 할당되었는지 확인합니다.
 
-    ![그림 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
+    ![그림 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
     필드를 시각적 개체로 드래그하면 기본 웰/영역에 추가됩니다. 정밀도를 위해 필드를 웰/영역으로 직접 끌어올 수 있습니다. 다음 작업에서 이와 같이 필드를 끌어올 것입니다.
 
-26. **필드** 창에서 **판매 \| 이익률** 필드를 **꺾은선형 값** 웰/영역으로 끌어 옵니다.
+26. **필드** 창에서 **판매 \| 이익률** 필드를 **꺾은선형 y-축** 웰/영역으로 끌어 옵니다.
 
     ![그림 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -272,7 +252,7 @@ lab:
 
     2020년 6월의 마지막 달에는 아직 판매량이 없습니다. 기본적으로 시각적 개체는 판매량이 비어 있는 월을 제거했습니다. 이제 모든 월을 표시하도록 시각적 개체를 구성합니다.
 
-28. 시각적 필드 창의 **공유 축** 웰/영역에서 **월** 필드에 대해 아래쪽 화살표를 클릭한 후 **데이터 없이 항목 표시**를 선택합니다.
+28. 시각적 개체 필드 창의 **x-축** 웰/영역에서 **월** 필드에 대해 아래쪽 화살표를 클릭한 후 **데이터 없이 항목 표시**를 선택합니다.
 
     ![그림 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -316,7 +296,7 @@ lab:
 
     ![그림 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. **데이터 색** 그룹을 확장한 다음 **기본 색** 속성을 적절한 색(세로 막대형 차트/꺾은선형 차트를 보완하는 색)으로 설정합니다.
+39. **막대**와 **색** 그룹을 차례로 확장한 후 **기본 색** 속성을 적절한 색(세로 막대형 차트/꺾은선형 차트를 보완하는 색)으로 설정합니다.
 
 40. **데이터 레이블** 속성을**켜짐**으로 설정합니다.
 
@@ -343,11 +323,10 @@ lab:
     ![그림 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
-‎ 
 
 3. **지역 \| 지역** 필드에 따라 슬라이서를 추가합니다.
 
-4. **형식** 창을 사용하여 **선택 컨트롤** 그룹에서 "모두 선택" 옵션을 사용하도록 설정합니다.
+4. **서식** 창을 사용하여 (**선택** 그룹의) “모두 선택” 옵션을 사용하도록 설정합니다.
 
 5. 높이가 보고서 높이의 절반 정도가 되도록 시각적 개체의 크기를 조정한 다음 보고서 페이지 왼쪽에 배치합니다.
 
@@ -441,7 +420,7 @@ lab:
 
 1. 시각적 개체의 형식을 지정합니다.
 
-    - **데이터 레이블** 그룹에서 **텍스트 크기** 속성을 **28pt**로 늘립니다.
+    - **설명선 값** 그룹에서 **텍스트 크기** 속성을 **28pt**로 늘립니다.
 
     - **배경** 그룹에서 **색**을 연한 회색으로 설정합니다.
 
@@ -455,9 +434,9 @@ lab:
 
 1. 다음 필드를 시각적 개체 웰/영역에 추가합니다.
 
-    - 축: **날짜 \| 월**
+    - Y축: **날짜 \| 월**
 
-    - 값: **판매 \| 판매** 및 **목표 \| 목표**
+    - X축: **판매 \| 판매** 및 **목표 \| 목표**
 
     ![그림 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
@@ -523,7 +502,9 @@ lab:
 
 3. 보고서를 열려면 **판매 분석** 보고서를 클릭합니다.
 
-4. 왼쪽의 **페이지** 창에서 **개요** 페이지를 선택합니다. 
+4. 왼쪽의 **페이지** 창에서 **개요** 페이지를 선택합니다.
+ 
+    **참고**: 맵 시각적 개체가 비활성화되었다는 오류가 표시되면 브라우저를 새로 고치세요.**
 
 5. **지역** 슬라이서에서 **Ctrl** 키를 누르면 여러 지역을 선택합니다.
 

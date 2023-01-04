@@ -1,13 +1,13 @@
 ---
 lab:
   title: 'Power BI Desktop에서 보고서 디자인, 2부'
-  module: Module 7 - Create Reports
+  module: 7 - Create Reports
 ---
 
 
-# <a name="design-a-report-in-power-bi-desktop-part-2"></a>**Power BI Desktop에서 보고서 디자인, 2부**
+# <a name="design-a-report-in-power-bi-desktop-part-2"></a>Power BI Desktop에서 보고서 디자인, 2부
 
-**이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
+**이 랩의 예상 완료 시간은 45분입니다.**
 
 이 랩에서는 고급 디자인 기능을 통해 **판매 분석**을 개선합니다.
 
@@ -23,27 +23,27 @@ lab:
 
 ### <a name="lab-story"></a>**랩 사례**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서를 따르는 것이 좋습니다.
+이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
 1. Power BI Desktop에서 데이터 준비
 
 2. Power BI Desktop에서 데이터 로드
 
-3. Power BI Desktop에서 데이터 모델링
+3. Power BI에서 데이터 모델 디자인
 
-5. Power BI Desktop에서 DAX 계산 만들기 1부
+4. Power BI Desktop에서 DAX 계산 만들기 1부
 
-6. Power BI Desktop에서 DAX 계산 만들기, 2부
+5. Power BI Desktop에서 DAX 계산 만들기, 2부
 
-7. Power BI Desktop에서 보고서 디자인, 1부
+6. Power BI Desktop에서 보고서 디자인, 1부
 
-8. **Power BI Desktop에서 보고서 디자인, 2부**
+7. **Power BI Desktop에서 보고서 디자인, 2부**
+
+8. AI 시각적 개체를 사용하여 데이터 분석
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
-
-11. 행 수준 보안 적용
+10. 행 수준 보안 적용
 
 ## <a name="exercise-1-configure-sync-slicers"></a>**연습 1: 슬라이서 동기화 구성**
 
@@ -59,29 +59,23 @@ lab:
 
     ![그림 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-1. Microsoft Edge 브라우저 창에서 **https://powerbi.com**으로 이동합니다.
+2. Microsoft Edge 브라우저 창에서 **https://powerbi.microsoft.com**으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 표시줄에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
-1. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
+3. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
 
     ![그림 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
 
-1. 제공된 계정 정보를 입력합니다.
+4. 로그인 프로세스를 완료합니다.
 
-1. 암호를 업데이트할지 묻는 프롬프트가 표시되면 제공된 암호를 다시 입력하고 새 암호를 입력한 후 확인합니다.
+5. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
 
-    *중요: 새 암호를 기록해야 합니다.*
-
-1. 로그인 프로세스를 완료합니다.
-
-1. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
-
-1. Microsoft Edge 브라우저 창의 Power BI 서비스 **탐색** 창에서 **내 작업 영역**을 확장합니다.
+6. Microsoft Edge 브라우저 창의 Power BI 서비스 **탐색** 창에서 **내 작업 영역**을 확장합니다.
 
     ![그림 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
-1. Microsoft Edge 브라우저 창을 열어 둡니다.
+7. Microsoft Edge 브라우저 창을 열어 둡니다.
 
 ### <a name="task-2-get-started--open-report"></a>작업 2: 시작하기 – 보고서 열기
 
@@ -113,7 +107,7 @@ lab:
 
     ![그림 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. **열기** 창에서 **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** 폴더로 이동합니다.
+8. **열기** 창에서 **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** 폴더로 이동합니다.
 
 9. **판매 분석** 파일을 선택합니다.
 
@@ -219,9 +213,11 @@ lab:
 
 8. 시각적 개체에 대한 서식 옵션을 구성한 다음, **범주 레이블** 속성을 **끔**으로 설정합니다.
 
-    ![그림 103](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image25.png)
+    ![그림 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36b.png)
 
-9. **배경색** 속성을 연한 회색으로 설정합니다.
+9. **효과 > 배경** 색상 속성을 연한 회색으로 설정합니다.
+    
+    ![그림 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36c.png)
 
 10. 페이지에 **테이블** 시각적 개체를 추가한 다음 크기를 조정하고 카드 시각적 개체 아래에 배치하여 페이지의 나머지 공간을 채웁니다.
 
@@ -241,7 +237,7 @@ lab:
 
     - 판매 \| 이익률
 
-12. 시각적 개체에 대한 서식 옵션을 구성한 다음 **그리드** 섹션에서 **텍스트 크기** 속성을 **20pt**로 설정합니다.
+12. 시각적 개체에 대한 서식 옵션을 구성한 다음, **값** 섹션에서 **텍스트 크기** 속성을 **20pt**로 설정합니다.
 
     드릴스루 페이지의 디자인이 거의 완료되었습니다. 다음 연습에서 조건부 서식을 사용하여 페이지를 개선할 것입니다.
 
@@ -303,11 +299,11 @@ lab:
 
 9. **색** 필드의 배경색 조건부 서식을 구성합니다.
 
-10. **배경색 – 색상** 창의 **다음 형식 사용** 드롭다운 목록에서 **필드 값**을 선택합니다.
+10. **배경색 - 색** 창의 **서식 스타일** 드롭다운 목록에서 **필드 값**을 선택합니다.
 
-    ![그림 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
+    
 
-11. **필드 기준** 드롭다운 목록에서 **제품 \| 서식 \| 배경색 서식**을 선택합니다.
+11. **이 값은 어떤 필드를 기반으로 해야 하나요?** 드롭다운 목록에서 **제품 \| 서식\| 배경색 서식**을 선택합니다.
 
     ![그림 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
@@ -397,15 +393,15 @@ lab:
 
 2. **연도** 슬라이서 바로 아래에 단추를 배치합니다.
 
-3. 단추를 선택하고 **서식 단추** 창에서 **단추 텍스트** 속성을 **켜기**로 설정합니다.
+3. 단추를 선택하고 **서식 단추** 창에서 **일반**을 클릭한 후 **제목** 속성을 **켜기**로 설정합니다.
 
-    ![그림 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49.png)
+    ![그림 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49b.png)
 
-4. **단추 텍스트** 섹션을 확장한 다음 **단추 텍스트** 상자에 **가로 막대형 차트**를 입력합니다.
+4. **제목** 섹션을 확장한 다음 **텍스트** 상자에 **막대형 차트**를 입력합니다.
 
 5. **배경** 섹션을 확장한 다음 보색을 사용하여 배경색을 설정합니다.
 
-6. **작업** 속성을 **켬**으로 설정합니다(목록 아래쪽 근처에 있음).
+6. **단추**를 클릭하고 **작업** 속성을 **켬**으로 설정합니다.
 
     ![그림 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
@@ -467,7 +463,7 @@ lab:
 
 이 작업에서는 Power BI 서비스의 보고서를 살펴봅시다.
 
-1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **판매 분석** 보고서를 클릭합니다.
+1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **내 작업 영역**을 선택한 후 **판매 분석** 보고서를 클릭합니다.
 
 2. 드릴스루 보고서를 테스트하려면 **개요** 페이지에서 **범주별 수량** 시각적 개체에서 **의류** 표시줄을 마우스 오른쪽 단추로 클릭한 다음, **드릴스루 \| 제품 세부 정보**를 선택합니다.
 
