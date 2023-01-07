@@ -4,7 +4,7 @@
 
 - **MCT이신가요?** - [MCT를 위한 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
 - **랩 지침을 수동으로 빌드해야 하나요?** - 지침은 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 확인할 수 있습니다.
-- **어떤 랩에서 어떤 모듈을 사용하는지에 대한 복습이 필요한가요?** - [GitHub 페이지](https://microsoftlearning.github.io/DA-100-Analyzing-Data-with-Power-BI/) 확인
+- **어떤 랩에서 어떤 과정 프레젠테이션을 사용하는지에 대한 복습이 필요한가요?** - [GitHub 페이지](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/) 확인
 
 ## <a name="what-are-we-doing"></a>우리가 하는 일
 
@@ -30,7 +30,7 @@
 
 - 버그, 변경 내용, 개선 사항 및 아이디어를 제출할 수 있습니다.  Microsoft보다 먼저 새로운 Power BI 기능을 찾았다면  새 데모를 제출하세요!
 
-## <a name="notes"></a>메모
+## <a name="notes"></a>참고
 
 ### <a name="classroom-materials"></a>강의 자료
 
