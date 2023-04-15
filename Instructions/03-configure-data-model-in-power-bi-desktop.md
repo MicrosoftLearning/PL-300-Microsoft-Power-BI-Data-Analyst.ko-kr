@@ -5,7 +5,7 @@ lab:
 ---
 
 
-# <a name="design-a-data-model-in-power-bi"></a>Power BI에서 데이터 모델 디자인
+# Power BI에서 데이터 모델 디자인
 
 **이 랩의 예상 완료 시간은 45분입니다.**
 
@@ -20,7 +20,7 @@ lab:
 - 계층 구조 만들기
 
 
-### <a name="lab-story"></a>**랩 사례**
+### **랩 사례**
 
 이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
@@ -44,11 +44,11 @@ lab:
 
 10. 행 수준 보안 적용
 
-## <a name="exercise-1-create-model-relationships"></a>**연습 1: 모델 관계 만들기**
+## **연습 1: 모델 관계 만들기**
 
 이 연습에서는 모델 관계를 만듭니다.
 
-### <a name="task-1-get-started"></a>**작업 1: 시작하기**
+### **작업 1: 시작하기**
 
 이 작업에서는 랩용 환경을 설정합니다.
 
@@ -98,7 +98,7 @@ lab:
 
     ![그림 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
-### <a name="task-2-create-model-relationships"></a>**작업 2: 모델 관계 만들기**
+### **작업 2: 모델 관계 만들기**
 
 이 작업에서는 모델 관계를 만듭니다.
 
@@ -213,11 +213,11 @@ lab:
 
 26. Power BI Desktop 파일을 저장합니다.
 
-## <a name="exercise-2-configure-tables"></a>**연습 2: 테이블 구성**
+## **연습 2: 테이블 구성**
 
 이 연습에서는 계층 구조를 만들고 열을 숨기고 서식을 지정하고 분류하여 각 테이블을 구성합니다.
 
-### <a name="task-1-configure-the-product-table"></a>**작업 1: Product 테이블 구성**
+### **작업 1: Product 테이블 구성**
 
 이 작업에서는 **Product** 테이블을 구성합니다.
 
@@ -263,7 +263,7 @@ lab:
 
     표시 폴더는 특히 많은 필드로 구성된 테이블을 정리할 수 있는 좋은 방법입니다.
 
-### <a name="task-2-configure-the-region-table"></a>**작업 2: Region 테이블 구성**
+### **작업 2: Region 테이블 구성**
 
 이 작업에서는 **Region** 테이블을 구성합니다.
 
@@ -285,7 +285,7 @@ lab:
 
     데이터 분류는 보고서 디자이너에게 힌트를 제공할 수 있습니다. 이 경우 열을 국가 또는 지역으로 분류하면 맵 시각화를 렌더링할 때 Power BI에 더 정확한 정보가 제공됩니다.
 
-### <a name="task-3-configure-the-reseller-table"></a>**작업 3: Reseller 테이블 구성**
+### **작업 3: Reseller 테이블 구성**
 
 이 작업에서는 **Reseller** 테이블을 구성합니다.
 
@@ -311,7 +311,7 @@ lab:
 
 3. **국가-지역**, **시-도**, **도시** 열(계층 구조 수준 아님)에 대한 **데이터 범주**를 각각 **국가/지역**, **시/도** 및 **구/군/시**로 설정합니다. 
 
-### <a name="task-4-configure-the-sales-table"></a>**작업 4: Sales 테이블 구성**
+### **작업 4: Sales 테이블 구성**
 
 이 작업에서는 **Sales** 테이블을 구성합니다.
 
@@ -339,7 +339,7 @@ lab:
 
     기본적으로 숫자 열은 값을 합산하여 요약합니다. 이 기본 동작은 가격을 나타내는 **단가** 같은 열에 적합하지 않습니다. 기본 요약을 평균으로 설정하면 의미 있는 결과가 생성됩니다.
 
-### <a name="task-5-bulk-update-properties"></a>**작업 5: 속성 대량 업데이트**
+### **작업 5: 속성 대량 업데이트**
 
 이 작업에서는 단일 대량 업데이트를 사용하여 여러 열을 업데이트합니다. 대량 작업 방식으로 열을 숨기고 열 값의 서식을 지정합니다.
 
@@ -393,11 +393,11 @@ lab:
 
     ![그림 356](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image39.png)
 
-## <a name="exercise-3-review-the-model-interface"></a>**연습 3: 모델 인터페이스 검토**
+## **연습 3: 모델 인터페이스 검토**
 
 이 연습에서는 보고서 뷰로 전환해서 모델 인터페이스를 검토합니다.
 
-### <a name="task-1-review-the-model-interface"></a>**작업 1: 모델 인터페이스 검토**
+### **작업 1: 모델 인터페이스 검토**
 
 이 작업에서는 보고서 뷰로 전환하고 모델 인터페이스를 검토합니다.
 
@@ -448,11 +448,11 @@ lab:
     ![그림 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image45.png)
 
 
-## <a name="exercise-4-create-quick-measures"></a>**연습 4: 빠른 측정값 만들기**
+## **연습 4: 빠른 측정값 만들기**
 
 이 연습에서는 두 개의 빠른 측정값을 만듭니다.
 
-### <a name="task-1-create-quick-measures"></a>**작업 1: 빠른 측정값 만들기**
+### **작업 1: 빠른 측정값 만들기**
 
 이 작업에서는 수익과 수익률을 계산하는 두 가지 빠른 측정을 만들겠습니다.
 
@@ -526,7 +526,7 @@ lab:
 
     ![그림 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
 
-### <a name="task-2-create-a-many-to-many-relationship"></a>**작업 2: 다대다 관계 만들기**
+### **작업 2: 다대다 관계 만들기**
 
 이 작업에서는 **Salesperson** 테이블과 **Sales** 테이블 간에 다대다 관계를 만듭니다.
 
@@ -534,7 +534,7 @@ lab:
 
     - Salesperson \| Salesperson
 
-    - 판매 \| 판매
+    - Sales \| Sales
 
     랩에서는 약식 표기법을 사용하여 필드를 참조합니다. 다음과 같이 표시됩니다. **Salesperson \| Salesperson** . 이 예에서 **Salesperson**은 테이블 이름이고 **Salesperson**은 필드 이름입니다.
 
@@ -623,7 +623,7 @@ lab:
 
     이제 이름이 변경된 테이블은 할당된 판매 지역의 판매량을 기반으로 영업 사원의 실적을 보고하고 분석하는 데 사용됩니다.
 
-### <a name="task-3-relate-the-targets-table"></a>**작업 3: Targets 테이블 관계**
+### **작업 3: Targets 테이블 관계**
 
 이 작업에서는 **Targets** 테이블에 대한 관계를 만듭니다.
 
@@ -637,7 +637,7 @@ lab:
 
     이제 판매와 목표를 시각화할 수 있지만 주의해야 할 부분이 두 가지 있습니다. 첫째, 기간을 기준으로 한 필터가 없으므로 목표(향후 목표 금액 포함)를 기준으로 한 필터도 없습니다. 둘째, 목표는 가산되지 않으므로, 합계가 표시되지 않습니다. 목표는 시각적 개체의 서식을 지정하여 사용하지 않도록 설정하거나 계산 논리를 사용하여 제거할 수 있습니다. **Power BI Desktop에서 DAX 계산 만들기, 2부** 랩에서는 둘 이상의 영업 직원이 필터링될 때 공백을 반환하는 목표 측정값을 만들어 두 번째 접근 방식을 따릅니다.
 
-### <a name="task-4-finish-up"></a>**작업 4: 완료**
+### **작업 4: 완료**
 
 이 작업에서는 랩을 완료합니다.
 
