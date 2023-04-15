@@ -5,7 +5,7 @@ lab:
 ---
 
 
-# <a name="enforce-row-level-security"></a>**행 수준 보안 적용**
+# **행 수준 보안 적용**
 
 **이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
 
@@ -15,7 +15,7 @@ lab:
 
 - 행 수준 보안 적용
 
-### <a name="lab-story"></a>**랩 사례**
+### **랩 사례**
 
 이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
@@ -39,11 +39,11 @@ lab:
 
 10. **행 수준 보안 적용**
 
-## <a name="exercise-1-enforce-row-level-security"></a>**연습 1: 행 수준 보안 적용**
+## **연습 1: 행 수준 보안 적용**
 
 이 연습에서는 영업 직원이 할당된 지역에 대한 판매량만 볼 수 있도록 행 수준 보안을 적용합니다.
 
-### <a name="task-1-get-started"></a>**작업 1: 시작하기**
+### **작업 1: 시작하기**
 
 이 작업에서는 랩용 환경을 설정합니다.
 
@@ -93,7 +93,7 @@ lab:
 
     ![그림 2](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image8.png)
 
-### <a name="task-2-enforce-row-level-security"></a>**작업 2: 행 수준 보안 적용**
+### **작업 2: 행 수준 보안 적용**
 
 이 작업에서는 영업 직원이 할당된 지역에 대한 판매량만 볼 수 있도록 행 수준 보안을 적용합니다.
 
@@ -121,7 +121,7 @@ lab:
 
     ![그림 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
 
-8. 필터를 할당하려면 **영업 직원(성과)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가 \| [UPN]** 을 선택합니다.
+8. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가 \| [UPN]** 을 선택합니다.
 
     ![그림 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
 
@@ -179,7 +179,7 @@ lab:
 
     ![그림 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-3-finish-up"></a>**작업 3: 완료**
+### **작업 3: 완료**
 
 이 작업에서는 랩을 완료합니다.
 
