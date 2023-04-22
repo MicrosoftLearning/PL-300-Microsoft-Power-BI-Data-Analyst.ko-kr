@@ -4,7 +4,7 @@ lab:
   module: '3 - Clean, Transform, and Load Data in Power BI'
 ---
 
-# <a name="load-data-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 로드
+# Power BI Desktop에서 데이터 로드
 
 **이 랩의 예상 완료 시간은 45분입니다.**
 
@@ -16,7 +16,7 @@ lab:
 
 - 쿼리를 적용하여 데이터 모델에 로드
 
-## <a name="lab-story"></a>**랩 사례**
+## **랩 사례**
 
 이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
 
@@ -40,11 +40,11 @@ lab:
 
 10. 행 수준 보안 적용
 
-## <a name="exercise-1-load-data"></a>**연습 1: 데이터 로드**
+## **연습 1: 데이터 로드**
 
 이 연습에서는 이전 랩에서 만든 각 쿼리에 변환을 적용합니다.
 
-### <a name="task-1-get-started"></a>**작업 1: 시작하기**
+### **작업 1: 시작하기**
 
 이 작업에서는 랩용 환경을 설정합니다.
 
@@ -106,7 +106,7 @@ lab:
 
     ![그림 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
-### <a name="task-2-configure-the-salesperson-query"></a>**작업 2: Salesperson 쿼리 구성**
+### **작업 2: Salesperson 쿼리 구성**
 
 이 작업에서는 **Salesperson** 쿼리를 구성합니다.
 
@@ -218,7 +218,7 @@ lab:
 
     *중요: 쿼리가 올바른 결과를 생성하지 않으면 나중에 랩을 진행할 수 없게 되므로 더 진행하지 않는 것이 중요합니다. 쿼리 열 또는 행이 일치하지 않는 경우 이 작업의 단계를 다시 참조하여 문제를 해결하세요.*
 
-### <a name="task-3-configure-the-salespersonregion-query"></a>**작업 3: SalespersonRegion 쿼리 구성**
+### **작업 3: SalespersonRegion 쿼리 구성**
 
 이 작업에서는 **SalespersonRegion** 쿼리를 구성합니다.
 
@@ -240,7 +240,7 @@ lab:
 
     ![그림 5641](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image29.png)
 
-### <a name="task-4-configure-the-product-query"></a>**작업 4: Product 쿼리 구성**
+### **작업 4: Product 쿼리 구성**
 
 이 작업에서는 **Product** 쿼리를 구성합니다.
 
@@ -308,7 +308,7 @@ lab:
 
     ![그림 5651](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image35.png)
 
-### <a name="task-5-configure-the-reseller-query"></a>**작업 5: Reseller 쿼리 구성**
+### **작업 5: Reseller 쿼리 구성**
 
 이 작업에서는 **Reseller** 쿼리를 구성합니다.
 
@@ -374,7 +374,7 @@ lab:
 
     ![그림 5657](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image42.png)
 
-### <a name="task-6-configure-the-region-query"></a>**작업 6: Region 쿼리 구성**
+### **작업 6: Region 쿼리 구성**
 
 이 작업에서는 **Region** 쿼리를 구성합니다.
 
@@ -406,7 +406,7 @@ lab:
 
     ![그림 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
 
-### <a name="task-7-configure-the-sales-query"></a>**작업 7: Sales 쿼리 구성**
+### **작업 7: Sales 쿼리 구성**
 
 이 작업에서는 **Sales** 쿼리를 구성합니다.
 
@@ -440,7 +440,7 @@ lab:
 
     - DimProduct
 
-    **Power BI Desktop에서 데이터 준비** 랩에서는 소수의 **FactResellerSales** 행에 **TotalProductCost** 값이 없었습니다. **DimProduct** 열은 제품 표준 비용 열을 검색하여 누락된 값을 쉽게 수정할 수 있도록 포함된 것입니다.
+    **Power BI Desktop에서 데이터 준비** 랩에서는 소수의 **FactResellerSales** 행에 **TotalProductCost** 값이 없었습니다. **DimProduct** 열은 제품 표준 Cost 열을 검색하여 누락된 값을 쉽게 수정할 수 있도록 포함된 것입니다.
 
 4. **DimProduct** 열을 확장한 다음 모든 열을 선택 취소하고 **StandardCost** 열만 포함합니다.
 
@@ -448,7 +448,7 @@ lab:
 
     ![그림 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
 
-6. **새 열 이름** 상자의 **사용자 지정 열** 창에서 텍스트를 **비용**으로 바꿉니다.
+6. **새 열 이름** 상자의 **사용자 지정 열** 창에서 텍스트를 **Cost**으로 바꿉니다.
 
     ![그림 5665](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image48.png)
 
@@ -481,7 +481,7 @@ lab:
 
     - **SalesAmount**를 **Sales**로
 
-11. 열 데이터 형식을 수정하려면 열 이름 왼쪽에 있는 **수량** 열 헤더에서 **1.2** 아이콘을 클릭한 다음 **정수**를 선택합니다.
+11. 열 데이터 형식을 수정하려면 열 이름 왼쪽에 있는 **Quantity** 열 헤더에서 **1.2** 아이콘을 클릭한 다음 **정수**를 선택합니다.
 
     ![그림 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
@@ -491,9 +491,9 @@ lab:
 
     - Unit Price
 
-    - 매출
+    - Sales
 
-    - 비용
+    - Cost
 
     ![그림 5668](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image51.png)
 
@@ -505,7 +505,7 @@ lab:
 
     *쿼리별 미리 보기 데이터에는 행이 1,000개까지 로드됩니다.*
 
-### <a name="task-8-configure-the-targets-query"></a>**작업 8: Targets 쿼리 구성**
+### **작업 8: Targets 쿼리 구성**
 
 이 작업에서는 **Targets** 쿼리를 구성합니다.
 
@@ -557,13 +557,13 @@ lab:
 
 13. 첫 번째 행은 **2017**년, 월 번호 **7**입니다.
 
-14. **Column1** 열의 첫 번째 그리드 셀에서 **07/01/2017**을 입력한 다음 **Enter**를 누릅니다.
+14. **Column1** 열의 첫 번째 그리드 셀에서 **7/1/2017**을 입력한 다음 **Enter**를 누릅니다.
 
     가상 머신은 미국 지역 설정을 사용하므로 이 날짜는 실제로 2017년 7월 1일입니다.
 
 15. 그리드 셀이 예측된 값으로 업데이트됩니다.
 
-    이 기능은 **연도** 및 **MonthNumber** 열의 값을 결합하고 있음을 정확하게 예측했습니다.
+    이 기능은 **Year** 및 **MonthNumber** 열의 값을 결합하고 있음을 정확하게 예측했습니다.
 
 16. 쿼리 그리드 위에 표시되는 수식에도 주목하세요.
 
@@ -609,7 +609,7 @@ lab:
 
     ![그림 5685](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image66.png)
 
-### <a name="task-9-configure-the-colorformats-query"></a>**작업 9: ColorFormats 쿼리 구성**
+### **작업 9: ColorFormats 쿼리 구성**
 
 이 작업에서는 **ColorFormats** 쿼리를 구성합니다.
 
@@ -627,7 +627,7 @@ lab:
 
     ![그림 5689](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image69.png)
 
-### <a name="task-10-update-the-product-query"></a>**작업 10: Product 쿼리 업데이트**
+### **작업 10: Product 쿼리 업데이트**
 
 이 작업에서는 **ColorFormats** 쿼리를 병합하여 **Product** 쿼리를 업데이트합니다.
 
@@ -641,7 +641,7 @@ lab:
 
     쿼리를 병합하면 데이터를 통합할 수 있는데, 이 경우에는 다양한 데이터 원본(SQL Server 및 CSV 파일)의 데이터를 통합할 수 있습니다.
 
-3. **제품** 쿼리 표의 **병합** 창에서 **색상** 열 헤더를 선택합니다.
+3. **제품** 쿼리 표의 **병합** 창에서 **Color** 열 헤더를 선택합니다.
 
     ![그림 5655](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image72.png)
 
@@ -649,7 +649,7 @@ lab:
 
     ![그림 21](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image73.png)
 
-5. **ColorFormats** 쿼리 표에서 **색상** 열 헤더를 선택합니다.
+5. **ColorFormats** 쿼리 표에서 **Color** 열 헤더를 선택합니다.
 
 6. **개인 정보 수준** 창이 열리면 해당 드롭다운 목록에서 두 데이터 원본 각각에 대해 **조직**을 선택합니다.
 
@@ -667,7 +667,7 @@ lab:
 
 9. 다음 두 개의 열을 포함하도록 **ColorFormats** 열을 확장합니다.
 
-    - 배경색 형식
+    - Background Color Format
 
     - 글꼴 색 형식
 
@@ -677,7 +677,7 @@ lab:
 
     ![그림 5695](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image78.png)
 
-### <a name="task-11-update-the-colorformats-query"></a>**작업 11: ColorFormats 쿼리 업데이트**
+### **작업 11: ColorFormats 쿼리 업데이트**
 
 이 작업에서는 **ColorFormats**를 업데이트하여 로드를 비활성화합니다.
 
@@ -689,7 +689,7 @@ lab:
 
     ![그림 322](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image80.png)
 
-3. **쿼리 속성** 창에서 **보고하기 위해 로드 실행** 확인란을 선택 취소합니다.
+3. **보고서에** 로드 **사용 확인란을 실행** 선택 취소합니다.
 
     ![그림 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
@@ -699,7 +699,7 @@ lab:
 
     ![그림 324](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image82.png)
 
-### <a name="task-12-finish-up"></a>**작업 12: 완료**
+### **작업 12: 완료**
 
 이 작업에서는 랩을 완료합니다.
 
@@ -715,7 +715,7 @@ lab:
 
     - Region
 
-    - 매출
+    - Sales
 
     - 대상
 
