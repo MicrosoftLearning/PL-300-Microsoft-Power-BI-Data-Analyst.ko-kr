@@ -1,44 +1,28 @@
 ---
 lab:
   title: 행 수준 보안 적용
-  module: 12 - Row-Level Security
+  module: Enforce Row-Level Security
 ---
 
 
 # **행 수준 보안 적용**
 
-**이 랩을 완료하는 데 걸리는 예상 완료 시간은 45분입니다.**
+## **랩 사례**
 
-이 랩에서는 영업 사원이 할당된 지역에 대한 판매 데이터만 분석할 수 있도록 행 수준 보안을 적용합니다.
+이 랩에서는 행 수준 보안을 적용하여 영업 사원이 할당된 지역의 판매 데이터만 분석할 수 있도록 합니다.
 
 이 랩에서는 다음 작업을 수행하는 방법을 알아봅니다.
 
 - 행 수준 보안 적용
+- 동적 메서드와 정적 메서드 중에서 선택
 
-### **랩 사례**
+**이 랩은 약 45분이 소요됩니다.**
 
-이 랩은 데이터 준비부터 보고서 및 대시보드로 게시에 이르기까지 전체 사례로 고안된 랩 시리즈 중 하나입니다. 어떤 순서로든 랩을 완료할 수 있습니다. 그러나 여러 랩을 진행하려는 경우 다음 순서를 따르는 것이 좋습니다.
-
-1. Power BI Desktop에서 데이터 준비
-1. Power BI Desktop에서 데이터 로드
-1. Power BI에서 데이터 모델 디자인
-1. Power BI Desktop DAX 계산 만들기
-1. Power BI Desktop 고급 DAX 계산 만들기
-1. Power BI Desktop 보고서 디자인
-1. Power BI Desktop 보고서 향상
-1. Power BI Desktop에서 데이터 분석 수행
-1. Power BI 대시보드 만들기
-1. **행 수준 보안 적용**
-
-## **연습 1: 행 수준 보안 적용**
-
-이 연습에서는 행 수준 보안을 적용하여 영업 사원이 할당된 지역에서 만든 판매액만 볼 수 있도록 합니다.
-
-### **작업 1: 시작하기**
+## **시작**
 
 이 작업에서는 랩에 대한 환경을 설정합니다.
 
-*중요: 이전 랩에서 계속 진행 중이고 랩을 성공적으로 완료한 경우 이 작업을 완료하지 마세요. 대신 다음 작업에서 계속합니다.*
+*중요: 이전 랩에서 계속 진행하는 경우(해당 랩을 성공적으로 완료한 경우) 이 작업을 완료하지 마세요. 대신 다음 작업에서 계속합니다.*
 
 1. Power BI Desktop을 엽니다.
 
@@ -48,7 +32,7 @@ lab:
 
 1. 시작 Power BI Desktop 파일을 열려면 **파일 > 보고서 열기 > 보고서 찾아보기를** 선택합니다.
 
-1. **열기** 창에서 **D:\PL300\Labs\10-row-level-security\Starter** 폴더로 이동하고 **판매 분석** 파일을 엽니다.
+1. **열기** 창에서 **D:\PL300\Labs\10-row-level-security\Starter** 폴더로 이동하여 **Sales Analysis** 파일을 엽니다.
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
@@ -60,15 +44,15 @@ lab:
 
 1. 변경 내용을 적용할지 묻는 프롬프트가 표시되면 **나중에 적용**을 선택합니다.
 
-### **작업 2: 행 수준 보안 적용**
+## **행 수준 보안 적용**
 
-이 작업에서는 영업 사원이 할당된 지역에서 만든 판매만 볼 수 있도록 행 수준 보안을 적용합니다.
+이 작업에서는 행 수준 보안을 적용하여 영업 사원이 할당된 지역에서 만든 판매만 볼 수 있도록 합니다.
 
 1. 데이터 뷰로 전환합니다.
 
    ![그림 5701](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image20.png)
 
-1. **필드** 창에서 **Salesperson (Performance)** 테이블을 선택합니다.
+1. **데이터** 창에서 **Salesperson(성능)** 테이블을 선택합니다.
 
 
 1. 데이터를 검토하면 Michael Blythe(EmployeeKey 281)의 UPN 값이 **michael-blythe@adventureworks.com** 임을 확인할 수 있습니다.
@@ -89,7 +73,7 @@ lab:
 
    ![그림 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
 
-1. **테이블 필터 DAX 식** 상자에서 **"Value"** 를 **USERPRINCIPALNAME()** 으로 바꿔 식을 수정한 다음 **저장**합니다.
+1. **테이블 필터 DAX 식** 상자에서 **"Value"** 를 **USERPRINCIPALNAME()** 으로 바꾸고 저장하여 식을 수정**합니다**.
     
     USERPRINCIPALNAME()은 인증된 사용자의 이름을 반환하는 DAX(Data Analysis Expressions) 함수입니다. 즉, **영업 직원(성과)** 테이블이 모델을 쿼리하는 사용자의 UPN(사용자 계정 이름)을 기준으로 필터링됩니다.
 
@@ -101,7 +85,7 @@ lab:
 
 1. **역할로 보기** 창에서 **다른 사용자** 항목을 선택하고 해당하는 상자에 **michael-blythe@adventureworks.com** 을 입력합니다.
 
-1. **영업 사원** 역할을 확인한 다음 **확인을 선택합니다**.
+1. **Salespeople** 역할을 확인한 다음 **확인을 선택합니다**.
     
     이렇게 구성하면 **영업 직원** 역할을 사용하고 Michael Blythe의 이름으로 사용자를 가장하게 됩니다.
 
@@ -127,6 +111,10 @@ lab:
 
    ![그림 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
 
+### **완료**
+
+이번 작업에서는 랩을 마무리합니다.
+
 1. **저장**을 선택한 다음, Power BI Desktop 파일을 저장하여 랩을 종료합니다.
 
-*참고: Power BI Desktop 파일이 Power BI 서비스 게시되면 게시 후 작업을 완료하여 보안 주체를 **영업 사원** 역할에 매핑해야 합니다. 이 랩에서는 그렇게 하지 않습니다.*
+*참고: Power BI Desktop 파일이 Power BI 서비스 게시되면 게시 후 작업을 완료하여 보안 주체를 **Salespeople** 역할에 매핑해야 합니다. 이 랩에서는 그렇게 하지 않습니다.*
