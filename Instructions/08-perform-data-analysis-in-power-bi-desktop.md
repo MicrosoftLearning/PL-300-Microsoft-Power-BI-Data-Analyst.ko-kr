@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Power BI에서 고급 분석 수행
+  title: AI 시각적 개체를 사용하여 고급 분석 수행
   module: Perform Data Analysis in Power BI
 ---
 
