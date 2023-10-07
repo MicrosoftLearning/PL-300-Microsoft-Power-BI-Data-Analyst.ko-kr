@@ -1,44 +1,44 @@
 ---
 demo:
-  "\_\_ title": Perform data analysis in Power BI
-  "\_\_ module": Perform data analysis in Power BI
+    title: 'Perform data analysis in Power BI'
+    module: 'Perform data analysis in Power BI'
 ---
-# 데이터 분석 수행
+# Perform data analysis
 
-## 그룹 추가
+## Add a group
 
-1. 보고서에 **범주 분석**이라는 다른 새 페이지를 추가합니다.
+1. Add another new page to the report named **Category Analysis**.
 
-1. **수익 분석** 페이지에서 **연도 슬라이서를** 복사하여 붙여넣은 다음 새 페이지로 동기화합니다.
+1. Copy, paste, and then sync the **Year slicer** from the **Profit Analysis** page to the new page.
 
-1. **Product** 테이블 **Category** 열을 기준으로 새 그룹을 추가합니다.
+1. Add a new group based on the **Product** table **Category** column.
 
-1. Trainer 값을 기준으로 그룹을 만듭니다.
+1. Create a group based on the Trainer value.
 
-1. **기타 그룹 포함** 확인란을 선택합니다.
+1. Select the **Include Other Group** checkbox.
 
-1. 행렬 시각적 개체를 추가한 다음 크기를 조정하여 페이지를 채웁니다.
+1. Add a matrix visual, and position and size it so it fills the page.
 
-1. 다음과 같이 행렬 시각적 개체를 구성합니다.
+1. Configure the matrix visual as follows:
 
-    - 행: 제품 | 범주(그룹) 및 제품 | 제품
+    - Rows: Product | Category (groups) and Product | Product
 
-    - 값: Sales 테이블의 Quantity, Sales, Profit, Profit Margin
+    - Values: Quantity, Sales, Profit, and Profit Margin from the Sales table
 
-1. 두 범주를 모두 확장합니다.
+1. Expand both categories.
 
-## 조건부 서식 적용
+## Apply conditional formatting
 
-1. 행렬 시각적 개체에서 **이익률** 필드에 배경색 조건부 서식을 적용합니다.
+1. In the matrix visual, apply background color conditional formatting to the **Profit Margin** field.
 
-1. 최소값 색으로는 빨간색을, 최대값 색으로는 녹색을 선택합니다.
+1. Select red for the minimum color, and green for the maximum color.
 
-1. 이익률 값(오름차순)을 표시하는 데 사용되는 색 범위를 설명합니다.
+1. Point out the range of colors used to convey low-to-high profit margin values.
 
-1. Power BI Desktop 파일을 저장합니다.
+1. Save the Power BI Desktop file.
 
-1. 최신 작업 영역에 보고서를 게시하고 메시지가 표시되면 이전 보고서를 덮어씁니다.
+1. Publish the report to the newer workspace, overwriting when prompted.
 
-1. Power BI 서비스에서 **판매 분석** 보고서를 열고 각 보고서 페이지와 상호 작용합니다.
+1. In the Power BI service, open the **Sales Analysis** report, and interact with each of the report pages.
 
-1. Power BI Desktop 파일을 열어 둡니다.
+1. Leave the Power BI Desktop file open.
