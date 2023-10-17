@@ -1,31 +1,36 @@
-# Create dashboards in the Power BI service
+---
+demo:
+  "\_\_ title": Create dashboards in the Power BI service
+  "\_\_ module": Deploy and manage Power BI service items
+---
+# Power BI 서비스에서 대시보드 만들기
 
-## Create a dashboard
+## 대시보드 만들기
 
-1. First, in the Power BI service, create a new workspace.
+1. 먼저 Power BI 서비스 새 작업 영역을 만듭니다.
 
-1. Select the `D:\PL300\Demo\Resources\Icon-Airplane.jpg` image for workspace icon.
+1. `D:\PL300\Demo\Resources\Icon-Airplane.jpg` 작업 영역 아이콘에 대한 이미지를 선택합니다.
 
-1. In Power BI Desktop, publish the **Sales Analysis** report to the new workspace.
+1. Power BI Desktop에서 새 작업 영역에 **판매 분석** 보고서를 게시합니다.
 
-1. Once published, return to the Power BI service.
+1. 보고서가 게시되면 Power BI 서비스로 돌아옵니다.
 
-1. Open the **Sales Analysis** report, and then ensure the Year slicer is set to **CY2020**.
+1. **판매 분석** 보고서를 열고 연도 슬라이서가 **CY2020**으로 설정되어 있음을 확인합니다.
 
-## Pin report visuals
+## 보고서 시각적 개체 고정
 
-1. Pin the line and stacked column chart to create a new dashboard named **Sales Monitoring**.
+1. 꺾은선형 차트 및 누적 세로 막대형 차트를 고정하여 **판매 모니터링**이라는 새 대시보드를 만듭니다.
 
-1. Pin the funnel chart to the new dashboard.
+1. 새 대시보드에 깔때기형 차트를 고정합니다.
 
-1. Open the **Sales Monitoring** dashboard.
+1. **판매 모니터링** 대시보드를 엽니다.
 
-1. Edit the details of the **Profit Margin** tile and change the subtitle text to include the year (**CY2020**).
+1. **Profit Margin** 타일의 세부 정보를 편집하고 연도(**CY2020**)를 포함하도록 부제목 텍스트를 변경합니다.
 
-## Add Q&A tile
+## Q&A 타일 추가
 
-1. Use Q&A on the dashboard to ask the following question: **Total sales in CY2020**
+1. 대시보드에서 Q&A를 사용하여 다음 질문을 합니다. **CY2020의 총 판매량**
 
-1. Pin the response to the dashboard.
+1. 대시보드에 응답을 고정합니다.
 
-1. Show how to resize and reposition the tiles.
+1. 타일 크기를 조정하고 위치를 변경하는 방법을 시연합니다.

@@ -1,25 +1,30 @@
-# Get started with Microsoft data analytics
+---
+demo:
+  "\_\_ title": Get started with Microsoft data analytics
+  "\_\_ module": Get started with Microsoft data analytics
+---
+# Microsoft 데이터 분석 시작
 
-## Explore the dashboard
+## 대시보드 살펴보기
 
-1. Show the Sales Monitoring dashboard, and explain how it can be used to get at-a-glance facts.
+1. 판매 모니터링 대시보드를 표시한 다음 해당 대시보드를 사용하여 정보를 한눈에 살펴볼 수 있는 방법을 설명합니다.
 
-1. Click either tile to click through to the Sales Analysis report.
+1. 두 타일 중 하나를 클릭하여 판매 분석 보고서로 이동합니다.
 
-## Explore the report
+## 보고서 살펴보기
 
-1. Interact with various slicers and visuals across the pages.
+1. 보고서의 여러 페이지에서 다양한 슬라이서 및 시각적 개체와 상호 작용합니다.
 
-1. Edit the report, and then expand all fields in the Data pane.
+1. 보고서를 편집한 다음 데이터 창의 모든 필드를 확장합니다.
 
-## Describe the solution that will be developed during the course
+## 과정을 진행하면서 개발할 솔루션 설명
 
-1. Explain that the data model is based on a SQL Server database and an Excel workbook, which helps to determine cost of goods sold.
+1. 데이터 모델이 SQL Server 데이터베이스와 Excel 통합 문서를 기반으로 하므로 판매 상품 비용을 쉽게 확인할 수 있음을 설명합니다.
 
-1. Explain that a gateway will be set up to keep data current.
+1. 데이터를 최신 상태로 유지하기 위해 게이트웨이를 설정할 것임을 설명합니다.
 
-1. Explain that it will be shared with a recipient, and that recipients will only be allowed to see a subset of data being only the product categories they manage.
+1. 이 데이터 모델을 받는 사람과 공유할 것임을 설명합니다. 받는 사람은 데이터 하위 집합인 관리 대상 제품 범주만 확인할 수 있습니다.
 
-1. Return to the Power BI service home page, and collapse the workspace.
+1. Power BI 서비스 홈 페이지로 돌아와 작업 영역을 축소합니다.
 
-> **Note**: You will not use this pre-developed solution again.
+> **참고**: 미리 개발된 이 솔루션은 다시 사용하지 않습니다.

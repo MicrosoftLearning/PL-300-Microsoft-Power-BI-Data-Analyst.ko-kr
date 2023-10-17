@@ -1,30 +1,36 @@
-# Demo Setup
+---
+demo:
+  "\_\_ title": Setup demo environment
+  "\_\_ module": Setup demo environment
+---
 
-## VM Setup
+# 데모 설정
 
-1. Sign in to the virtual machine environment using the Student account.
+## VM 설정
 
-1. Open Microsoft Edge, then navigate to <https://powerbi.com> and sign in using the instructor account.
-    > **Tip**: If prompted to change the password, be sure to record it in the D:\PL300\Demo\Setup\MySettings.txt file.
+1. 수강생 계정을 사용하여 가상 머신 환경에 로그인합니다.
 
-1. In the Power BI service, accept the Power BI Pro trial.
+1. Microsoft Edge를 연 다음, 강사 계정으로 <https://powerbi.com> 이동하여 로그인합니다.
+    > **팁**: 암호를 변경하라는 메시지가 표시되면 D:\PL300\Demo\Setup\MySettings.txt 파일에 기록해야 합니다.
 
-## First demo setup
+1. Power BI 서비스에서 Power BI Pro 평가판 사용에 동의합니다.
 
-1. Create a workspace and use the D:\PL300\Demo\Resources\Icon-Star.jpg image as its icon.
+## 첫 번째 데모 설정
 
-1. Open the D:\PL300\Demo\Setup\Sales Analysis.pbix file in Power BI Desktop.
+1. D:\PL300\Demo\Resources\Icon-Star.jpg 이미지를 아이콘으로 사용하여 작업 영역을 만듭니다.
 
-1. In Power BI Desktop, sign in by using the instructor account.
+1. Power BI Desktop에서 D:\PL300\Demo\Setup\Sales Analysis.pbix 파일을 엽니다.
 
-1. Publish the report to the workspace you created earlier.
+1. Power BI Desktop에서 강사 계정을 사용하여 로그인합니다.
 
-1. In the Power BI service, open the Sales Analysis report, and then pin the column/line chart visual to create a new dashboard named Sales Monitoring.
+1. 앞에서 만든 작업 영역에 보고서를 게시합니다.
 
-1. Pin the funnel chart to the dashboard, also.
+1. Power BI 서비스에서 판매 분석 보고서를 연 다음 세로 막대형 차트/꺾은선형 차트 시각적 개체를 고정하여 판매 모니터링이라는 새 대시보드를 만듭니다.
 
-1. Open the dashboard and leave it ready for the first demo.
+1. 깔때기형 차트도 대시보드에 고정합니다.
 
-1. Close Power BI Desktop.
+1. 대시보드를 열고 첫 번째 데모에 사용할 수 있도록 준비해 둡니다.
 
-> **Note**: Demo assets can be found in the PL-300 Power BI Data Analyst [GitHub Repository](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo).
+1. Power BI Desktop을 닫습니다.
+
+> **참고**: 데모 자산은 PL-300 Power BI 데이터 분석가 [GitHub 리포지토리](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo)에서 찾을 수 있습니다.
