@@ -1,56 +1,51 @@
----
-demo:
-  "\_\_ title": Manage files and datasets in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
----
-# Power BI에서 파일 및 데이터 세트 관리
+# Manage files and datasets in Power BI
 
-## 게이트웨이 데이터 새로 고침 준비
+## Prepare for gateway data refresh
 
-> 개인 **모드에서 데이터** 게이트웨이를 사용할 때는 다음 단계가 필요하지 않습니다. 다음 목표(게이트웨이 설정)로 바로 넘어가면 됩니다.
+> **Note** the following steps are not needed when using the data gateway in personal mode. You can proceed directly to the next objective (setup the gateway).
 
-1. Power BI Desktop에서 Power Query 편집기 창을 열고 **ProductCost** 쿼리를 선택합니다.
+1. In Power BI Desktop, open the Power Query Editor window, and select the **ProductCost** query.
 
-1. 원본 단계를 편집한 다음 다음과 같이 파일 공유를 사용하도록 파일 경로를 수정합니다.
+1. Edit the Source step, and then modify the file path to use the file share, as follows:
 
     `\\DATA-AI\Data\ProductCost.xlsx`
 
-1. 변경 내용을 적용하고 Power Query 편집기 창을 닫습니다.
+1. Close and apply the Power Query Editor window.
 
-1. Power BI Desktop 파일을 저장합니다.
+1. Save the Power BI Desktop file.
 
-1. 작업 영역에 Power BI Desktop 파일을 게시하여 서비스의 데이터 세트 및 보고서를 덮어씁니다.
+1. Publish the Power BI Desktop file to the workspace, overwriting the dataset and report in the service.
 
-## 게이트웨이(개인 모드) 설정
+## Setup the gateway (personal mode)
 
-1. 강사용 Power BI 서비스에서 데이터 세트 설정 페이지를 다시 로드합니다(F5 키 사용).
+1. In the Power BI service for the instructor, reload (F5) the dataset settings page.
 
-1. 게이트웨이 연결 섹션을 확장하고 게이트웨이가 설치되어 있지 않음을 설명합니다.
+1. Expand the Gateway Connection section and point out that no gateway is installed.
 
-1. 다운로드 드롭다운 목록(오른쪽 위에 있음)을 사용하여 데이터 게이트웨이를 선택합니다.
+1. Use the download dropdown list (located at the top-right), and select Data Gateway.
 
-1. 새 웹 페이지에서 개인 모드 게이트웨이를 다운로드합니다.
+1. In the new web page, download the personal mode gateway.
 
-1. 게이트웨이가 다운로드되면 다운로드된 파일을 엽니다.
+1. Once downloaded, open the downloaded file.
 
-1. 강사 계정의 자격 증명을 사용하여 게이트웨이 설정을 완료합니다.
+1. Complete the gateway setup by using the credentials of the instructor account.
 
-1. 설정을 완료한 후 데이터 세트 설정 페이지로 돌아와 페이지를 다시 로드합니다.
+1. Once setup, return to and reload the dataset settings page.
 
-1. 개인 게이트웨이를 할당하고 데이터 원본 2개의 자격 증명을 편집합니다.
+1. Assign the personal gateway, and the edit the credentials for the two data sources.
 
-1. 두 데이터 원본에서 모두 인증 방법은 **WindowsWithoutImpersonation**으로, 개인 정보 수준은 **조직**으로 설정합니다.
+1. For both data sources, set the authentication method to **WindowsWithoutImpersonation**, and set the privacy level to **Organizational**.
 
-1. 원하는 경우 **예약된 새로 고침** 섹션을 확장하여 되풀이 일정 구성 방법을 시연합니다.
+1. Optionally, expand the **Scheduled Refresh** section, and show how to configure a recurring schedule.
 
-## 데이터 세트 새로 고침
+## Refresh the dataset
 
-1. 데이터 세트를 새로 고치기 전에 **판매 모니터링** 대시보드를 엽니다.
+1. Before refreshing the dataset, open the **Sales Monitoring** dashboard.
 
-1. 판매, 이익률 타일의 세부 정보를 편집하여 마지막 새로 고침 시간을 표시합니다.
+1. Edit the details of the Sales, Profit Margin tile to display the last refresh time.
 
-1. 파일을 마우스 오른쪽 단추로 `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` 클릭한 다음 PowerShell을 사용하여 실행합니다. *이 스크립트는 2020년 12월 판매 데이터를 데이터베이스에 로드합니다.*
+1. Right-click the `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` file, and then run with PowerShell. *This script will load December 2020 sales data into the database.*
 
-1. 강사용 Power BI 서비스의 탐색 창에서 **판매 분석** 데이터 세트를 새로 고칩니다.
+1. In the Power BI service for the instructor, from the Navigation pane, refresh the **Sales Analysis** dataset.
 
-1. 새로 고침이 완료되면 dashboard 타일 **2020년 12월** 열이 표시되는 방법과 새로 고침 시간이 **NOW**임을 지적합니다.
+1. When the refresh completes, point out how the dashboard tile **December 2020** column appears, and that the refresh time is **NOW**.
