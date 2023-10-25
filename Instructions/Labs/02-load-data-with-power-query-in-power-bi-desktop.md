@@ -167,7 +167,7 @@ lab:
 
 1. 변환 결과로 두 개의 열이 추가되고 두 **DimProductSubcategory** 열이 제거된 것을 알 수 있습니다.
 
-1. **DimProductCategory** 열을 확장하고 수강생들에게 **EnglishProductCategoryName** 열만 설명합니다.
+1. **DimProductCategory** 열을 확장하고 **EnglishProductCategoryName** 열만 설명합니다.
 
 1. 다음 네 가지 열의 이름을 바꿉니다.
 
@@ -197,9 +197,9 @@ lab:
     - StateProvinceName
     - EnglishCountryRegionName
 
-1. **비즈니스 유형** 열 머리글에서 아래쪽 화살표를 선택한 다음 고유한 열 값을 검토하고 **Warehouse** 및 **Ware House** 값을 모두 확인합니다.
+1. **Business Type** 열 머리글에서 아래쪽 화살표를 선택한 다음 고유한 열 값을 검토하고 **Warehouse** 및 **Ware House** 값을 모두 확인합니다.
 
-1. **비즈니스 유형** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.
+1. **Business Type** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.
 
 1. **값 바꾸기** 창에서 다음 값을 구성합니다.
 
@@ -304,7 +304,7 @@ lab:
 
     - Unit Price
     - Sales
-    - 비용
+    - Cost
 
 1. 상태 표시줄에서 쿼리에 열이 10개, 행이 999개 이상 있는지 확인합니다.
 
@@ -328,7 +328,7 @@ lab:
 
 1. 다음 두 열의 이름을 바꿉니다.
 
-    - **MonthNumber****에 대한 특성**(공백 없음)
+    - **Attribute를******
     - **Value**를 **Target**으로
 
 1. **MonthNumber** 열 값을 준비하려면 **MonthNumber** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.

@@ -73,7 +73,7 @@ lab:
     - DimSalesTerritory
     - FactResellerSales
 
-1. **Power Query 편집기 열리는 데이터 변환**을 클릭하여 이 작업을 완료합니다.
+1. **Power Query 편집기가 열리는 데이터 변환**을 클릭하여 이 작업을 완료합니다.
     1. *이 랩은 데이터에 연결하고 프로파일을 만들기 위한 것이지만 **데이터를 변환**하지는 않습니다.*
 
 ## **Power Query 편집기 데이터 미리 보기**
@@ -134,7 +134,7 @@ lab:
 
 1. 데이터 미리 보기 창에서 열 통계 및 값 분포를 검토합니다.
 
-    *데이터 품질 문제를 확인합니다. 웨어하우스에는 두 개의 레이블(**웨어하우스** 및 철자가 틀린 **Ware House**)이 있습니다.*
+    *데이터 품질 문제를 확인합니다. 웨어하우스에는 두 개의 레이블(**Warehouse** 및 철자가 틀린 **Ware House**)이 있습니다.*
 
      ![BusinessType 열에 대한 값 분포](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image31.png)
 
