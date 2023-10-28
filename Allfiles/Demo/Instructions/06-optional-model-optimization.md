@@ -1,81 +1,75 @@
----
-demo:
-  "\_\_ title": (Optional) Optimize model performance in Power BI
-  "\_\_ module": Optimize model performance in Power BI
----
+# (Optional) Optimize model performance
 
-# (선택 사항) 모델 성능 최적화
+## Review a DirectQuery model design
 
-## DirectQuery 모델 디자인 검토
+> **Note**: This demo uses a different Power BI Desktop file.
 
-> **참고**: 이 데모에서는 다른 Power BI Desktop 파일을 사용합니다.
+1. Open the D:\PL300\Demo\Resources\AW Sales Analysis.pbix file.
 
-1. D:\PL300\Demo\Resources\AW Sales Analysis.pbix 파일을 엽니다.
+1. If prompted to connect to the data source, click Connect.
 
-1. 데이터 원본에 연결하라는 메시지가 표시되면 연결을 클릭합니다.
+1. At the bottom-right corner, point out that the data model comprises DirectQuery tables.
 
-1. 데이터 모델의 오른쪽 아래 모서리에 DirectQuery 테이블이 있음을 언급합니다.
+1. Save the Power BI Desktop file to the D:\PL300\Demo\MySolution folder.
 
-1. D:\PL300\Demo\MySolution 폴더에 Power BI Desktop 파일을 저장합니다.
+1. In Model view, introduce the model design, which includes two related tables.
 
-1. 모델 뷰에서 관련 테이블 2개가 포함된 모델 디자인을 소개합니다.
+1. In Report view, interact with the report by selecting different items in the Fiscal Year slicer.
 
-1. 보고서 뷰에서 회계 연도 슬라이서의 다른 항목을 선택하는 방식으로 보고서와 상호 작용해 봅니다.
+1. Drill through on any month column to reveal order details.
 
-1. 임의의 월 열에서 드릴스루하여 주문 세부 정보를 표시합니다.
+1. Return to the Sales Summary page.
 
-1. 판매 요약 페이지로 돌아옵니다.
+## Review query performance
 
-## 쿼리 성능 검토
+1. On the View ribbon tab, show the Performance Analyzer pane.
 
-1. 보기 리본 탭에서 성능 분석기 창을 표시합니다.
+1. Refresh the visuals, and then expand the slicer and Sales by Month visual.
 
-1. 시각적 개체를 새로 고친 다음 슬라이서 및 월별 판매 시각적 개체를 확장합니다.
+1. Point out that they used DirectQuery mode (data was requested from the data source).
 
-1. DirectQuery 모드를 사용했음을 지적합니다(데이터 원본에서 데이터가 요청됨).
+## Configure Dual storage tables
 
-## 이중 스토리지 테이블 구성
+1. In Model view, select the Date table, and then select the storage mode to Dual.
 
-1. 모델 뷰에서 Date 테이블을 선택하고 스토리지 모드를 이중으로 선택합니다.
+1. When the data has imported, switch to Report view, and then in the Performance Analyzer pane, refresh the visuals.
 
-1. 데이터 가져오기가 완료되면 보고서 뷰로 전환하고 성능 분석기 창에서 시각적 개체를 새로 고칩니다.
+1. Point out that the Date table is now queried from the model cache.
 
-1. 이제 모델 캐시에서 Date 테이블을 쿼리함을 설명합니다.
+## Create aggregations
 
-## 집계 만들기
+1. Open the Power Query Editor window, and in the Queries pane, duplicate the Reseller Sales query.
 
-1. Power Query 편집기 창의 쿼리 창에서 Reseller Sales 쿼리를 복제합니다.
+1. Rename the new query Reseller Sales Agg.
 
-1. 새 쿼리의 이름을 Reseller Sales Agg로 바꿉니다.
+1. Apply a group by transformation, as follows:
 
-1. 다음과 같이 그룹화 방법 변환을 적용합니다.
+    - Group by OrderDate.
 
-    - 그룹화 방법: OrderDate
+    - New column: Sales, which is the sum of the SalesAmount column.
 
-    - 새 열: Sales. 이 열의 값은 SalesAmount 열 값의 합입니다.
+1. Close and apply the queries.
 
-1. 쿼리를 닫고 적용합니다.
+1. In Model view, set the storage mode for the Reseller Sales Agg table to Import.
 
-1. 모델 뷰에서 Reseller Sales Agg 테이블의 스토리지 모드를 가져오기로 설정합니다.
+1. Create a relationship from the Date table Date column to the Reseller Sales Agg table OrderDate column—ensure that the column cardinality is set to one-to-many, with the Date table on the one-side.
 
-1. Date 테이블 Date 열에서 Reseller Sales Agg 테이블 OrderDate 열로의 관계를 만듭니다. 이때 열 카디널리티는 Date 테이블이 "1" 쪽인 일대다로 설정됩니다.
+1. Manage aggregations on the Reseller Sales Agg table:
 
-1. Reseller Sales Agg 테이블의 집계를 관리합니다.
+    - OrderDate: Group by the Reseller Sales table OrderDate column.
 
-    - OrderDate: Reseller Sales테이블 OrderDate 열을 기준으로 그룹화합니다.
+    - Sales: Sum the Reseller Sales table SalesAmount column.
 
-    - Sales: Reseller Sales 테이블 SalesAmount 열의 값을 합합니다.
+1. Point out that the aggregation table is now hidden.
 
-1. 이제 집계 테이블이 숨겨졌음을 설명합니다.
+1. Switch to Report view, and in the Performance Analyzer pane, and then refresh the visuals.
 
-1. 보고서 뷰로 돌아와 성능 분석기 창에서 시각적 개체를 새로 고칩니다.
+1. Point out that the Sales by Month table is now queried from the model cache.
 
-1. 이제 모델 캐시에서 Sales by Month 테이블을 쿼리함을 설명합니다.
+1. Drill through from any month, and point out that the details in the table are requested as DirectQuery from the data source.
 
-1. 임의의 월에서 드릴스루한 다음 데이터 원본에서 테이블의 세부 정보를 DirectQuery로 요청함을 설명합니다.
+1. Save the Power BI Desktop file.
 
-1. Power BI Desktop 파일을 저장합니다.
+1. Close Power BI Desktop.
 
-1. Power BI Desktop을 닫습니다.
-
-> **참고**: 이 Power BI Desktop 솔루션을 다시 사용하지 않습니다.
+> **Note**: You will not use this Power BI Desktop solution again.

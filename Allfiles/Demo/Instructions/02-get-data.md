@@ -1,50 +1,45 @@
----
-demo:
-  "\_\_ title": Get data in Power BI
-  "\_\_ module": Get data in Power BI
----
-# Power BI에서 데이터 가져오기
+# Get data in Power BI
 
-## Power BI 보고서 개발 시작
+## Start the development of a Power BI report
 
-1. Power BI Desktop을 열고 시작 페이지를 닫습니다.
+1. Open Power BI Desktop, and then dismiss the getting started page.
 
-1. D:\PL300\Demo 폴더에 파일을 Sales Analysis로 저장합니다.
+1. Save the file to the D:\PL300\Demo folder as Sales Analysis.
 
-## SQL Server 데이터베이스에 연결
+## Connect to a SQL Server database
 
-1. SQL Server에서 "데이터 가져오기"를 수행합니다.
+1. “Get data” from SQL Server.
 
-1. Windows 인증을 사용하여 MySettings.txt 파일에 이름이 나와 있는 데이터베이스 서버에 연결합니다.
+1. Connect to the database server name found in the MySettings.txt file, using Windows authentication.
 
-1. TailspinToys2020-US 데이터베이스를 확장합니다.
+1. Expand the TailspinToys2020-US database.
 
-## 데이터베이스 테이블 기반 쿼리 만들기
+## Create queries based on database tables
 
-1. Product 테이블을 선택하여 데이터를 미리 봅니다.
+1. Select the Product table to preview the data.
 
-1. Product 테이블을 선택하여 쿼리를 만듭니다.
+1. Check the Product table to create query.
 
-1. Sales 테이블에 대해서도 같은 절차를 반복합니다.
+1. Repeat the Sales table.
 
-1. 데이터 변환을 클릭합니다.
+1. Click Transform Data.
 
-## 데이터 미리 보기
+## Preview data
 
-1. 쿼리 창 쿼리 설정 창, 리본, 미리 보기 표, 상태 표시줄 등을 포함하여 Power Query 편집기 창 레이아웃에 대해 설명합니다.
+1. Describe the Power Query Editor window layout, including the Queries pane, the Query Settings pane, the ribbon, the preview grid, and the status bar.
 
-1. 열 머리글 아래에 품질 표시줄이 있음을 언급하고, 품질 표시줄을 커서로 가리켜 열 값 관련 통계를 표시합니다.
+1. Point out the quality bar beneath the column headers and hover the cursor over it to reveal statistics about the column values.
 
-1. 보기 리본 탭에서 열 품질을 활성화합니다.
+1. On the View ribbon tab, turn on Column Quality.
 
-1. 열 분포를 활성화한 다음 ProductID(고유 값), ProductCategory(여러 중복 값) 등의 열에 대해 설명합니다.
+1. Turn on Column Distribution and point out columns like ProductID (unique values) and ProductCategory (several duplicate values).
 
-1. 열 프로필을 활성화하고 ProductCategory 열을 선택합니다.
+1. Turn on Column Profile, and then select the ProductCategory column.
 
-1. 열 통계와 분포에 대해 설명합니다.
+1. Point out the column statistics and distribution.
 
-1. 활성화한 3개 옵션을 다시 비활성화합니다.
+1. Turn back off the three options.
 
-1. 변경 내용을 적용하지 않고 Power BI Desktop 파일을 저장합니다.
+1. Save the Power BI Desktop file, but do not apply changes.
 
-1. 다음 데모에서 사용할 수 있도록 Power BI Desktop 파일을 열어 둡니다.
+1. Leave the Power BI Desktop file open for the next demo.
