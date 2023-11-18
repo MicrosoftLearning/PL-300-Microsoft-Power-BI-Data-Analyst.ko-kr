@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Get data in Power BI
-  "\_\_ module": Get data in Power BI
+demo:
+  title: Power BI에서 데이터 가져오기
+  module: Get data in Power BI
 ---
+
 # Power BI에서 데이터 가져오기
 
 ## Power BI 보고서 개발 시작

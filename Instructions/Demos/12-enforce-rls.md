@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Enforce Row-level security in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: Power BI에서 행 수준 보안 적용
+  module: Deploy and manage Power BI service items
 ---
+
 # Power BI에서 행 수준 보안 적용
 
 ## 모델에 보안 테이블 추가

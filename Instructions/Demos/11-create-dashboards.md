@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Create dashboards in the Power BI service
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: Power BI 서비스 대시보드 만들기
+  module: Deploy and manage Power BI service items
 ---
 # Power BI 서비스 대시보드 만들기
 

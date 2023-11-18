@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Create and manage workspaces in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: Power BI에서 작업 영역 만들기 및 관리
+  module: Deploy and manage Power BI service items
 ---
 
 # 작업 영역 만들기 및 관리

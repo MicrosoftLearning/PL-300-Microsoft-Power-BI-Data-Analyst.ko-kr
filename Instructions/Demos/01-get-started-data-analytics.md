@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Get started with Microsoft data analytics
-  "\_\_ module": Get started with Microsoft data analytics
+demo:
+  title: Microsoft 데이터 분석 시작
+  module: Get started with Microsoft data analytics
 ---
+
 # Microsoft 데이터 분석 시작
 
 ## 대시보드 살펴보기
