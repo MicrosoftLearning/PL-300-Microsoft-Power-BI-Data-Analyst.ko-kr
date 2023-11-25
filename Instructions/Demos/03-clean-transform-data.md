@@ -33,9 +33,9 @@ lab:
 
     - ProductID
 
-    - 수량
+    - Quantity
 
-    - 단가
+    - UnitPrice
 
 1. UnitPrice 열의 데이터 형식을 고정 10진수로 변경합니다.
 
@@ -65,9 +65,9 @@ lab:
 
 1. 쿼리 창에서 ProductCost 쿼리를 사용하지 않도록 설정합니다.
 
-1. 홈 리본 탭에서 닫기 & 적용 아이콘을 클릭합니다.
+1. 홈 리본 탭에서 닫기 및 적용 아이콘을 클릭합니다.
 
-1. Power BI Desktop 데이터 창에서 두 테이블을 가리킵니다.
+1. Power BI Desktop에서 데이터 창의 두 테이블을 가리킵니다.
 
 1. Power BI Desktop 파일을 저장합니다.
 

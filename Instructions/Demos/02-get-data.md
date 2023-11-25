@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Get data in Power BI
-  "\_\_ module": Get data in Power BI
+demo:
+  title: Power BI에서 데이터 가져오기
+  module: Get data in Power BI
 ---
+
 # Power BI에서 데이터 가져오기
 
 ## Power BI 보고서 개발 시작
@@ -39,7 +40,7 @@ lab:
 
 1. 열 분포를 활성화한 다음 ProductID(고유 값), ProductCategory(여러 중복 값) 등의 열에 대해 설명합니다.
 
-1. 열 프로필을 활성화하고 ProductCategory 열을 선택합니다.
+1. 열 프로필을 켜고 ProductCategory 열을 선택합니다.
 
 1. 열 통계와 분포에 대해 설명합니다.
 
