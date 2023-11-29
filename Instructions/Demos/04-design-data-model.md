@@ -1,7 +1,7 @@
 ---
 demo:
-  "\_\_ title": Design a data model in Power BI
-  "\_\_ module": Design a data model in Power BI
+  title: Power BI에서 데이터 모델 디자인
+  module: Design a data model in Power BI
 ---
 # Power BI에서 데이터 모델 디자인
 
