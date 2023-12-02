@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": (Optional) Optimize model performance in Power BI
-  "\_\_ module": Optimize model performance in Power BI
+demo:
+  title: (선택 사항) Power BI에서 모델 성능 최적화
+  module: Optimize model performance in Power BI
 ---
 
 # (선택 사항) 모델 성능 최적화
@@ -30,7 +30,7 @@ lab:
 
 1. 보기 리본 탭에서 성능 분석기 창을 표시합니다.
 
-1. 시각적 개체를 새로 고친 다음 슬라이서 및 월별 판매 시각적 개체를 확장합니다.
+1. 시각적 개체를 새로 고친 다음 월별 슬라이서 및 Sales 시각적 개체를 확장합니다.
 
 1. DirectQuery 모드를 사용했음을 지적합니다(데이터 원본에서 데이터가 요청됨).
 

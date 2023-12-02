@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Perform data analysis in Power BI
-  "\_\_ module": Perform data analysis in Power BI
+demo:
+  title: Power BI에서 데이터 분석 수행
+  module: Perform data analysis in Power BI
 ---
 # 데이터 분석 수행
 
