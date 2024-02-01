@@ -1,5 +1,6 @@
 ---
 demo:
+  course: 'PL-300, DP-605'
   title: Power BI에서 데이터 가져오기
   module: Get data in Power BI
 ---
@@ -10,7 +11,7 @@ demo:
 
 1. Power BI Desktop을 열고 시작 페이지를 닫습니다.
 
-1. D:\PL300\Demo 폴더에 파일을 Sales Analysis로 저장합니다.
+1. D:\Allfiles\Demo 폴더에 Sales Analysis로 파일을 저장합니다.
 
 ## SQL Server 데이터베이스에 연결
 

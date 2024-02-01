@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: Power BI 대시보드 만들기
   module: Create Dashboards
 ---
@@ -46,7 +47,7 @@ lab:
 
 1. 업로드 > 찾아보기를** 선택합니다**.
 
-1. **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
+1. **D:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
 
 1. **Sales Analysis.pbix** 파일을 선택한 다음, **열기**를 선택합니다.
 
@@ -116,7 +117,7 @@ lab:
 
 1. 오른쪽에 **있는 타일** 추가 창에서 이미지** 타일을 **선택한 다음, 다음**** 을 선택합니다.
 
-1. 이미지 타일** 추가 창**의 **URL** 상자에 D:\PL300\Resources\AdventureWorksLogo_DataURL.txt** 파일에 있는 **전체 URL을 입력한 다음 **적용합니다**.
+1. 이미지 타일** 추가 창**의 **URL** 상자에 D:\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** 파일에 있는 **전체 URL을 입력한 다음 **적용합니다**.
     
     *해당 URL을 사용하여 이미지를 포함하거나 콘텐츠를 인라인으로 포함하는 데이터 URL을 사용할 수 있습니다.*
 
@@ -160,7 +161,7 @@ lab:
 
 이 작업에서는 PowerShell 스크립트를 실행하여 **AdventureWorksDW2020** 데이터베이스의 데이터를 업데이트합니다.
 
-1. 파일 탐색기의 **D:\PL300\Setup** 폴더 내부에서 **UpdateDatabase-2-AddSales.ps1** 파일을 마우스 오른쪽 단추로 클릭한 다음, **PowerShell에서 실행**을 선택합니다.
+1. 파일 탐색기 D:\Allfiles\Setup 폴더 내에서 **UpdateDatabase-2-AddSales.ps1** 파일을 마우스 오른쪽 단추로 클릭한 **다음 PowerShell**로 실행을 선택합니다**.**
 
     ![그림 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
