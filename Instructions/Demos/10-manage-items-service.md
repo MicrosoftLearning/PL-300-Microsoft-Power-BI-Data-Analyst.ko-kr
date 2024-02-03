@@ -1,9 +1,9 @@
 ---
-lab:
-  "\_\_ title": Manage files and semantic models in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  course: PL-300
+  title: Power BI에서 파일 및 의미 체계 모델 관리
+  module: Deploy and manage Power BI service items
 ---
-
 # Power BI에서 파일 및 의미 체계 모델 관리
 
 ## 게이트웨이 데이터 새로 고침 준비
@@ -50,7 +50,7 @@ lab:
 
 1. Sales, Profit Margin 타일의 세부 정보를 편집하여 마지막 새로 고침 시간을 표시합니다.
 
-1. 파일을 마우스 오른쪽 단추로 `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` 클릭한 다음 PowerShell을 사용하여 실행합니다. *이 스크립트는 2020년 12월 판매 데이터를 데이터베이스에 로드합니다.*
+1. 파일을 마우스 오른쪽 단추로 `D:\Allfiles\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` 클릭한 다음 PowerShell을 사용하여 실행합니다. *이 스크립트는 2020년 12월 판매 데이터를 데이터베이스에 로드합니다.*
 
 1. 강사에 대한 Power BI 서비스 탐색 창에서 Sales Analysis** 의미 체계 모델을 새로 고칩니다**.
 

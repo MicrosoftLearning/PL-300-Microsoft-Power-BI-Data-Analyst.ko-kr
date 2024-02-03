@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: Power BI Desktop에서 고급 DAX 계산 만들기
   module: Create Model Calculations using DAX in Power BI
 ---
@@ -30,17 +31,17 @@ lab:
 
 1. 시작 Power BI Desktop 파일을 열려면 파일 > 보고서 열기 > 보고서** 찾아보기를 선택합니다**.
 
-1. **열기** 창에서 D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 폴더로 이동하고 **Sales Analysis** 파일을 엽니다**.
+1. **열기** 창에서 D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 폴더로 이동하고 **Sales Analysis** 파일을 엽니다**.
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
-1. 리본 아래에서 노란색 경고 메시지를 확인합니다. 
+1. 리본 아래에 경고 메시지가 표시됩니다. 
 
     *이 메시지는 쿼리가 모델 테이블로 로드에 적용되지 않았다는 사실을 경고합니다. 이 랩의 뒷부분에서 쿼리를 적용합니다.*
     
-    *경고 메시지를 해제하려면 노란색 경고 메시지 오른쪽에서 X**를 선택합니다**.*
+    *경고 메시지를 해제하려면 경고 메시지 오른쪽에서 X**를 선택합니다**.*
 
-1. 파일의 복사본을 만들려면 파일 > 다른 이름으로 저장으로** 이동하여 **D:\PL300\MySolution** 폴더에 저장**합니다.
+1. 파일의 복사본을 만들려면 파일 > 다른 이름으로 저장으로** 이동하여 **D:\Allfiles\MySolution** 폴더에 저장**합니다.
 
 ## **행렬 시각적 개체 만들기**
 
@@ -90,7 +91,7 @@ lab:
 
 1. 다음 식에 따라 **판매** 테이블에 측정값을 추가합니다.
     
-     편의상 이 랩의 모든 DAX 정의를 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.
+     *편의상 이 랩의 모든 DAX 정의는 D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 파일에서 **복사할 수 있습니다.*
 
 
     **DAX**

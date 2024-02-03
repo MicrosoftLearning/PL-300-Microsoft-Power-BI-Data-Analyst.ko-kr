@@ -1,5 +1,6 @@
 ---
 demo:
+  course: 'PL-300, DP-605'
   title: Power BI에서 작업 영역 만들기 및 관리
   module: Deploy and manage Power BI service items
 ---

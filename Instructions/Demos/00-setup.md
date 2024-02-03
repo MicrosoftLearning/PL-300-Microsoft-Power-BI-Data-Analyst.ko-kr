@@ -1,5 +1,6 @@
 ---
 demo:
+  course: 'PL-300, DP-605'
   title: 환경 직접 설정
   module: Set up your own environment
 ---
@@ -12,15 +13,15 @@ demo:
 1. 수강생 계정을 사용하여 가상 머신 환경에 로그인합니다.
 
 1. Microsoft Edge를 연 다음 강사 계정으로 이동하여 <https://powerbi.com> 로그인합니다.
-    > **팁**: 암호를 변경하라는 메시지가 표시되면 D:\PL300\Demo\Setup\My설정.txt 파일에 기록해야 합니다.
+    > **팁**: 암호를 변경하라는 메시지가 표시되면 D:\Allfiles\Demo\Setup\My설정.txt 파일에 기록해야 합니다.
 
 1. Power BI 서비스에서 Power BI Pro 평가판 사용에 동의합니다.
 
 ## 첫 번째 데모 설정
 
-1. D:\PL300\Demo\Resources\Icon-Star.jpg 이미지를 아이콘으로 사용하여 작업 영역을 만듭니다.
+1. 작업 영역을 만들고 D:\Allfiles\Demo\Resources\Icon-Star.jpg 이미지를 아이콘으로 사용합니다.
 
-1. Power BI Desktop에서 D:\PL300\Demo\Setup\Sales Analysis.pbix 파일을 엽니다.
+1. Power BI Desktop에서 D:\Allfiles\Demo\Setup\Sales Analysis.pbix 파일을 엽니다.
 
 1. Power BI Desktop에서 강사 계정을 사용하여 로그인합니다.
 

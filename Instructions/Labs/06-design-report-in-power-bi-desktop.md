@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: Power BI Desktop에서 보고서 디자인
   module: Create Reports in Power BI Desktop
 ---
@@ -24,9 +25,9 @@ lab:
 
 1. Power BI Desktop에서 파일** > **열기 보고서 찾아보기 보고서** > **** 로 **이동합니다.
 
-1. **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** 폴더에서 Sales Analysis** 파일을 **엽니다.
+1. **D:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter** 폴더에서 Sales Analysis** 파일을 **엽니다.
 
-1. 파일 다른 이름으로 이동하여 파일의 복사본을 ** > ****만들고 D:\PL300\MySolution** 폴더에 복사본**을 저장합니다.**
+1. 파일 다른 이름으로 이동하여 파일의 복사본을 ****** > 만들고 D:\Allfiles\MySolution** 폴더에 복사본**을 저장합니다.**
 
 ## **디자인 페이지 1**
 
@@ -42,7 +43,7 @@ lab:
 
     ![그림 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-1. **열기** 창에서 **D:\PL300\Resources** 폴더로 이동합니다.
+1. 열기 창에서 **D:\Allfiles\Resources** 폴더로 이동합니다**.**
 
 1. **AdventureWorksLogo.jpg** 파일을 선택한 다음, **열기**를 선택합니다.
 
