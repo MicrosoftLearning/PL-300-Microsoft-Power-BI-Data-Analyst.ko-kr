@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: Power BI Desktop에서 변환된 데이터 로드
   module: 'Clean, Transform, and Load Data in Power BI'
 ---
@@ -31,17 +32,17 @@ lab:
 
 1. 시작 Power BI Desktop 파일을 열려면 파일 > 보고서 열기 > 보고서** 찾아보기를 선택합니다**.
 
-1. **열기** 창에서 D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** 폴더로 이동하고 **Sales Analysis** 파일을 엽니다**.
+1. **열기** 창에서 D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** 폴더로 이동하고 **Sales Analysis** 파일을 엽니다**.
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
-1. 리본 아래에서 노란색 경고 메시지를 확인합니다.
+1. 리본 아래에 경고 메시지가 표시됩니다.
 
     *이 메시지는 쿼리가 모델 테이블로 로드에 적용되지 않았다는 사실을 경고합니다. 이 랩의 뒷부분에서 쿼리를 적용합니다.*
 
-    경고 메시지를 해제하려면 노란색 경고 메시지의 오른쪽에 있는 **X**를 선택합니다.
+    경고 메시지를 해제하려면 경고 메시지 오른쪽에서 X**를 선택합니다**.
 
-1. 파일의 복사본을 만들려면 파일 > 다른 이름으로 저장으로** 이동하여 **D:\PL300\MySolution** 폴더에 저장**합니다.
+1. 파일의 복사본을 만들려면 파일 > 다른 이름으로 저장으로** 이동하여 **D:\Allfiles\MySolution** 폴더에 저장**합니다.
 
 1. 변경 내용을 적용할지 묻는 프롬프트가 표시되면 **나중에 적용**을 선택합니다.
 
@@ -272,14 +273,14 @@ lab:
 
 1. **새 열 이름** 상자의 **사용자 지정 열** 창에서 텍스트를 **Cost**으로 바꿉니다.
 
-1. **사용자 지정 열 수식** 상자에서 다음 식을 등호 뒤에 입력합니다.
-    - *D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 **식을 복사할 수 있습니다.*
-    - *이 식은 TotalProductCost** 값이 **누락되었는지 테스트합니다. 누락된 경우 OrderQuantity** 값을 StandardCost** 값으로 **곱**하여 값을 생성합니다. 그렇지 않으면 기존 **TotalProductCost** 값을 사용합니다.*
+1. **사용자 지정 열 수식** 상자에 다음 식(등호 뒤)을 입력한 다음 새 열을 저장합니다.
 
+        `
+    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]  `
 
-    `
-    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-    `
+    *D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 식을 **복사할 수 있습니다.*
+
+    *이 식은 TotalProductCost** 값이 **누락되었는지 테스트합니다. 누락된 경우 OrderQuantity** 값을 StandardCost** 값으로 **곱**하여 값을 생성합니다. 그렇지 않으면 기존 **TotalProductCost** 값을 사용합니다.*
 
 1. 다음 두 열을 제거합니다.
 
