@@ -1,5 +1,6 @@
 ---
 demo:
+  course: PL-300
   title: Power BI 서비스 대시보드 만들기
   module: Deploy and manage Power BI service items
 ---
@@ -9,7 +10,7 @@ demo:
 
 1. 먼저 Power BI 서비스 새 작업 영역을 만듭니다.
 
-1. 작업 영역 아이콘에 `D:\PL300\Demo\Resources\Icon-Airplane.jpg` 대한 이미지를 선택합니다.
+1. 작업 영역 아이콘에 `D:\Allfiles\Demo\Resources\Icon-Airplane.jpg` 대한 이미지를 선택합니다.
 
 1. Power BI Desktop에서 새 작업 영역에 **판매 분석** 보고서를 게시합니다.
 
