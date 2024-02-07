@@ -1,5 +1,6 @@
 ---
 demo:
+  course: PL-300
   title: Power BI에서 행 수준 보안 적용
   module: Deploy and manage Power BI service items
 ---

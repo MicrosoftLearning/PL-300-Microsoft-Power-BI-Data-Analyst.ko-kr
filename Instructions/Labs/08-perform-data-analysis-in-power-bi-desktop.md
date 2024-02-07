@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: AI 시각적 개체를 사용하여 고급 분석 수행
   module: Perform Data Analysis in Power BI
 ---
@@ -46,7 +47,7 @@ lab:
 
 1. 업로드 > 찾아보기를** 선택합니다**.
 
-1. **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+1. **D:\Allfiles\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
 1. **Sales Analysis.pbix** 파일을 선택한 다음, **열기**를 선택합니다.
 
@@ -70,7 +71,7 @@ lab:
 
 1. **데이터 허브** 창에서 내 작업 영역에서** 판매 분석** 의미 체계 모델을 **선택한 **다음 **, 커넥트** 또는 두 번 클릭하여 의미 체계 모델을 로드합니다.
 
-1. 파일 > 저장으로 이동하여 **파일 이름을 D:\PL300\MySolution** 폴더에 **Sales Exploration**으로 **저장**합니다.
+1. 파일 > 저장으로 이동하여 **파일 이름을 D:\Allfiles\MySolution** 폴더에 **Sales Exploration**으로 **저장**합니다.
 
 *이제 두 개의 보고서 페이지를 만들고 각 페이지에서 다른 시각적 개체로 작업하여 데이터를 분석하고 탐색합니다.*
 

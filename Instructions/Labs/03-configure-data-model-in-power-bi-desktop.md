@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: Power BI에서 데이터 모델 디자인
   module: Design a Data Model in Power BI
 ---
@@ -31,11 +32,11 @@ lab:
 
 1. 시작 Power BI Desktop 파일을 열려면 파일 > 보고서 열기 > 보고서** 찾아보기를 선택합니다**.
 
-1. **D:\PL300\Labs\03-configure-data-model-in-power-bi-desktop\Starter** 폴더로 이동하고 판매 분석** 파일을 선택합니다**.
+1. **D:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** 폴더로 이동하고 판매 분석** 파일을 선택합니다**.
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
-1. **파일 > 다른 이름으로 저장으로** 이동하여 D:\PL300\MySolution** 폴더에 파일을 **저장합니다.
+1. **파일 > 다른 이름으로 저장하고** D:\Allfiles\MySolution** 폴더에 파일을 **저장합니다.
 
 ## **모델 관계 만들기**
 
@@ -336,7 +337,7 @@ lab:
 
 1. **Sales** 필드를 **기준 값** 상자로 끕니다.
 
-1. **Cost** 필드를 **비용** 상자로 끕니다.
+1. 비용 필드를 값에서 **빼**기 상자로 끌어서 추가**를 선택합니다**.** **   
 
      ![그림 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
 

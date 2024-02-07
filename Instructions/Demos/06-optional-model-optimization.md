@@ -1,5 +1,6 @@
 ---
 demo:
+  course: PL-300
   title: (선택 사항) Power BI에서 모델 성능 최적화
   module: Optimize model performance in Power BI
 ---
@@ -10,13 +11,13 @@ demo:
 
 > **참고**: 이 데모에서는 다른 Power BI Desktop 파일을 사용합니다.
 
-1. D:\PL300\Demo\Resources\AW Sales Analysis.pbix 파일을 엽니다.
+1. D:\Allfiles\Demo\Resources\AW Sales Analysis.pbix 파일을 엽니다.
 
 1. 데이터 원본에 연결하라는 메시지가 표시되면 연결을 클릭합니다.
 
 1. 데이터 모델의 오른쪽 아래 모서리에 DirectQuery 테이블이 있음을 언급합니다.
 
-1. D:\PL300\Demo\MySolution 폴더에 Power BI Desktop 파일을 저장합니다.
+1. Power BI Desktop 파일을 D:\Allfiles\Demo\MySolution 폴더에 저장합니다.
 
 1. 모델 뷰에서 관련 테이블 2개가 포함된 모델 디자인을 소개합니다.
 

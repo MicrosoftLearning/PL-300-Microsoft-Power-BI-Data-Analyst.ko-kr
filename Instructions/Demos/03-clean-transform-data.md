@@ -1,5 +1,6 @@
 ---
 demo:
+  course: 'PL-300, DP-605'
   title: 'Power BI에서 데이터 정리, 변환 및 로드'
   module: 'Clean, transform, and load data in Power BI'
 ---
@@ -48,7 +49,7 @@ demo:
 
 ## 쿼리 통합
 
-1. Excel 커넥터를 사용하여 새 쿼리를 만든 후 D:\PL300\Demo\Data\ProductCost.xlsx 파일에 연결합니다.
+1. D:\Allfiles\Demo\Data\ProductCost.xlsx 파일에 연결하여 Excel 커넥터를 사용하여 새 쿼리를 만듭니다.
 
 1. Product 열을 제거합니다.
 
