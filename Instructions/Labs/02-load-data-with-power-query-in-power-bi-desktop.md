@@ -275,8 +275,7 @@ lab:
 
 1. **사용자 지정 열 수식** 상자에 다음 식(등호 뒤)을 입력한 다음 새 열을 저장합니다.
 
-        `
-    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]  `
+   ` if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost] `
 
     *D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 식을 **복사할 수 있습니다.*
 
