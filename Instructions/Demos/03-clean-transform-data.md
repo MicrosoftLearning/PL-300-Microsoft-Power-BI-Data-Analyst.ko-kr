@@ -49,7 +49,7 @@ demo:
 
 ## 쿼리 통합
 
-1. D:\Allfiles\Demo\Data\ProductCost.xlsx 파일에 연결하여 Excel 커넥터를 사용하여 새 쿼리를 만듭니다.
+1. Excel 커넥터를 사용하여 새 쿼리를 만들고 D:\Allfiles\Demo\Data\ProductCost.xlsx 파일에 연결합니다.
 
 1. Product 열을 제거합니다.
 
@@ -63,13 +63,13 @@ demo:
 
 1. 새 열의 이름을 Cost로 바꿉니다.
 
-## 데이터 모델에 쿼리 사용 안 함 및 로드
+## 데이터 모델에 대한 쿼리 사용 안 함 및 로드
 
 1. 쿼리 창에서 ProductCost 쿼리를 사용하지 않도록 설정합니다.
 
 1. 홈 리본 탭에서 닫기 및 적용 아이콘을 클릭합니다.
 
-1. Power BI Desktop에서 데이터 창의 두 테이블을 가리킵니다.
+1. Power BI Desktop의 데이터 창에서 두 테이블을 가리킵니다.
 
 1. Power BI Desktop 파일을 저장합니다.
 
