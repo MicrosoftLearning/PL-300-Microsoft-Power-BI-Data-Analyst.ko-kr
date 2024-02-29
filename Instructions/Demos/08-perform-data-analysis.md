@@ -1,7 +1,7 @@
 ---
 demo:
   course: PL-300
-  title: Power BI에서 데이터 분석 수행
+  title: Power BI에서의 데이터 분석 수행
   module: Perform data analysis in Power BI
 ---
 # 데이터 분석 수행
@@ -16,7 +16,7 @@ demo:
 
 1. Trainer 값을 기준으로 그룹을 만듭니다.
 
-1. **다른 그룹** 포함 검사 상자를 선택합니다.
+1. **다른 그룹 포함** 확인란을 선택합니다.
 
 1. 행렬 시각적 개체를 추가한 다음 크기를 조정하여 페이지를 채웁니다.
 

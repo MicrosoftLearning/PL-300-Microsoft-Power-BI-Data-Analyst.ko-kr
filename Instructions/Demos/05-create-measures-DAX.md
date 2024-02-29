@@ -6,7 +6,7 @@ demo:
 ---
 # Power BI에서 DAX를 사용하여 측정값 만들기
 
-> **팁**: D:\Allfiles\Demo\Resources\Snippets-Demo-05.txt 파일에서 모든 계산을 복사할 수 있습니다.
+> **팁**: 모든 계산은 D:\Allfiles\Demo\Resources\Snippets-Demo-05.txt 파일에서 복사할 수 있습니다.
 
 ## 계산된 테이블 만들기
 
