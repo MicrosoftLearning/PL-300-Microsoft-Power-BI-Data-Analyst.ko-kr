@@ -1,22 +1,22 @@
 ---
 demo:
   course: PL-300
-  title: Power BI 서비스 대시보드 만들기
+  title: Power BI 서비스에서 대시보드 만들기
   module: Deploy and manage Power BI service items
 ---
-# Power BI 서비스 대시보드 만들기
+# Power BI 서비스에서 대시보드 만들기
 
 ## 대시보드 만들기
 
-1. 먼저 Power BI 서비스 새 작업 영역을 만듭니다.
+1. 먼저 Power BI 서비스에서 새 작업 영역을 만듭니다.
 
-1. 작업 영역 아이콘에 `D:\Allfiles\Demo\Resources\Icon-Airplane.jpg` 대한 이미지를 선택합니다.
+1. 작업 영역 아이콘으로 `D:\Allfiles\Demo\Resources\Icon-Airplane.jpg` 이미지를 선택합니다.
 
 1. Power BI Desktop에서 새 작업 영역에 **판매 분석** 보고서를 게시합니다.
 
 1. 보고서가 게시되면 Power BI 서비스로 돌아옵니다.
 
-1. **판매 분석** 보고서를 연 다음 Year 슬라이서가 CY2020**으로 **설정되어 있는지 확인합니다.
+1. **판매 분석** 보고서를 열고 연도 슬라이서가 **CY2020**으로 설정되어 있음을 확인합니다.
 
 ## 보고서 시각적 개체 고정
 
@@ -26,7 +26,7 @@ demo:
 
 1. **판매 모니터링** 대시보드를 엽니다.
 
-1. Profit Margin** 타일의 **세부 정보를 편집하고 연도(**CY2020**)를 포함하도록 자막 텍스트를 변경합니다.
+1. **이익률** 타일의 세부 정보를 편집하여 연도(**CY2020**)를 포함하도록 부제 텍스트를 변경합니다.
 
 ## Q&A 타일 추가
 
