@@ -28,11 +28,11 @@ lab:
 
     ![Power BI Desktop 아이콘](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *팁: 기본적으로 시작하기 대화 상자는 Power BI Desktop 앞에 열립니다. 로그인을 선택한 다음 팝업을 닫을 수 있습니다.*
-
-1. 시작 Power BI Desktop 파일을 열려면 **파일 > 보고서 열기 > 보고서 찾아보기**를 선택합니다.
+1. Power BI Desktop 시작 파일을 열려면 **열기 > 이 장치 탐색하기**를 선택합니다.
 
 1. **D:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** 폴더로 이동하여 **판매 분석** 파일을 선택합니다.
+
+   *참고: 이 시점에서 Power BI는 아직 로그인하지 않은 경우 로그인하도록 요청합니다. 로그인하거나 **취소**를 선택하고 랩을 계속할 수 있습니다.*
 
 1. 열려 있는 정보 창을 모두 닫습니다.
 
@@ -247,7 +247,7 @@ lab:
 
 이 작업에서 단일 대량 업데이트를 사용하여 여러 열을 업데이트합니다. 대량 작업 방식으로 열을 숨기고 열 값의 서식을 지정합니다.
 
-1. **데이터** 창에서 **Product \| ProductKey** 열을 선택합니다.
+1. **모델 뷰** > **데이터** 창에서 **Product \| ProductKey** 열을 선택합니다.
 
 1. **Ctrl** 키를 누른 채로 다음 13개의 열을 선택합니다(여러 테이블에 분포됨).
 
@@ -378,8 +378,6 @@ lab:
 ## **다대다 관계 만들기**
 
 이 작업에서는 **Salesperson** 테이블과 **Sales** 테이블 간에 다대다 관계를 만듭니다.
-
- 랩에서는 약식 표기법을 사용하여 필드를 참조합니다. 다음과 같이 표시됩니다. **Salesperson \| Salesperson** . 이 예에서 **Salesperson**은 테이블 이름이고 **Salesperson**은 필드 이름입니다.
 
 1. Power BI Desktop의 보고서 뷰에 있는 **데이터** 창에서 다음 두 필드를 확인하여 **테이블** 시각적 개체를 만듭니다.
 
