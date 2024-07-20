@@ -29,15 +29,15 @@ lab:
 
     ![Power BI Desktop 아이콘](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *팁: 기본적으로 시작하기 대화 상자는 Power BI Desktop 앞에 열립니다. **로그인**한 다음 팝업을 닫습니다.*
-
-1. 시작 Power BI Desktop 파일을 열려면 **파일 > 보고서 열기 > 보고서 찾아보기**를 선택합니다.
+1. Power BI Desktop 시작 파일을 열려면 **열기 > 이 장치 탐색하기**를 선택합니다.
 
 1. **열기** 창에서 **D:\Allfiles\Labs\10-row-level-security\Starter** 폴더로 이동하여 **판매 분석** 파일을 엽니다.
 
+   *참고: 이 시점에서 Power BI는 아직 로그인하지 않은 경우 로그인하도록 요청합니다. 로그인하거나 **취소**를 선택하고 랩을 계속할 수 있습니다.*
+
 1. 열려 있는 정보 창을 모두 닫습니다.
 
-1. 리본 아래에 있는 경고 메시지를 확인합니다. *이 메시지는 모델 테이블로 로드하기 위해 쿼리가 적용되지 않았다는 팩트를 알려 줍니다. 이 랩의 후반에서 쿼리를 적용하겠습니다.*
+1. 리본 아래에 있는 경고 메시지를 확인합니다. *이 메시지는 모델 테이블로 로드하기 위해 쿼리가 적용되지 않았다는 사실을 경고합니다. 이 랩의 후반에서 쿼리를 적용하겠습니다.*
     
     *경고 메시지를 닫으려면 경고 메시지 오른쪽에 있는 **X**를 선택합니다.*
 
@@ -49,7 +49,7 @@ lab:
 
 이 작업에서는 영업 직원이 할당된 지역에 대한 판매량만 볼 수 있도록 행 수준 보안을 적용합니다.
 
-1. 데이터 뷰로 전환합니다.
+1. 테이블 보기로 다시 전환합니다.
 
    ![그림 5701](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image20.png)
 
@@ -60,27 +60,35 @@ lab:
     
     *Michael Blythe가 다음 3개 판매 지역에 할당되어 있다는 것을 기억하실 것입니다. 미국 북동부, 미국 중부, 미국 남동부.*
 
-1. **모델링** 리본 탭의 **보안** 그룹 내에서 **역할 관리**를 선택합니다.
+1. **홈** 리본 탭의 **보안** 그룹 내에서 **역할 관리**를 선택합니다.
 
     ![그림 5700](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image21.png)
 
-1. **역할 관리** 창에서 **만들기**를 선택합니다.
+1. **보안 역할 관리** 창의 **역할** 섹션에서 **새로 만들기**를 선택합니다.
 
 1. 상자에서 선택한 텍스트를 역할 이름인**Salespeople**으로 바꿉니다. 그 다음 **입력**을 누릅니다.
 
    ![그림 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
 
-1. 필터를 할당하려면 **영업 직원(성과)** 테이블에서 줄임표(...) 문자를 선택한 다음 **필터 추가 \| [UPN]** 을 선택합니다.
+1. 필터를 할당하려면 **Salesperson(Performance)** 테이블을 선택한 다음, **데이터 필터** 섹션에서 **DAX 편집기로 전환**을 선택합니다.
 
-   ![그림 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
+   ![스크린샷 2024-04-18 144345](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/1308d47f-2cca-4f88-9237-b02b66b4cf1e)
 
-1. **테이블 필터 DAX 식** 상자에서 **"값"** 을 **USERPRINCIPALNAME()** 으로 바꿔 식을 수정한 다음 **저장**합니다.
+1. DAX 편집기 상자에 다음 식을 입력합니다.
+
+    **DAX**
+
+    ```
+    [UPN] = USERPRINCIPALNAME()
+    ```
     
     USERPRINCIPALNAME()은 인증된 사용자의 이름을 반환하는 DAX(Data Analysis Expressions) 함수입니다. 즉, **영업 직원(성과)** 테이블이 모델을 쿼리하는 사용자의 UPN(사용자 계정 이름)을 기준으로 필터링됩니다.
 
    ![그림 11](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image25.png)
 
-1. 보안 역할을 테스트하려면 **모델링** 리본 탭의 **보안** 그룹 내에서 **표시 방법**을 선택합니다.
+1. **저장 후** **닫기**를 선택합니다.
+
+1. 보안 역할을 테스트하려면 **홈** 리본 탭의 **보안** 그룹 내에서 **표시 방법**을 선택합니다.
 
    ![그림 5708](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image27.png)
 
@@ -104,13 +112,13 @@ lab:
 
    ![그림 5712](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image32.png)
 
-1. **영업 직원** 역할을 삭제하려면 **모델링** 리본 탭의 **보안** 그룹 내부에서 **역할 관리**를 선택합니다.
+1. **영업 직원** 역할을 삭제하려면 **홈** 리본 탭의 **보안** 그룹 내부에서 **역할 관리**를 선택합니다.
 
    ![그림 16](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image33.png)
 
-1. **역할 관리** 창에서 **삭제**를 선택합니다. 삭제를 확인할지 묻는 프롬프트가 표시되면 **예, 삭제**를 선택합니다.
+1. **보안 역할 관리** 창에서 **영업 직원** 역할에서 줄임표(...)를 선택하고 **삭제**를 선택합니다. 삭제를 확인할지 묻는 프롬프트가 표시되면 **예, 삭제**를 선택합니다.
 
-   ![그림 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+   ![스크린샷 2024-04-18 145556](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/deeb4eac-b639-433d-a9d4-29c8e127008e)
 
 ### **완료**
 

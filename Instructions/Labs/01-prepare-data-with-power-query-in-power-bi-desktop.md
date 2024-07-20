@@ -31,15 +31,15 @@ lab:
 
     ![Power BI Desktop 아이콘](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *팁: 기본적으로 시작하기 대화 상자는 Power BI Desktop 앞에 열립니다. 로그인을 선택한 다음 팝업을 닫을 수 있습니다.*
-
-1. 시작 Power BI Desktop 파일을 열려면 **파일 > 보고서 열기 > 보고서 찾아보기**를 선택합니다.
+1. Power BI Desktop 시작 파일을 열려면 **열기 > 이 장치 탐색하기**를 선택합니다.
 
 1. **열기** 창에서 **D:\Allfiles\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
 1. **판매 분석** 파일을 선택합니다.
 
-1. **다른 이름으로 저장**을 사용하여 파일 복사본을 **D:\Allfiles\MySolution** 폴더에 저장합니다.
+    *참고: 이 시점에서 Power BI는 아직 로그인하지 않은 경우 로그인하도록 요청합니다. 로그인하거나 **취소**를 선택하고 랩을 계속할 수 있습니다.*
+
+1. **파일 > 다른 이름으로 저장**으로 파일의 복사본을 **D:\Allfiles\MySolution** 폴더에 저장합니다.
 
 ## **SQL Server에서 데이터 가져오기**
 
