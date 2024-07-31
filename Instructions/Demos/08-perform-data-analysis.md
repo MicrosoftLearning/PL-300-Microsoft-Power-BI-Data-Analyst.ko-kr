@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: Power BI에서의 데이터 분석 수행
   module: Perform data analysis in Power BI
 ---

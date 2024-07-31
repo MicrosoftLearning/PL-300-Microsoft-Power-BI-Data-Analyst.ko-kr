@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: Power BI 서비스에서 대시보드 만들기
   module: Deploy and manage Power BI service items
 ---

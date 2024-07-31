@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: Power BI에서 파일 및 의미 체계 모델 관리
   module: Deploy and manage Power BI service items
 ---

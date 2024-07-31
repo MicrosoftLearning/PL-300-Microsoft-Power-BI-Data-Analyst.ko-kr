@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: Power BI에서 보고서 만들기
   module: Create reports in Power BI
 ---

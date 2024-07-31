@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: Power BI에서 데이터 가져오기
   module: Get data in Power BI
 ---
