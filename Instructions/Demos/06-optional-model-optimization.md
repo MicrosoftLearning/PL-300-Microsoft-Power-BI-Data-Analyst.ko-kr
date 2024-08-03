@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: (선택 사항) Power BI에서 모델 성능 최적화
   module: Optimize model performance in Power BI
 ---
