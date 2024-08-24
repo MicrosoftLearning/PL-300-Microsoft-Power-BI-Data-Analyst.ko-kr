@@ -45,7 +45,7 @@ lab:
 
 2. 계산을 만들거나 편집할 때 리본 바로 아래에 표시되는 수식 입력줄에서 **Salesperson =** 를 입력하고 **Shift + Enter** 키를 누르고, **'Salesperson (Performance)'** 를 입력한 다음 **Enter** 키를 누릅니다.
 
-    > **참고**: *사용자의 편의를 위해 이 랩의 모든 DAX 정의는 **D:\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**에 있는 코드 조각 파일에서 복사할 수 있습니다*.
+    > **참고**: *사용자의 편의를 위해 이 랩의 모든 DAX 정의는 **04-intro-dax\Snippets.txt**에 있는 조각 파일에서 복사할 수 있습니다.*
 
      ![그림 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
@@ -123,13 +123,14 @@ lab:
     ![그림 11](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png)
 
 1. 수식 표시줄에서 다음을 입력(하거나 코드 조각 파일에서 복사)한 후 **Enter** 키를 누릅니다.
+    > 이 수식에서는 날짜의 연도 값을 사용하지만 7월부터는 연도 값에 1을 더합니다. 이것은 Adventure Works의 회계 연도를 계산하는 방법입니다.
 
    ```DAX
    Year =
    "FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
    ```
 
-    > 이 수식에서는 날짜의 연도 값을 사용하지만 7월부터는 연도 값에 1을 더합니다. 이것은 Adventure Works의 회계 연도를 계산하는 방법입니다.
+
 
 1. 코드 조각 파일 정의를 사용하여 **Date** 테이블에 대해 다음 두 개의 계산 열을 만들 수 있습니다.
 
