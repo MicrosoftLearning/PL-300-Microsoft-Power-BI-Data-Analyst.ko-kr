@@ -212,7 +212,7 @@ lab:
 
      - **하위 범주**
      - **Product**
-     - **Color**
+     - **색**
 
      ![그림 60](Linked_image_Files/07-design-report-in-power-bi-desktop_image46.png)
 
