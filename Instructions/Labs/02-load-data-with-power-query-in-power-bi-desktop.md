@@ -37,13 +37,13 @@ lab:
 
 1. **Power Query 편집기** 창을 열려면 **홈** 리본 탭의 **쿼리** 그룹 내에서 **데이터 변환** 아이콘을 선택합니다.
 
-     ![홈 리본 메뉴의 데이터 변환](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
+    ![홈 리본 메뉴의 데이터 변환](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
 1. **파워 쿼리 편집기** 창의 **쿼리** 창에서 **DimEmployee** 쿼리를 선택합니다.
 
-     ![그림 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
+    ![그림 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
-> **참고:** 연결 방법을 지정하라는 경고 메시지가 표시되면 **자격 증명 편집**을 선택하고 현재 자격 증명을 사용하여 연결한 다음 **확인**을 선택하여 암호화되지 않은 연결을 사용합니다.
+    > **참고:** 연결 방법을 지정하라는 경고 메시지가 표시되면 **자격 증명 편집**을 선택하고 현재 자격 증명을 사용하여 연결한 다음 **확인**을 선택하여 암호화되지 않은 연결을 사용합니다.
  
 1. 쿼리 이름을 바꾸려면 (오른쪽에 있는) **쿼리 설정** 창의 **이름** 상자에서 텍스트를 **Salesperson**으로 바꾸고 **Enter**키를 누릅니다. 그런 다음 **쿼리** 창에서 이름이 업데이트되었는지 확인합니다.
 
@@ -53,11 +53,11 @@ lab:
 
     > *열로 이동은 열이 많이 있을 때 유용한 기능입니다. 그렇지 않으면 가로로 스크롤하여 열을 찾을 수 있습니다.*
 
-     ![열 관리 > 열 선택 > 열로 이동](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
+    ![열 관리 > 열 선택 > 열로 이동](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
 1. **열로 이동** 창에서 열 이름을 기준으로 목록을 정렬하기 위해 **AZ** 정렬 단추를 선택하고 **이름**과 **SalesPersonFlag**를 선택합니다. **확인**을 클릭합니다.
 
-     ![열 정렬 옵션으로 이동](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
+    ![열 정렬 옵션으로 이동](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
 
 1. **SalesPersonFlag** 열을 찾은 다음 열을 필터링하여 Salespeople(즉, **TRUE**)만 선택하고 **OK**를 클릭합니다.
 
@@ -65,7 +65,7 @@ lab:
 
     > *변환을 생성할 때마다 또 하나의 단계 논리가 생성됩니다. 단계를 편집하거나 삭제할 수 있습니다. 쿼리 변환 단계에서의 쿼리 결과를 미리 보는 단계를 선택할 수도 있습니다.*
 
-     ![적용된 단계](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
+    ![적용된 단계](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
 
 1. 열을 제거하려면 **홈** 리본 탭에서 **열 병합** 그룹을 선택하고 **열 선택** 아이콘을 선택합니다.
 
@@ -82,11 +82,11 @@ lab:
 
 1. **적용된 단계** 목록에서 다른 쿼리 단계가 추가됩니다.
 
-     ![다른 열 제거 단계](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image21.png)
+    ![다른 열 제거 단계](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image21.png)
 
 1. 단일 이름 열을 만들려면 먼저 **FirstName** 열 머리글을 선택합니다. **Ctrl** 키를 누른 상태에서 **LastName** 열을 선택합니다.
 
-     ![두 열을 다중 선택하여 단일 열 만들기](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
+    ![두 열을 다중 선택하여 단일 열 만들기](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
 1. 선택한 열 헤더 중 하나를 마우스 오른쪽 단추로 클릭한 다음 컨텍스트 메뉴에서 **열 병합**을 선택합니다.
 
@@ -149,7 +149,7 @@ lab:
 1. **EnglishProductSubcategoryName**과 **DimProductCategory**를 선택하고 **원래 열 이름을 접두사로 사용** 확인란을 선택 취소한 후 **OK**를 선택합니다.
 
     > 두 열을 선택하면 변환이 **DimProductSubcategory** 테이블에 대한 조인에 적용되어 두 열이 포함됩니다. **DimProductCategory** 열은 데이터 원본의 또 다른 관련 테이블입니다.
-    >
+
     > 쿼리 열 이름은 언제나 고유해야 합니다. 이 체크박스를 선택한 상태로 유지하면 각 열의 이름에 확장된 열 이름이 접두사로 추가됩니다(이 경우 **DimProductSubcategory**). 선택한 열 이름이 **제품** 쿼리의 열 이름과 충돌하지 않음이 확인되었으므로 옵션은 선택 취소했습니다.
 
 1. 변환 결과로 두 개의 열이 추가되고 두 **DimProductSubcategory** 열이 제거된 것을 알 수 있습니다.
@@ -193,7 +193,7 @@ lab:
     - **찾을 값** 상자에 **Ware House**를 입력
     - **바꿀 항목** 상자에 **Warehouse**를 입력
 
-     ![값 바꾸기 대화 상자](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
+    ![값 바꾸기 대화 상자](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
 
 1. 다음 네 가지 열의 이름을 바꿉니다.
 
@@ -255,7 +255,7 @@ lab:
 
 1. 사용자 지정 열을 만들려면 **열 추가** 리본 탭의 **일반** 그룹에서 **사용자 지정 열**을 선택합니다.
 
-     ![그림 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
+    ![그림 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
 
 1. **새 열 이름** 상자의 **사용자 지정 열** 창에서 텍스트를 **Cost**으로 바꿉니다.
 
@@ -282,7 +282,7 @@ lab:
 
     > 올바른 데이터 형식 구성은 대단히 중요합니다. 또한 열에 숫자 값이 있으며 수학적 계산을 수행할 예정이라면 반드시 올바른 형식을 선택해야 합니다.
 
-     ![그림 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
+    ![그림 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
 1. 다음 세 개의 열 데이터 형식을 **고정 10진수**로 수정합니다.
 
@@ -300,7 +300,7 @@ lab:
 
 1. **ResellerSalesTargets** 쿼리를 선택하고 이름을 **Targets**로 바꿉니다.
 
-> **참고:** 연결 방법을 지정하라는 경고 메시지가 표시되면 **자격 증명 편집**을 선택하고 익명 액세스를 사용합니다.
+    > **참고:** 연결 방법을 지정하라는 경고 메시지가 표시되면 **자격 증명 편집**을 선택하고 익명 액세스를 사용합니다.
 
 1. 12개월 열(**M01**-**M12**)을 피벗 해제하기 위해 먼저 **연도** 및 **EmployeeID** 열 머리글을 다중 선택합니다.
 
@@ -341,7 +341,7 @@ lab:
 
 1. 쿼리 그리드 위에 표시되는 수식에도 주목하세요.
 
-     ![그림 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
+    ![그림 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
 
 1. 새 열의 이름을 바꾸려면 **Merged** 열 머리글을 두 번 클릭하고 열 이름을 **TargetMonth**로 바꿉니다.
 
@@ -359,7 +359,7 @@ lab:
 
     > *목표 값이 수천 단위로 저장된 것을 기억하실 수 있습니다.*
 
-     ![그림 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
+    ![그림 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
 
 1. **곱하기** 창의 **값** 상자에 **1000**을 입력하고 **OK**를 선택합니다.
 
@@ -373,7 +373,7 @@ lab:
 
 1. **홈** 리본 탭의 **변환** 그룹에서 **첫 번째 행을 머리글로 사용**을 선택합니다.
 
-     ![그림 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
+    ![그림 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
 
 **상태 표시줄에서 쿼리에 열 3개와 행 10개가 있는지 확인합니다.**
 
@@ -387,15 +387,15 @@ lab:
 
     > 쿼리를 병합하면 데이터를 통합할 수 있는데, 이 경우에는 다양한 데이터 원본(SQL Server 및 CSV 파일)의 데이터를 통합할 수 있습니다.
 
-     ![그림 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
+    ![그림 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
 1. **제품** 쿼리 표의 **병합** 창에서 **Color** 열 헤더를 선택합니다.
 
-     ![그림 5655](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image72.png)
+    ![그림 5655](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image72.png)
 
 1. **제품** 쿼리 표 아래의 드롭다운 목록에서 **ColorFormats** 쿼리를 선택합니다.
 
-     ![그림 21](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image73.png)
+    ![그림 21](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image73.png)
 
 1. **ColorFormats** 쿼리 표에서 **Color** 열 헤더를 선택합니다.
 
@@ -403,7 +403,7 @@ lab:
 
     > *데이터 원본의 개인 정보 수준을 구성하여 원본 간의 데이터 공유 여부를 정할 수 있습니다. 필요하다면 각 데이터 원본을 **조직**으로 설정하여 데이터를 공유할 수 있게 합니다. 비공개 데이터 원본은 다른 데이터 원본과 공유할 수 없습니다. 하지만 개인 데이터를 공유할 수 없다는 뜻은 아닙니다. 파워 쿼리 엔진이 원본 간에 데이터를 공유할 수 없다는 뜻입니다.*
 
-     ![그림 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
+    ![그림 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
 
 1. **병합** 창에서 기본 **조인 종류**를 사용합니다. 왼쪽 우선 외부 선택 항목을 유지하고 **OK**를 선택합니다.
 
@@ -422,33 +422,33 @@ lab:
 
 1. **쿼리 설정** 창에서 **모든 속성** 링크를 선택합니다.
 
-     ![그림 322](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image80.png)
+    ![그림 322](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image80.png)
 
 1. **보고서에** 로드 **사용 확인란을 실행** 선택 취소합니다.
 
     > *로드를 비활성화하면 데이터 모델에 테이블로 로드되지 않습니다. 쿼리가 데이터 모델로의 로드가 활성화된 **Product** 쿼리와 병합되었기 때문에 이 작업을 수행해야 합니다.*
 
-     ![그림 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
+    ![그림 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
 ### 최종 제품 검토
 
-Power Query 편집기에 다음과 같이 올바르게 명명된 **8개의 쿼리**가 있는지 확인합니다.
+1. Power Query 편집기에 다음과 같이 올바르게 명명된 **8개의 쿼리**가 있는지 확인합니다.
 
-- Salesperson
-- SalespersonRegion
-- Product
-- Reseller
-- Region
-- Sales
-- 대상
-- ColorFormats(데이터 모델에 로드되지 않음)
+    - Salesperson
+    - SalespersonRegion
+    - Product
+    - Reseller
+    - Region
+    - Sales
+    - 대상
+    - ColorFormats(데이터 모델에 로드되지 않음)
 
-**닫기 &amp; 적용**을 선택하여 모델에 데이터를 로드하고 Power Query 편집기 창을 닫습니다.
+1. **닫기 &amp; 적용**을 선택하여 모델에 데이터를 로드하고 Power Query 편집기 창을 닫습니다.
 
-![그림 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
+    ![그림 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
 
-이제 오른쪽에 필터, 시각화 및 데이터 창이 있는 캔버스를 Power BI Desktop에서 볼 수 있습니다. 데이터 창에서 데이터 모델에 로드된 **7개의 테이블**을 확인합니다.
+1. 이제 오른쪽에 필터, 시각화 및 데이터 창이 있는 캔버스를 Power BI Desktop에서 볼 수 있습니다. 데이터 창에서 데이터 모델에 로드된 **7개의 테이블**을 확인합니다.
 
-![그림 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
+    ![그림 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
 
 ## 랩 완료
