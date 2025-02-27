@@ -31,7 +31,7 @@ lab:
 
 1. Microsoft Edge 브라우저 창의 Power BI 서비스에서 **내 작업 영역**으로 이동합니다.
 
-1. **업로드 > 찾아보기**를 선택합니다.
+1. **가져오기 > 보고서 또는 페이지를 매긴 보고서 > 이 컴퓨터에서**를 선택합니다.
 
 1. **C:\Users\Student\Downloads\09-create-dashboard** 폴더로 이동합니다.
 
