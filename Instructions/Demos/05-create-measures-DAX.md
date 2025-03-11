@@ -51,7 +51,7 @@ Cost = 'Sales'[Quantity] * RELATED('Product'[Cost])
 
 ## 빠른 측정 만들기
 
-1. Profit 열의 값에서 Cost 열의 값을 빼는 빠른 측정을 Sales 테이블에 추가합니다.
+1. Sales 열의 값에서 Cost 열의 값을 빼는 빠른 측정을 Sales 테이블에 추가합니다.
 
 1. 측정 이름을 Profit으로 바꿉니다.
 
