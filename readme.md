@@ -1,11 +1,3 @@
-#README
-
-We've turned off the ability to report issues directly on this repo and do not monitor PRs.
-
-Provide feedback here: https://aka.ms/provide-feedback
-
-Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
-
 # PL-300: Microsoft Power BI 데이터 분석가
 
 이 리포지토리는 Microsoft 과정 [PL-300: Microsoft Power BI 데이터 분석가](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00)의 실습 랩 연습을 포함합니다. 학습 자료와 함께 제공되는 이러한 랩에서는 학습 자료에 설명되어 있는 기술을 사용하여 연습을 진행할 수 있습니다.
