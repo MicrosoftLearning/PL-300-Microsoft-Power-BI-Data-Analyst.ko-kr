@@ -360,7 +360,7 @@ lab:
 
      ![그림 86](Linked_image_Files/07-design-report-in-power-bi-desktop_image66.png)
 
-1. 시각적 개체 중 하나 위에 다시 커서를 놓은 다음 오른쪽 상단에서 줄임표(...)를 선택한 다음 메뉴 옵션을 확인합니다. **Teams에서 채팅**을 제외한 각 옵션을 사용해 보세요.
+1. 시각적 개체 중 하나 위에 다시 커서를 놓은 다음 오른쪽 상단에서 줄임표(...)를 선택한 다음 메뉴 옵션을 확인합니다. **Share**에 있는 옵션을 제외한 각 옵션을 사용합니다.
 
      ![그림 97](Linked_image_Files/07-design-report-in-power-bi-desktop_image67.png)
 
