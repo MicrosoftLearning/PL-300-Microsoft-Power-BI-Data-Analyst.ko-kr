@@ -1,7 +1,7 @@
 ---
 demo:
   title: Power BI에서 행 수준 보안 적용
-  module: Deploy and manage Power BI service items
+  module: Secure data access in Power BI
 ---
 
 # Power BI에서 행 수준 보안 적용
