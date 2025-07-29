@@ -7,22 +7,14 @@ demo:
 
 # 데모 설정
 
-## VM 설정
-
-1. 수강생 계정을 사용하여 가상 머신 환경에 로그인합니다.
-
-1. Microsoft Edge를 열고 <https://powerbi.com>으로 이동하여 강사 계정으로 로그인합니다.
+1. Microsoft Edge를 열고 <https://powerbi.com>으로 이동하여 회사 또는 학교(조직) 계정으로 로그인하세요.
     > **팁**: 암호를 변경하라는 메시지가 표시되면 D:\Allfiles\Demo\Setup\MySettings.txt 파일에 기록해 두세요.
-
-1. Power BI 서비스에서 Power BI Pro 평가판 사용에 동의합니다.
-
-## 첫 번째 데모 설정
 
 1. 작업 영역을 만들고 D:\Allfiles\Demo\Resources\Icon-Star.jpg 이미지를 아이콘으로 사용합니다.
 
 1. Power BI Desktop에서 D:\Allfiles\Demo\Setup\Sales Analysis.pbix 파일을 엽니다.
 
-1. Power BI Desktop에서 강사 계정을 사용하여 로그인합니다.
+1. Power BI Desktop에서 동일한 조직 계정으로 로그인합니다.
 
 1. 앞에서 만든 작업 영역에 보고서를 게시합니다.
 
