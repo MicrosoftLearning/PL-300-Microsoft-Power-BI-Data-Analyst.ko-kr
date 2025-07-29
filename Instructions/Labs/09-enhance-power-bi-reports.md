@@ -100,10 +100,6 @@ lab:
 
     ![그림 9](Linked_image_Files/09-enhance-power-bi-reports_image29.png)
 
-1. **아이콘 - 이익률** 창의 **적용 대상** 드롭다운 목록에서 **값 및 합계**를 선택합니다.
-
-    ![그림 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
-
 1. **아이콘 – Profit Margin** 창의 **아이콘 레이아웃** 드롭다운 목록에서 **데이터의 오른쪽**을 선택합니다.
 
     ![그림 11](Linked_image_Files/09-enhance-power-bi-reports_image30.png)
@@ -129,6 +125,10 @@ lab:
     ![그림 13](Linked_image_Files/09-enhance-power-bi-reports_image32.png)
 
     > _이 규칙은 다음과 같이 해석할 수 있습니다. 이익률이 0보다 작으면 빨간색 다이아몬드를 표시하고, 0보다 크거나 같으면 녹색 원을 표시합니다._
+
+1. **아이콘 - 이익률** 창의 **적용 대상** 드롭다운 목록에서 **값 및 합계**를 선택합니다.
+
+    ![그림 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
 
 1. **확인**을 선택합니다.
 
@@ -249,6 +249,8 @@ lab:
 
 이 연습에서는 보고서를 Power BI 서비스에 게시하고 게시된 보고서 동작을 니다.
 
+> _**참고**: 보고서를 게시하려면 최소한 **Power BI 무료** 라이선스가 필요합니다. Microsoft Edge 브라우저를 열고 `https://app.powerbi.com`에 로그인합니다. 퍼즐을 풀거나 무료 Fabric 평가판을 시작하라는 메시지가 표시되면 이를 건너뛰고 브라우저를 닫을 수 있습니다.
+
 > _**참고**: 작업을 직접 수행하기 위해 Power BI 서비스에 액세스할 수 없는 경우에도 연습의 나머지 부분을 검토할 수 있습니다._
 
 1. _Overview_ 페이지를 선택합니다.
@@ -277,7 +279,7 @@ lab:
 
 1. 브라우저 창의 Power BI 서비스 내 **탐색** 창(왼쪽에 위치, 축소 가능함)에서 **내 작업 영역**을 선택합니다.
 
-1. 보고서를 탐색하려면 _07-Starter-Sales 분석_ 보고서를 선택합니다.
+1. 보고서를 탐색하려면 _09-Starter-Sales 분석_ 보고서를 선택합니다.
 
 1. 드릴스루 기능을 테스트하려면 _개요_ 페이지에서 _범주별 수량 합계_ 시각적 개체에서 _의류_ 표시줄을 마우스 오른쪽 단추로 클릭한 다음, **드릴스루 > 제품 세부 정보**를 선택합니다.
 

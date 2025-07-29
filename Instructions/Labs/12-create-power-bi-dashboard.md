@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Power BI에서 대시보드 만들기
+  title: (선택 사항)Power BI에서 대시보드 만들기
   module: Create dashboards in Power BI
 ---
 
@@ -24,6 +24,8 @@ lab:
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/12-create-power-bi-dashboard/12-create-dashboard.zip`
 
 폴더를 **C:\Users\Student\Downloads\12-create-dashboard** 폴더로 추출합니다.
+
+> _**참고**: 보고서를 게시하려면 최소한 **Power BI 무료** 라이선스가 필요합니다. Microsoft Edge 브라우저를 열고 `https://app.powerbi.com`에 로그인합니다. 퍼즐을 풀거나 무료 Fabric 평가판을 시작하라는 메시지가 표시되면 이를 건너뛰고 브라우저를 닫을 수 있습니다.
 
 ## **보고서 게시**
 
