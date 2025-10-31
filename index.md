@@ -8,7 +8,7 @@ layout: home
 
 다음은 각 랩 연습 및 데모의 하이퍼링크입니다.
 
-> **참고**: 콘텐츠에 버그가 발견되면 [GitHub 리포지토리에 새 이슈를 생성](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/issues/new/choose)하세요.
+> **참고**: 콘텐츠에 버그가 발견되면[GitHub 리포지토리에 새 이슈를 생성](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/issues/new/choose)하세요.
 
 ## 랩 연습
 
