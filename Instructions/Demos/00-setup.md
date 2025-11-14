@@ -7,7 +7,7 @@ demo:
 
 # 데모 설정
 
-1. Microsoft Edge를 열고 <https://powerbi.com>으로 이동하여 회사 또는 학교(조직) 계정으로 로그인하세요.
+1. Microsoft Edge를 열고<https://powerbi.com>으로 이동하여 회사 또는 학교(조직) 계정으로 로그인하세요.
     > **팁**: 암호를 변경하라는 메시지가 표시되면 D:\Allfiles\Demo\Setup\MySettings.txt 파일에 기록해 두세요.
 
 1. 작업 영역을 만들고 D:\Allfiles\Demo\Resources\Icon-Star.jpg 이미지를 아이콘으로 사용합니다.
@@ -26,4 +26,4 @@ demo:
 
 1. Power BI Desktop을 닫습니다.
 
-> **참고**: 데모 자산은 PL-300 Power BI 데이터 분석가 [GitHub 리포지토리](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo)에서 찾을 수 있습니다.
+> **참고**: 데모 자산은 PL-300 Power BI 데이터 분석가[GitHub 리포지토리](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo)에서 찾을 수 있습니다.

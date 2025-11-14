@@ -12,19 +12,19 @@ demo:
 
 1. `D:\Demo\Data\**ManagerCategory**.xlsx` 파일을 기반으로 새 쿼리를 추가합니다.
 
-1. 파일에서 **ManagerCategory** 테이블을 사용합니다.
+1. 파일에서**ManagerCategory** 테이블을 사용합니다.
 
 1. **Manager** 열을 제거합니다.
 
-1. 세미콜론 구분 기호로 **Category** 열을 여러 행으로 분할합니다(고급 옵션).
+1. 세미콜론 구분 기호로**Category** 열을 여러 행으로 분할합니다(고급 옵션).
 
-1. **Email** 열에서 **<ty-johnston@tailspintoys.com>** 값을 MySettings.txt 파일의 받는 사람 계정으로 바꿉니다.
+1. **Email** 열에서**<ty-johnston@tailspintoys.com>** 값을 MySettings.txt 파일의 받는 사람 계정으로 바꿉니다.
 
-1. 이 사용자는 **Collective pitch, Trainer, Warbird**의 3개 제품 범주를 볼 수 있음을 지적합니다.
+1. 이 사용자는**Collective pitch, Trainer, Warbird**의 3개 제품 범주를 볼 수 있음을 지적합니다.
 
 1. 쿼리를 닫고 적용합니다.
 
-1. 모델 뷰에서 **Category** 열의 관계를 설정하여 **ManagerCategory**와 Product 테이블 간의 관계를 만듭니다.
+1. 모델 뷰에서**Category** 열의 관계를 설정하여**ManagerCategory**와 Product 테이블 간의 관계를 만듭니다.
 
 1. 교차 필터 방향을 단일(**ManagerCategory**가 Product를 필터링)로 설정합니다.
 
@@ -32,9 +32,9 @@ demo:
 
 ## 역할 추가
 
-1. 보고서 뷰에서 역할 관리를 열고 **Manager** 역할을 만듭니다.
+1. 보고서 뷰에서 역할 관리를 열고**Manager** 역할을 만듭니다.
 
-1. 역할에서 **ManagerCategory** 테이블 Email 주소 열을 다음과 같이 필터링합니다.
+1. 역할에서**ManagerCategory** 테이블 Email 주소 열을 다음과 같이 필터링합니다.
 
   ```dax
    [Email] = USERPRINCIPALNAME()
@@ -62,7 +62,7 @@ demo:
 
 ## 의미 체계 모델 보안 구성
 
-1. 강사용 Power BI 서비스의 탐색 창에서 **Sales Analysis** 의미 체계 모델의 보안 페이지를 엽니다.
+1. 강사용 Power BI 서비스의 탐색 창에서**Sales Analysis** 의미 체계 모델의 보안 페이지를 엽니다.
 
 1. **멤버** 섹션에서 받는 사람 계정(Ty Johnston의 계정)을 입력합니다.
 

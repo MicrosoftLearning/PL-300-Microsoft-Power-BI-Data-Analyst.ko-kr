@@ -1,10 +1,10 @@
 # PL-300: Microsoft Power BI 데이터 분석가
 
-이 리포지토리는 Microsoft 과정 [PL-300: Microsoft Power BI 데이터 분석가](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00)의 실습 랩 연습을 포함합니다. 학습 자료와 함께 제공되는 이러한 랩에서는 학습 자료에 설명되어 있는 기술을 사용하여 연습을 진행할 수 있습니다.
+이 리포지토리는 Microsoft 과정[PL-300: Microsoft Power BI 데이터 분석가](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00)의 실습 랩 연습을 포함합니다. 학습 자료와 함께 제공되는 이러한 랩에서는 학습 자료에 설명되어 있는 기술을 사용하여 연습을 진행할 수 있습니다.
 
-- **MCT이신가요?** - [MCT를 위한 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
-- **랩 지침을 수동으로 빌드해야 하나요?** - 지침은 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 확인할 수 있습니다.
-- **어떤 랩에서 어떤 과정 프레젠테이션을 사용하는지에 대한 복습이 필요한가요?** - [GitHub 페이지](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/) 확인
+- **MCT이신가요?** -[MCT를 위한 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
+- **랩 지침을 수동으로 빌드해야 하나요?** - 지침은[MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 확인할 수 있습니다.
+- **어떤 랩에서 어떤 과정 프레젠테이션을 사용하는지에 대한 복습이 필요한가요?** -[GitHub 페이지](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/) 확인
 
 ## 우리가 하는 일
 
